@@ -1,0 +1,2693 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg42296"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="D-zig1_brick.svg"
+   inkscape:export-filename="/home/yusei/Documents/CIAA2018_pics/D-zig1_brick.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <defs
+     id="defs42298">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker46978"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path46980" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker46312"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path46314"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker46242"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path46244" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker46188"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path46190"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker46120"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path46122" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker45940"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path45942"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker44976"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path44978"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path39683"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.236339"
+     inkscape:cx="524.9677"
+     inkscape:cy="88.875624"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:window-width="2495"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid42844" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata42301">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="555"
+       y="247.3622"
+       id="text42880"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan42882"
+         x="555"
+         y="247.3622" /></text>
+    <rect
+       y="198.63036"
+       x="908.32538"
+       height="41.411049"
+       width="60"
+       id="use43020"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43022"
+       width="60"
+       height="41.411049"
+       x="848.32538"
+       y="198.63036"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43026"
+       y="217.60124"
+       x="947.28198"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.60124"
+         x="947.28198"
+         id="tspan43068"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1008.0199"
+       y="217.60124"
+       id="use43028"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43072"
+         x="1008.0199"
+         y="217.60124">HA-0</tspan></text>
+    <rect
+       y="333.21625"
+       x="-136.46077"
+       height="41.411049"
+       width="60"
+       id="use43126"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43128"
+       width="60"
+       height="41.411049"
+       x="-196.46077"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43132"
+       y="346.02222"
+       x="-75.089607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02222"
+         x="-75.089607"
+         id="tspan43174"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-14.351808"
+       y="346.02222"
+       id="use43134"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43178"
+         x="-14.351807"
+         y="346.02222">HA-0</tspan></text>
+    <rect
+       y="333.21625"
+       x="-256.46085"
+       height="41.411049"
+       width="60"
+       id="use43136"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-135.82733"
+       y="346.02222"
+       id="use43138"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43184"
+         x="-135.82733"
+         y="346.02222">HA-SP</tspan></text>
+    <rect
+       y="374.62726"
+       x="-196.46077"
+       height="41.411049"
+       width="120"
+       id="use43140"
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43142"
+       y="383.56067"
+       x="-31.979992"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="383.56067"
+         x="-31.979994"
+         id="tspan43190"
+         sodipodi:role="line">Dzig1-f0</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43226"
+       width="60"
+       height="41.411049"
+       x="-316.461"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43228"
+       y="346.02222"
+       x="-196.56506"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02222"
+         x="-196.56506"
+         id="tspan43234"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="333.21625"
+       x="-376.46051"
+       height="41.411049"
+       width="60"
+       id="use43246"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-257.3028"
+       y="346.02222"
+       id="use43248"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43254"
+         x="-257.3028"
+         y="346.02222">HA-0</tspan></text>
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43276"
+       width="120"
+       height="41.411049"
+       x="-316.46094"
+       y="374.62726"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-153.45546"
+       y="383.56067"
+       id="use43278"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43284"
+         x="-153.45546"
+         y="383.56067">Dzig1-SP1</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -217.18653,372.3622 -6.33975,-5 3.66025,-5"
+       id="path43294"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43296"
+       width="60"
+       height="41.411049"
+       x="-171.2941"
+       y="467.80209"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="467.80209"
+       x="-231.29413"
+       height="41.411049"
+       width="60"
+       id="use43298"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-75.090706"
+       y="474.44324"
+       id="use43300"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43332"
+         x="-75.090706"
+         y="474.44324">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43302"
+       y="474.44324"
+       x="-14.352967"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44324"
+         x="-14.352966"
+         id="tspan43336"
+         sodipodi:role="line">HA-0</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43304"
+       width="60"
+       height="41.411049"
+       x="-291.2944"
+       y="467.80209"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43306"
+       y="474.44324"
+       x="-135.82845"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44324"
+         x="-135.82845"
+         id="tspan43342"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43308"
+       width="120"
+       height="41.411049"
+       x="-231.29413"
+       y="509.21304"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-31.979992"
+       y="511.98169"
+       id="use43310"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43348"
+         x="-31.97999"
+         y="511.98169">Dzig1-20/21</tspan></text>
+    <rect
+       y="467.80209"
+       x="-351.29407"
+       height="41.411049"
+       width="60"
+       id="use43312"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-196.56618"
+       y="474.44324"
+       id="use43314"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43354"
+         x="-196.56618"
+         y="474.44324">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43316"
+       width="60"
+       height="41.411049"
+       x="-411.29388"
+       y="467.80209"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43318"
+       y="474.44324"
+       x="-257.30392"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44324"
+         x="-257.30392"
+         id="tspan43360"
+         sodipodi:role="line">HA-1</tspan></text>
+    <rect
+       y="509.21304"
+       x="-351.29407"
+       height="41.411049"
+       width="120"
+       id="use43320"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43322"
+       y="511.98169"
+       x="-153.45546"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="511.98169"
+         x="-153.45546"
+         id="tspan43366"
+         sodipodi:role="line">Dzig1-SP1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use43324"
+       d="m -217.18653,502.3622 -6.33974,-5 3.66025,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -97.1865,372.3622 -6.3398,-5 3.6603,-5"
+       id="path43370"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -97.1865,502.3622 -6.3398,-5 3.6603,-5"
+       id="path43372"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="198.63043"
+       x="-101.67478"
+       height="41.411049"
+       width="60"
+       id="use43378"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43380"
+       width="60"
+       height="41.411049"
+       x="-161.67487"
+       y="198.63043"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43382"
+       y="217.6012"
+       x="-75.13871"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.6012"
+         x="-75.13871"
+         id="tspan43416"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-14.400973"
+       y="217.6012"
+       id="use43384"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43420"
+         x="-14.400972"
+         y="217.6012">HA-1</tspan></text>
+    <rect
+       y="198.63043"
+       x="-221.67458"
+       height="41.411049"
+       width="60"
+       id="use43386"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-135.87645"
+       y="217.6012"
+       id="use43388"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43426"
+         x="-135.87645"
+         y="217.6012">HA-SP</tspan></text>
+    <rect
+       y="240.04156"
+       x="-161.67487"
+       height="41.411049"
+       width="120"
+       id="use43390"
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43392"
+       y="255.13965"
+       x="-31.984997"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="255.13965"
+         x="-31.984997"
+         id="tspan43432"
+         sodipodi:role="line">Dzig1-1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43394"
+       width="60"
+       height="41.411049"
+       x="-281.67395"
+       y="198.63043"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43396"
+       y="217.6012"
+       x="-196.61418"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.6012"
+         x="-196.61418"
+         id="tspan43438"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="198.63043"
+       x="-341.67395"
+       height="41.411049"
+       width="60"
+       id="use43398"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-257.35184"
+       y="217.6012"
+       id="use43400"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43444"
+         x="-257.35184"
+         y="217.6012">HA-0</tspan></text>
+    <rect
+       style="opacity:1;fill:#88aa00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43402"
+       width="120"
+       height="41.411049"
+       x="-281.67395"
+       y="240.04156"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-153.46046"
+       y="255.13965"
+       id="use43404"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43450"
+         x="-153.46046"
+         y="255.13965">Dzig1-SP0</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -209.1954,272.3622 -6.33977,-5 3.66026,-5"
+       id="use43406"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use43408"
+       d="m -89.1954,272.3622 -6.3398,-5 3.6603,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="333.21625"
+       x="-436.46045"
+       height="41.411049"
+       width="60"
+       id="use43547"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-318.0405"
+       y="346.02222"
+       id="use43549"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43555"
+         x="-318.0405"
+         y="346.02222">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43557"
+       width="60"
+       height="41.411049"
+       x="-471.29388"
+       y="467.80209"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43559"
+       y="474.44324"
+       x="-318.0416"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44324"
+         x="-318.0416"
+         id="tspan43565"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="198.63043"
+       x="-401.67395"
+       height="41.411049"
+       width="60"
+       id="use43567"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-318.08951"
+       y="217.6012"
+       id="use43569"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43575"
+         x="-318.08951"
+         y="217.6012">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43665"
+       width="60"
+       height="41.411049"
+       x="458.70557"
+       y="467.802"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="467.802"
+       x="398.70563"
+       height="41.411049"
+       width="60"
+       id="use43667"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="562.6568"
+       y="474.44327"
+       id="use43669"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43707"
+         x="562.6568"
+         y="474.44327">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43671"
+       y="474.44327"
+       x="623.39471"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44327"
+         x="623.39471"
+         id="tspan43711"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43673"
+       width="60"
+       height="41.411049"
+       x="338.70563"
+       y="467.802"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43675"
+       y="474.44327"
+       x="501.91885"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44327"
+         x="501.91885"
+         id="tspan43717"
+         sodipodi:role="line">HA-0</tspan></text>
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43677"
+       width="120"
+       height="41.411049"
+       x="398.70563"
+       y="509.21301"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="605.80927"
+       y="511.98172"
+       id="use43679"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43723"
+         x="605.80927"
+         y="511.98172">Dzig1-SP1</tspan></text>
+    <rect
+       y="467.802"
+       x="278.70563"
+       height="41.411049"
+       width="60"
+       id="use43681"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="441.18112"
+       y="474.44327"
+       id="use43683"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43729"
+         x="441.18112"
+         y="474.44327">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43685"
+       width="60"
+       height="41.411049"
+       x="218.70563"
+       y="467.802"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43687"
+       y="474.44327"
+       x="380.44339"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44327"
+         x="380.44339"
+         id="tspan43735"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="509.21301"
+       x="278.70563"
+       height="41.411049"
+       width="120"
+       id="use43689"
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43691"
+       y="511.98172"
+       x="484.33353"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="511.98172"
+         x="484.33353"
+         id="tspan43741"
+         sodipodi:role="line">Dzig1-20</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use43693"
+       d="m 412.81347,502.3622 -6.33975,-5 3.66026,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use43695"
+       d="m 532.8135,502.3622 -6.3398,-5 3.6603,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43697"
+       width="60"
+       height="41.411049"
+       x="158.70563"
+       y="467.802"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43699"
+       y="474.44327"
+       x="319.70572"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="474.44327"
+         x="319.70572"
+         id="tspan43751"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="602.38806"
+       x="423.87219"
+       height="41.411049"
+       width="60"
+       id="use43753"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43755"
+       width="60"
+       height="41.411049"
+       x="363.87219"
+       y="602.38806"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43757"
+       y="602.86426"
+       x="562.6557"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="602.86426"
+         x="562.6557"
+         id="tspan43795"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="623.39362"
+       y="602.86426"
+       id="use43759"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43799"
+         x="623.39362"
+         y="602.86426">HA-SP</tspan></text>
+    <rect
+       y="602.38806"
+       x="303.87219"
+       height="41.411049"
+       width="60"
+       id="use43761"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.91776"
+       y="602.86426"
+       id="use43763"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43805"
+         x="501.91776"
+         y="602.86426">HA-1</tspan></text>
+    <rect
+       y="643.79926"
+       x="363.87219"
+       height="41.411049"
+       width="120"
+       id="use43765"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43767"
+       y="640.40271"
+       x="605.80927"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="640.40271"
+         x="605.80927"
+         id="tspan43811"
+         sodipodi:role="line">Dzig1-SP1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43769"
+       width="60"
+       height="41.411049"
+       x="243.87219"
+       y="602.38806"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use43771"
+       y="602.86426"
+       x="441.18002"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="602.86426"
+         x="441.18002"
+         id="tspan43817"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="602.38806"
+       x="183.87219"
+       height="41.411049"
+       width="60"
+       id="use43773"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="380.44229"
+       y="602.86426"
+       id="use43775"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43823"
+         x="380.44229"
+         y="602.86426">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use43777"
+       width="120"
+       height="41.411049"
+       x="243.87219"
+       y="643.79926"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="484.33353"
+       y="640.40271"
+       id="use43779"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43829"
+         x="484.33353"
+         y="640.40271">Dzig1-21</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 412.81347,632.3622 -6.33974,-5 3.66025,-5"
+       id="use43781"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 532.8135,632.3622 -6.3398,-5 3.6603,-5"
+       id="use43783"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="602.38806"
+       x="123.87219"
+       height="41.411049"
+       width="60"
+       id="use43785"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="319.70456"
+       y="602.86426"
+       id="use43787"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan43839"
+         x="319.70456"
+         y="602.86426">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44017"
+       width="60"
+       height="41.411049"
+       x="968.32538"
+       y="198.63036"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44019"
+       y="217.60124"
+       x="1068.7576"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.60124"
+         x="1068.7576"
+         id="tspan44025"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="198.63036"
+       x="1028.3253"
+       height="41.411049"
+       width="60"
+       id="use44027"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1129.4952"
+       y="217.60124"
+       id="use44029"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44035"
+         x="1129.4952"
+         y="217.60124">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44037"
+       width="60"
+       height="41.411049"
+       x="873.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="333.21625"
+       x="813.49194"
+       height="41.411049"
+       width="60"
+       id="use44039"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="947.28204"
+       y="346.02225"
+       id="use44043"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44067"
+         x="947.28204"
+         y="346.02225">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44045"
+       y="346.02225"
+       x="1007.984"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="1007.984"
+         id="tspan44071"
+         sodipodi:role="line">HA-1</tspan></text>
+    <rect
+       y="333.21625"
+       x="933.49194"
+       height="41.411049"
+       width="60"
+       id="use44051"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1068.7577"
+       y="346.02225"
+       id="use44053"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44083"
+         x="1068.7577"
+         y="346.02225">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44055"
+       width="60"
+       height="41.411049"
+       x="993.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44057"
+       y="346.02225"
+       x="1129.4952"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="1129.4952"
+         id="tspan44089"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44095"
+       width="40"
+       height="82.822098"
+       x="1459.5688"
+       y="271.09967"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="306.17297"
+       y="-1453.8242"
+       id="use44101"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.26469461,0.98785375,-1.0122956,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan44151"
+         x="306.17297"
+         y="-1453.8242">Curve1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use44103"
+       d="m 1550.8046,342.3622 -6.3398,-5 3.6603,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="271.09967"
+       x="1339.5688"
+       height="41.411049"
+       width="60"
+       id="use44105"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1463.5524"
+       y="286.75101"
+       id="use44107"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44159"
+         x="1463.5524"
+         y="286.75101">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44109"
+       width="60"
+       height="41.411049"
+       x="1399.5688"
+       y="271.09967"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44111"
+       y="286.75101"
+       x="1524.29"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="286.75101"
+         x="1524.29"
+         id="tspan44165"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44199"
+       width="120"
+       height="41.411049"
+       x="1339.5688"
+       y="312.51077"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1506.7042"
+       y="324.28946"
+       id="use44201"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44205"
+         x="1506.7042"
+         y="324.28946">Dzig1-SP0</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1430.8046,342.3622 -6.3398,-5 3.6603,-5"
+       id="use44207"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1160.8046,402.3622 -6.3398,-5 3.6603,-5"
+       id="use44211"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="374.62732"
+       x="933.49194"
+       height="41.411049"
+       width="120"
+       id="use44213"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44215"
+       y="383.5607"
+       x="1111.91"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="383.5607"
+         x="1111.91"
+         id="tspan44225"
+         sodipodi:role="line">Dzig1-SP0</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use44217"
+       d="m 1040.8046,402.3622 -6.3398,-5 3.6603,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use44229"
+       d="m 1160.8046,272.3622 -6.3398,-5 3.6603,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44231"
+       width="120"
+       height="41.411049"
+       x="968.32538"
+       y="240.04141"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1111.91"
+       y="255.13968"
+       id="use44233"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44243"
+         x="1111.91"
+         y="255.13968">Dzig1-SP0</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1040.8046,272.3622 -6.3398,-5 3.6603,-5"
+       id="use44235"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44247"
+       width="60"
+       height="41.411049"
+       x="1279.5688"
+       y="271.09967"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44249"
+       y="286.75101"
+       x="1403.0917"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="286.75101"
+         x="1403.0917"
+         id="tspan44255"
+         sodipodi:role="line">HA-0/1</tspan></text>
+    <rect
+       y="198.63034"
+       x="528.32538"
+       height="41.411049"
+       width="60"
+       id="use44257"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44259"
+       width="60"
+       height="41.411049"
+       x="468.32538"
+       y="198.63034"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44261"
+       y="217.60123"
+       x="562.60883"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.60123"
+         x="562.60883"
+         id="tspan44299"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="623.3468"
+       y="217.60123"
+       id="use44263"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44303"
+         x="623.3468"
+         y="217.60123">HA-SP</tspan></text>
+    <rect
+       y="198.63034"
+       x="408.32538"
+       height="41.411049"
+       width="60"
+       id="use44265"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.87097"
+       y="217.60123"
+       id="use44267"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44309"
+         x="501.87097"
+         y="217.60123">HA-0</tspan></text>
+    <rect
+       y="240.04138"
+       x="468.32538"
+       height="41.411049"
+       width="120"
+       id="use44269"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44271"
+       y="255.13968"
+       x="605.71851"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="255.13968"
+         x="605.71851"
+         id="tspan44315"
+         sodipodi:role="line">Dzig1-SP0</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44273"
+       width="60"
+       height="41.411049"
+       x="348.32538"
+       y="198.63034"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44275"
+       y="217.60123"
+       x="441.13324"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="217.60123"
+         x="441.13324"
+         id="tspan44321"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="198.63034"
+       x="288.32538"
+       height="41.411049"
+       width="60"
+       id="use44277"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="380.39545"
+       y="217.60123"
+       id="use44279"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44327"
+         x="380.39545"
+         y="217.60123">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44281"
+       width="120"
+       height="41.411049"
+       x="348.32538"
+       y="240.04138"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="484.24277"
+       y="255.13968"
+       id="use44283"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44333"
+         x="484.24277"
+         y="255.13968">Dzig1-f0</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 412.7661,242.3622 -6.33974,-5 3.66025,-5"
+       id="use44285"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 540.80458,272.3622 -6.33975,-5 3.66026,-5"
+       id="use44287"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="198.63034"
+       x="228.32538"
+       height="41.411049"
+       width="60"
+       id="use44289"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="319.65771"
+       y="217.60123"
+       id="use44291"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44343"
+         x="319.65771"
+         y="217.60123">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44345"
+       width="60"
+       height="41.411049"
+       x="493.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="333.21625"
+       x="433.49194"
+       height="41.411049"
+       width="60"
+       id="use44347"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="562.60895"
+       y="346.02225"
+       id="use44349"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44387"
+         x="562.60895"
+         y="346.02225">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44351"
+       y="346.02225"
+       x="623.34692"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="623.34692"
+         id="tspan44391"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44353"
+       width="60"
+       height="41.411049"
+       x="373.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44355"
+       y="346.02225"
+       x="501.83514"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="501.83514"
+         id="tspan44397"
+         sodipodi:role="line">HA-1</tspan></text>
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44357"
+       width="120"
+       height="41.411049"
+       x="433.49194"
+       y="374.62729"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="605.76147"
+       y="383.5607"
+       id="use44359"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44403"
+         x="605.76147"
+         y="383.5607">Dzig1-SP0</tspan></text>
+    <rect
+       y="333.21625"
+       x="313.49194"
+       height="41.411049"
+       width="60"
+       id="use44361"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="441.13336"
+       y="346.02225"
+       id="use44363"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan44409"
+         x="441.13336"
+         y="346.02225">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44365"
+       width="60"
+       height="41.411049"
+       x="253.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44367"
+       y="346.02225"
+       x="380.39548"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="380.39548"
+         id="tspan44415"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="374.62729"
+       x="313.49194"
+       height="41.411049"
+       width="120"
+       id="use44369"
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44371"
+       y="383.5607"
+       x="484.28574"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="383.5607"
+         x="484.28574"
+         id="tspan44421"
+         sodipodi:role="line">Dzig1-1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use44373"
+       d="m 420.80458,402.3622 -6.33975,-5 3.66026,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use44375"
+       d="m 540.80458,402.3622 -6.33975,-5 3.66026,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44377"
+       width="60"
+       height="41.411049"
+       x="193.49194"
+       y="333.21625"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use44379"
+       y="346.02225"
+       x="319.65775"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="346.02225"
+         x="319.65775"
+         id="tspan44431"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1460"
+       y="252.36218"
+       id="text44433"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan44435"
+         x="1460"
+         y="252.36218">Start</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44486"
+       width="300"
+       height="250"
+       x="880"
+       y="172.3622" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44492"
+       width="400"
+       height="100"
+       x="270"
+       y="182.3622" />
+    <rect
+       y="312.36218"
+       x="270"
+       height="100"
+       width="400"
+       id="use44494"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1,1;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44498"
+       width="430"
+       height="250"
+       x="260"
+       y="432.36221" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44506"
+       width="420"
+       height="250"
+       x="-370"
+       y="302.36218" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44508"
+       width="400"
+       height="100"
+       x="-360"
+       y="182.36221" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect44510"
+       width="260"
+       height="100"
+       x="1340"
+       y="252.3622" />
+    <g
+       id="g44696">
+      <text
+         sodipodi:linespacing="125%"
+         id="text44670"
+         y="302.36221"
+         x="1240"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="302.36221"
+           x="1240"
+           id="tspan44672"
+           sodipodi:role="line">B</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path44674"
+         d="m 1340,292.3622 -90,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path44676"
+         d="m 1230,292.3622 -50,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    </g>
+    <g
+       id="use44702"
+       transform="translate(-450,10)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1210"
+         y="302.36221"
+         id="text44706"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan44708"
+           x="1210"
+           y="302.36221">B</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.07496774px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1328,292.3622 -104,0"
+         id="path44710"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9848268px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker45940)"
+         d="m 1192,292.3622 -48.4942,0"
+         id="path44712"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect45938"
+       width="430"
+       height="250"
+       x="260"
+       y="172.3622" />
+    <g
+       id="g46166">
+      <path
+         inkscape:connector-curvature="0"
+         id="path46106"
+         d="m 270,362.3622 -160,-120"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text46108"
+         y="252.3622"
+         x="99"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="252.3622"
+           x="99"
+           id="tspan46110"
+           sodipodi:role="line">B</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path46112"
+         d="m 90,242.3622 -50,0"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker46120)" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 270,232.3622 -150,200 0,0"
+       id="path46172"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 260,572.3622 -140,-140"
+       id="path46174"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="108"
+       y="442.36221"
+       id="text46176"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan46178"
+         x="108"
+         y="442.36221">T</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker46188)"
+       d="m 100,432.3622 -50,0"
+       id="path46180"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker46242)"
+       d="m -360,232.3622 -40,0 0,-130 1200,0 0,260 -130,0"
+       id="path46234"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="83"
+       y="114.3622"
+       id="text46294"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan46296"
+         x="83"
+         y="114.3622">B</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -370,432.3622 -50,0 0,290 540,0"
+       id="path46298"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="131"
+       y="732.36218"
+       id="text46300"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan46302"
+         x="131"
+         y="732.36218">T</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker46312)"
+       d="m 140,722.3622 660,0 0,-160 -110,0"
+       id="path46304"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46434"
+       width="60"
+       height="41.411049"
+       x="297.76099"
+       y="912.9715"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="912.9715"
+       x="237.76056"
+       height="41.411049"
+       width="60"
+       id="use46436"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="516.36719"
+       y="899.22046"
+       id="use46438"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46578"
+         x="516.36719"
+         y="899.22046">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46440"
+       y="899.22046"
+       x="577.1051"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="899.22046"
+         x="577.1051"
+         id="tspan46582"
+         sodipodi:role="line">HA-1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46442"
+       width="60"
+       height="41.411049"
+       x="177.7608"
+       y="912.9715"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46444"
+       y="899.22046"
+       x="455.62933"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="899.22046"
+         x="455.62933"
+         id="tspan46588"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46446"
+       width="120"
+       height="41.411049"
+       x="237.76056"
+       y="954.38269"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="559.52106"
+       y="936.75891"
+       id="use46448"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46594"
+         x="559.52106"
+         y="936.75891">Dzig1-1</tspan></text>
+    <rect
+       y="912.9715"
+       x="117.76141"
+       height="41.411049"
+       width="60"
+       id="use46450"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="394.8916"
+       y="899.22046"
+       id="use46452"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46600"
+         x="394.8916"
+         y="899.22046">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46454"
+       width="60"
+       height="41.411049"
+       x="57.761414"
+       y="912.9715"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46456"
+       y="899.22046"
+       x="334.15399"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="899.22046"
+         x="334.15399"
+         id="tspan46606"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="954.38269"
+       x="117.76141"
+       height="41.411049"
+       width="120"
+       id="use46458"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46460"
+       y="936.75891"
+       x="438.04535"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="936.75891"
+         x="438.04535"
+         id="tspan46612"
+         sodipodi:role="line">Dzig1-SP0</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use46462"
+       d="m 375.12572,962.3622 -6.33977,-5 3.66026,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 495.12572,962.3622 -6.3398,-5 3.6603,-5"
+       id="use46464"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46474"
+       width="60"
+       height="41.411049"
+       x="-2.2385862"
+       y="912.9715"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46476"
+       y="899.22046"
+       x="273.41632"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="899.22046"
+         x="273.41632"
+         id="tspan46634"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#afc6e9;fill-opacity:1;stroke:#000000;stroke-width:0.82845199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect46642"
+       width="81.979156"
+       height="40.185783"
+       x="872.49896"
+       y="2.1520383"
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="879.98108"
+       y="29.033264"
+       id="text46660"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.26794919,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan46662"
+         x="879.98108"
+         y="29.033264"
+         style="font-size:17.27499962px">Curve0</tspan></text>
+    <rect
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46676"
+       width="120"
+       height="41.411049"
+       x="-2.2385862"
+       y="954.38269"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="316.56952"
+       y="936.75891"
+       id="use46678"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46688"
+         x="316.56952"
+         y="936.75891">Dzig1-edge</tspan></text>
+    <rect
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)"
+       y="2.1545713"
+       x="954.28839"
+       height="40.180737"
+       width="83.009209"
+       id="use46694"
+       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.83358806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="matrix(0.26794919,1,-1,0,0,0)"
+       sodipodi:linespacing="125%"
+       id="use46696"
+       y="29.033264"
+       x="958.98108"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:17.27499962px"
+         y="29.033264"
+         x="958.98108"
+         id="tspan46704"
+         sodipodi:role="line">Curve2</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use46698"
+       d="m 263.81062,992.3622 6.33976,5 -3.66025,5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="1088.9684"
+       x="297.76099"
+       height="41.411049"
+       width="60"
+       id="use46708"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46710"
+       width="60"
+       height="41.411049"
+       x="237.76056"
+       y="1088.9684"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46712"
+       y="1067.1555"
+       x="562.47888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1067.1555"
+         x="562.47888"
+         id="tspan46764"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="623.2168"
+       y="1067.1555"
+       id="use46714"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46768"
+         x="623.2168"
+         y="1067.1555">HA-1</tspan></text>
+    <rect
+       y="1088.9684"
+       x="177.7608"
+       height="41.411049"
+       width="60"
+       id="use46716"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="501.74103"
+       y="1067.1555"
+       id="use46718"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46774"
+         x="501.74103"
+         y="1067.1555">HA-SP</tspan></text>
+    <rect
+       y="1130.3796"
+       x="237.76056"
+       height="41.411049"
+       width="120"
+       id="use46720"
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46722"
+       y="1104.694"
+       x="605.63275"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1104.694"
+         x="605.63275"
+         id="tspan46780"
+         sodipodi:role="line">Dzig1-f0</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46724"
+       width="60"
+       height="41.411049"
+       x="117.76141"
+       y="1088.9684"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46726"
+       y="1067.1555"
+       x="441.0033"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1067.1555"
+         x="441.0033"
+         id="tspan46786"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="1088.9684"
+       x="57.761414"
+       height="41.411049"
+       width="60"
+       id="use46728"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="380.26569"
+       y="1067.1555"
+       id="use46730"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46792"
+         x="380.26569"
+         y="1067.1555">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46732"
+       width="120"
+       height="41.411049"
+       x="117.76141"
+       y="1130.3796"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="484.15704"
+       y="1104.694"
+       id="use46734"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46798"
+         x="484.15704"
+         y="1104.694">Dzig1-SP1</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 412.90656,1103.3622 -6.33977,-5 3.66025,-5"
+       id="use46736"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use46738"
+       d="m 532.63861,1102.3622 -6.3398,-5 3.6603,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="1088.9684"
+       x="-2.2385862"
+       height="41.411049"
+       width="60"
+       id="use46740"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="319.52802"
+       y="1067.1555"
+       id="use46742"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46808"
+         x="319.52802"
+         y="1067.1555">HA-SP</tspan></text>
+    <rect
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)"
+       y="2.1520383"
+       x="1048.496"
+       height="40.185783"
+       width="81.979156"
+       id="use46744"
+       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.82845199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="matrix(0.26794919,1,-1,0,0,0)"
+       sodipodi:linespacing="125%"
+       id="use46746"
+       y="29.033264"
+       x="1049.9811"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:17.27499962px"
+         y="29.033264"
+         x="1049.9811"
+         id="tspan46814"
+         sodipodi:role="line">Curve0</tspan></text>
+    <rect
+       y="1130.3796"
+       x="-2.2385862"
+       height="41.411049"
+       width="120"
+       id="use46748"
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46750"
+       y="1104.694"
+       x="362.68121"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1104.694"
+         x="362.68121"
+         id="tspan46820"
+         sodipodi:role="line">Dzig1-edge</tspan></text>
+    <rect
+       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.83358806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46752"
+       width="83.009209"
+       height="40.180737"
+       x="1130.2854"
+       y="2.1545713"
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1128.9811"
+       y="29.033264"
+       id="use46754"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.26794919,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan46826"
+         x="1128.9811"
+         y="29.033264"
+         style="font-size:17.27499962px">Curve2</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 309.36198,1162.3622 6.33977,5 -3.66026,5"
+       id="use46756"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 247.08724,932.3622 -6.33976,-5 3.66025,-5"
+       id="use46830"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use46834"
+       d="m 292.6386,1102.3622 -6.33975,-5 3.66026,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46838"
+       width="60"
+       height="41.411049"
+       x="297.76099"
+       y="1264.9653"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <rect
+       y="1264.9653"
+       x="237.76056"
+       height="41.411049"
+       width="60"
+       id="use46840"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="608.59064"
+       y="1235.0907"
+       id="use46842"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46896"
+         x="608.59064"
+         y="1235.0907">HA-SP</tspan></text>
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46844"
+       y="1235.0907"
+       x="669.32855"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1235.0907"
+         x="669.32855"
+         id="tspan46900"
+         sodipodi:role="line">HA-1</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46846"
+       width="60"
+       height="41.411049"
+       x="177.7608"
+       y="1264.9653"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46848"
+       y="1235.0907"
+       x="547.85278"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1235.0907"
+         x="547.85278"
+         id="tspan46906"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46850"
+       width="120"
+       height="41.411049"
+       x="237.76056"
+       y="1306.3766"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="651.74451"
+       y="1272.6292"
+       id="use46852"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46912"
+         x="651.74451"
+         y="1272.6292">Dzig1-20/21</tspan></text>
+    <rect
+       y="1264.9653"
+       x="117.76141"
+       height="41.411049"
+       width="60"
+       id="use46854"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="487.11505"
+       y="1235.0907"
+       id="use46856"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46918"
+         x="487.11505"
+         y="1235.0907">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46858"
+       width="60"
+       height="41.411049"
+       x="57.761414"
+       y="1264.9653"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46860"
+       y="1235.0907"
+       x="426.37744"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1235.0907"
+         x="426.37744"
+         id="tspan46924"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       y="1306.3766"
+       x="117.76141"
+       height="41.411049"
+       width="120"
+       id="use46862"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46864"
+       y="1272.6292"
+       x="530.2688"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1272.6292"
+         x="530.2688"
+         id="tspan46930"
+         sodipodi:role="line">Dzig1-SP1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use46866"
+       d="m 458.45792,1273.3622 -6.33977,-5 3.66026,-5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 578.18997,1272.3622 -6.3398,-5 3.6603,-5"
+       id="use46868"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46870"
+       width="60"
+       height="41.411049"
+       x="-2.2385862"
+       y="1264.9653"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       transform="scale(0.98785375,1.0122956)"
+       sodipodi:linespacing="125%"
+       id="use46872"
+       y="1235.0907"
+       x="365.63977"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1235.0907"
+         x="365.63977"
+         id="tspan46940"
+         sodipodi:role="line">HA-SP</tspan></text>
+    <rect
+       style="opacity:1;fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.82845199;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46874"
+       width="81.979156"
+       height="40.185783"
+       x="1224.4929"
+       y="2.1520383"
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1219.9811"
+       y="29.033264"
+       id="use46876"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.26794919,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan46946"
+         x="1219.9811"
+         y="29.033264"
+         style="font-size:17.27499962px">Curve0</tspan></text>
+    <rect
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:#000000;stroke-width:1.01748526;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use46878"
+       width="120"
+       height="41.411049"
+       x="-2.2385862"
+       y="1306.3766"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.28030014px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="408.79297"
+       y="1272.6292"
+       id="use46880"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98785375,1.0122956)"><tspan
+         sodipodi:role="line"
+         id="tspan46952"
+         x="408.79297"
+         y="1272.6292">Dzig1-edge</tspan></text>
+    <rect
+       transform="matrix(0.25881905,0.96592583,-1,0,0,0)"
+       y="2.1545713"
+       x="1306.2823"
+       height="40.180737"
+       width="83.009209"
+       id="use46882"
+       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.83358806;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="matrix(0.26794919,1,-1,0,0,0)"
+       sodipodi:linespacing="125%"
+       id="use46884"
+       y="29.033264"
+       x="1298.9811"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-size:17.27499962px"
+         y="29.033264"
+         x="1298.9811"
+         id="tspan46958"
+         sodipodi:role="line">Curve2</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use46886"
+       d="m 354.91334,1332.3622 6.33977,5 -3.66026,5"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 338.45791,1273.3622 -6.33975,-5 3.66026,-5"
+       id="use46888"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect46964"
+       width="480"
+       height="550"
+       x="240"
+       y="152.3622" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.11614788;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect46966"
+       width="548.26837"
+       height="519.88391"
+       x="171.01279"
+       y="832.42023" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.88885051px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 460,702.3622 0,71.10497 0,0"
+       id="path46968"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker46978)"
+       d="m 460,802.3622 0,30"
+       id="path46970"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="460"
+       y="797.36218"
+       id="text47042"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan47044"
+         x="460"
+         y="797.36218">after MSB</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use47046"
+       d="m 458.45791,1273.3622 -6.33975,-5 3.66026,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 412.90655,1103.3622 -6.33975,-5 3.66025,-5"
+       id="use47050"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use47054"
+       d="m 375.39366,963.3622 -6.33975,-5 3.66026,-5"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>
