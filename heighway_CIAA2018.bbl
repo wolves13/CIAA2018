@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{GeMeScSe2016}
+C.~Geary, P.-\'E. Meunier, N.~Schabanel, and S.~Seki.
+\newblock Programming biomolecules that fold greedily during transcription.
+\newblock In {\em Proc.~MFCS2016}, LIPIcs 58, pages 43:1--43:14, 2016.
+
+\bibitem{HanKim2017}
+Y-S. Han and H.~Kim.
+\newblock Ruleset optimization on isomorphic oritatami systems.
+\newblock In {\em Proc.~DNA23}, LNCS 10467, pages 33--45. Springer, 2017.
+
+\end{thebibliography}
