@@ -3,7 +3,10 @@
 \usepackage{amsmath, amssymb}
 \usepackage{tikz}
 
+\usetikzlibrary{shapes, arrows}
+
 \newcommand{\east}{{\ensuremath \to}}
+\newcommand{\se}{{\ensuremath \searrow}}
 
 \DeclareMathOperator*{\argmin}{arg\,min}
 
@@ -106,29 +109,30 @@ One period is semantically divided into six parts (\textit{modules}) as $C F_v T
 \item $F_v, F_h$ are called a \textit{DFAO module}, which computes $P[i]$ and interprets it properly as A(cute) or O(btuse); 
 \item $T$ is called a \textit{turning module}, which makes a turn according to A/O. 
 \end{itemize}
-The first $C$ and $F_v$ modules fold into a vertical line segment, while the second $C$ and $F_h$ fold into a horizontal one. 
-The DFAO modules $F_v, F_h$ are almost identical but differ in their way to interpret their output L/R. 
+The first $C$ and $F_v$ modules fold into a vertical line segment, while the second $C$ and $F_h$ fold into the next line segment, which is guaranteed to be horizontal. 
+The DFAO modules $F_v, F_h$ differ only in their way to interpret their intermediate outcome $P[i]$. 
 The slanted dragon involves two types of left turn as well as two types of right turn: acute and obtuse. 
-Observe that after (slanted) vertical line segments, it turns left obtusely and right acutely, whereas after horizontal ones, it turns left acutely and right obtusely. 
-Moreover, it alternates vertical and horizontal segments. 
+Observe that after (slanted) vertical line segments, the dragon turns left obtusely and right acutely, whereas after horizontal ones, it turns left acutely and right obtusely. 
+Moreover, vertical and horizontal segments alternate on the dragon. 
 Therefore, it suffices for $F_v$ and $F_h$ to compute $P[i] \in \{L, R\}$ in the same way and interpret it as $A$(cute)/$O$(btuse) in an opposite fashion as $F_v$ converts $L$ into $O$ and $R$ into $A$, while $F_h$ converts $L$ into $A$ and $R$ into $O$. 
 
 \begin{figure}[tb]
-
-\caption{The seed conformation for the 3-bit Heighway dragon encoding the three bits 000 as the initial count.}
+\includegraphics[width=\linewidth]{Figs/seed_sample2.png}
+\caption{The seed conformation for the 3-bit Heighway dragon encoding the initial count 100.}
 \label{fig:seed}
 \end{figure}
 
-\paragraph{Seed conformation} encodes the initial count $j_1$, whose binary representation is $b_n b_{n-1} \cdots b_1$, as
-\begin{equation}\label{eq:turner_output}{\tt 
-	427 \east (426 \east 427 \east)^2 \bigodot_{k = n}^1 (w_{t, b_k} \east (426 \east 427 \east)^6)
-}\end{equation}
-where ${\tt w_{t, 0} = 390 \east 391 \east 396 \east 397 \east 402 \east 403}$ and ${\tt w_{t, 1} = 398 \east 399 \east 400 \east 401 \east 402 \east 403}$. 
+\paragraph{Seed conformation} encodes the initial count $j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as
+\begin{equation}\label{eq:turner_output}
+	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^1$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6)} 
+%	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
+\end{equation}
+where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
 
 \paragraph{Counter module} is implemented essentially in the same manner as in \cite{GeMeScSe2016}. 
-It takes the current count $i$ encoded in the format \eqref{eq:turner_output}, which is fed either by the seed or by the previous turner module, and outputs $i+1$, which is represented as $a_n a_{n-1} \cdots a_1$ in binary, in the following format:
+It takes the current count $i$ formatted as \eqref{eq:turner_output}, which is fed by the seed or by the previous turner module, and increments the count by 1 unless it is preceded by the seed, and outputs the resulting count in its binary representation $a_n a_{n-1} \cdots a_1$ in the following format:
 \begin{equation}\label{eq:counter_output}{\tt 
-	44 \east 45 \east 46 \east 75 \east 76 \east \bigodot_{k = n}^1 (w_{c, a_k} \east (69 \east 70 \east)^5 75 \east 76 \east)
+	44 \east 45 \east 46 \east 75 \east 76 \east \mbox{$\bigodot_{k = n}^1$} (w_{c, a_k} \east (69 \east 70 \east)^5 75 \east 76 \east)
 }\end{equation}
 where ${\tt w_{c, 0} = 51 \east 52 \east 57 \east 58 \east 63 \east 64}$ and ${\tt w_{c, 1} = 59 \east 60 \east 61 \east 62 \east 63 \east 64}$. 
 
@@ -145,6 +149,42 @@ where ${\tt w_{c, 0} = 51 \east 52 \east 57 \east 58 \east 63 \east 64}$ and ${\
 	\newpage
 	\appendix
 %--------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------
+	\section{Module automaton}
+%--------------------------------------------------------------------------------------------------------
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}
+
+\draw (0, 0) -- ++(0:0.5) -- node[below, sloped] {Counter $C$} ++(300:2) -- ++(180:0.5) -- cycle; 
+
+\foreach \x in {3, 7} {
+%\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
+\draw[thick, ->] (\x, 0) -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2)
+;
+}
+
+\foreach \x in {5} {
+
+\draw[thick, ->] (\x, 0) 
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.9) -- ++(180:0.8) -- ++(300:0.2)
+;
+}
+
+\end{tikzpicture}
+\caption{Module automaton}
+\label{fig:module_automaton}
+\end{figure}
 
 %--------------------------------------------------------------------------------------------------------
 	\section{Transcript}
