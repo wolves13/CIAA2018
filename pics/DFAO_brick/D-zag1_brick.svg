@@ -158,7 +158,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.780749"
      inkscape:cx="1331.8208"
-     inkscape:cy="-18.664105"
+     inkscape:cy="48.72327"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -166,7 +166,8 @@
      inkscape:window-height="1056"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     showguides="false">
     <inkscape:grid
        type="xygrid"
        id="grid5121" />
@@ -188,46 +189,48 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       y="1092.8531"
-       x="1480.4907"
-       height="79.018425"
+       y="1131.4048"
+       x="1167.7931"
+       height="81.805893"
        width="39.018425"
        id="use12944"
-       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.98157626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
-       transform="matrix(0,0.99404714,-1.0059885,0,0,0)"
+       transform="matrix(0.26635413,0.99404714,-1.0059885,0,0,0)"
        sodipodi:linespacing="125%"
        id="use12946"
-       y="-1483.4402"
+       y="-1172.6041"
        x="1139.7322"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.96193123px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="-1483.4402"
+         y="-1172.6041"
          x="1139.7322"
          id="tspan12952"
          sodipodi:role="line">Curve3</tspan></text>
     <rect
-       y="1092.854"
-       x="1240.4917"
-       height="39.016426"
+       y="1131.4058"
+       x="927.79407"
+       height="40.392776"
        width="119.01643"
        id="use10874"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:0.98357296;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
-       transform="matrix(0.98770135,0,-0.27120195,1.0124518,0,0)"
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
        sodipodi:linespacing="125%"
        id="use10876"
        y="1104.2924"
-       x="1620.5432"
+       x="1303.952"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="1104.2924"
-         x="1620.5432"
+         x="1303.952"
          id="tspan10886"
          sodipodi:role="line">Dzag1-SP</tspan></text>
     <path
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1480.551,1094.0316 4.9874,4.9889 -4.9874,4.989"
+       d="m 1460.9983,1094.0316 6.3242,4.9889 -3.6507,4.989"
        id="use10878"
        inkscape:connector-curvature="0" />
     <rect
@@ -1689,65 +1692,68 @@
        d="m 1895.1996,712.0316 6.3242,4.9889 -3.6506,4.989"
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
-       y="1052.8539"
-       x="1120.4917"
-       height="39.016426"
+       y="1089.9945"
+       x="807.79407"
+       height="40.392776"
        width="119.01643"
        id="use10694"
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.98357308;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.00077105;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
-       transform="matrix(0.99750713,0,-0.2738944,1.0024991,0,0)"
+       transform="matrix(0.99750713,0,-0.00527558,1.0024991,0,0)"
        sodipodi:linespacing="125%"
        id="use10696"
        y="1075.9298"
-       x="1480.0853"
+       x="1166.6062"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.01951981px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="1075.9298"
-         x="1480.0853"
+         x="1166.6062"
          id="tspan10828"
          sodipodi:role="line">Dzig1</tspan></text>
     <rect
-       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:0.98357296;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use10698"
        width="119.01643"
-       height="39.016426"
-       x="1240.4917"
-       y="1052.8541" />
+       height="40.392776"
+       x="927.79407"
+       y="1089.9948"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1609.6953"
+       x="1293.1041"
        y="1064.7845"
        id="use10700"
        sodipodi:linespacing="125%"
-       transform="matrix(0.98770135,0,-0.27120195,1.0124518,0,0)"><tspan
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"><tspan
          sodipodi:role="line"
          id="tspan10834"
-         x="1609.6953"
+         x="1293.1041"
          y="1064.7845">Dzig1-SP0</tspan></text>
     <rect
-       style="opacity:1;fill:#ff0000;fill-opacity:0.78431373;stroke:#000000;stroke-width:0.98357308;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff0000;fill-opacity:0.78431373;stroke:#000000;stroke-width:1.00077105;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use10702"
        width="119.01643"
-       height="39.016426"
-       x="1120.4917"
-       y="1092.8539" />
+       height="40.392776"
+       x="807.79407"
+       y="1131.4056"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.01951981px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1491.0409"
+       x="1177.5618"
        y="1115.8301"
        id="use10704"
        sodipodi:linespacing="125%"
-       transform="matrix(0.99750713,0,-0.2738944,1.0024991,0,0)"><tspan
+       transform="matrix(0.99750713,0,-0.00527558,1.0024991,0,0)"><tspan
          sodipodi:role="line"
          id="tspan10840"
-         x="1491.0409"
+         x="1177.5618"
          y="1115.8301">Dzag1</tspan></text>
     <path
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1240.551,1092.0316 4.9874,4.9889 -4.9874,4.989"
+       d="m 1220.4624,1092.0316 6.3242,4.9889 -3.6506,4.989"
        id="use10708"
        inkscape:connector-curvature="0" />
     <text
@@ -1762,27 +1768,28 @@
          x="-1152.3051"
          y="-198.13379" /></text>
     <rect
-       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.98157626;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use44095"
        width="39.018425"
-       height="79.018425"
-       x="1360.4907"
-       y="1012.8531" />
+       height="81.805893"
+       x="1047.7931"
+       y="1048.5826"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.96193123px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1059.2527"
-       y="-1364.1548"
+       y="-1053.3187"
        id="use44101"
        sodipodi:linespacing="125%"
-       transform="matrix(0,0.99404714,-1.0059885,0,0,0)"><tspan
+       transform="matrix(0.26635413,0.99404714,-1.0059885,0,0,0)"><tspan
          sodipodi:role="line"
          id="tspan44151"
          x="1059.2527"
-         y="-1364.1548">Curve1</tspan></text>
+         y="-1053.3187">Curve1</tspan></text>
     <path
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1479.891,1161.0316 -4.9874,4.9889 4.9874,4.989"
+       d="m 1478.2909,1161.0316 -3.6507,4.9889 6.3242,4.989"
        id="use12954"
        inkscape:connector-curvature="0" />
     <path
@@ -1939,35 +1946,36 @@
          x="1300"
          y="423.36221">T</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:0.98357296;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use20693"
        width="119.01643"
-       height="39.016426"
-       x="1360.4917"
-       y="1092.854" />
+       height="40.392776"
+       x="1047.7941"
+       y="1131.4058"
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1742.0374"
+       x="1425.4462"
        y="1104.2924"
        id="use20695"
        sodipodi:linespacing="125%"
-       transform="matrix(0.98770135,0,-0.27120195,1.0124518,0,0)"><tspan
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"><tspan
          sodipodi:role="line"
          id="tspan20703"
-         x="1742.0374"
+         x="1425.4462"
          y="1104.2924">Dzag1-SP</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="use20697"
-       d="m 1360.551,1092.0316 4.9874,4.9889 -4.9874,4.989"
+       d="m 1340.4624,1092.0316 6.3242,4.9889 -3.6506,4.989"
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
        style="opacity:1;fill:none;fill-opacity:0.78431373;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect20707"
-       width="410"
+       id="rect20709"
+       width="440"
        height="170"
-       x="1115"
+       x="1085"
        y="1007.3622" />
   </g>
 </svg>
