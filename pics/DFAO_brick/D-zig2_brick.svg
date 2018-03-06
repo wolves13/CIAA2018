@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -431,8 +430,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1603356"
-     inkscape:cx="-842.39626"
-     inkscape:cy="896.22006"
+     inkscape:cx="639.93356"
+     inkscape:cy="875.53639"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -543,7 +542,7 @@
        height="40.392776"
        width="119.01643"
        id="use21706"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -578,7 +577,7 @@
          x="445.99338"
          y="154.23343">Dzag1-1</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use21714"
        width="119.01643"
        height="40.392776"
@@ -648,7 +647,7 @@
          id="tspan21962"
          sodipodi:role="line">Dzig2-SP0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use21938"
        width="119.01643"
        height="40.392776"
@@ -693,7 +692,7 @@
        height="40.392776"
        width="119.01643"
        id="use21946"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -743,7 +742,7 @@
        height="40.392776"
        width="119.01643"
        id="use21996"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -798,7 +797,7 @@
          id="tspan22092"
          sodipodi:role="line">Dzig2-SP0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22020"
        width="119.01643"
        height="40.392776"
@@ -863,7 +862,7 @@
        height="40.392776"
        width="119.01643"
        id="use22044"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -918,7 +917,7 @@
          id="tspan22160"
          sodipodi:role="line">Dzig2-SP0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22166"
        width="119.01643"
        height="40.392776"
@@ -937,43 +936,33 @@
          id="tspan22174"
          x="-123.69901"
          y="165.48204">Dzag1-SP</tspan></text>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use22020"
-       id="use22176"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use22022"
-       id="use22178"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use22176"
+    <rect
+       transform="matrix(1,0,0.25881905,0.96592583,0,0)"
+       y="261.25604"
+       x="-257.16638"
+       height="40.392776"
+       width="119.01643"
        id="use22180"
-       transform="translate(-240,0)"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use22178"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
+       sodipodi:linespacing="125%"
        id="use22182"
-       transform="translate(-240,0)"
-       width="100%"
-       height="100%" />
+       y="274.12918"
+       x="-123.70824"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="274.12918"
+         x="-123.70824"
+         id="tspan35739"
+         sodipodi:role="line">Dzag1-SP</tspan></text>
     <rect
        y="375.13641"
        x="-286.64078"
        height="40.392776"
        width="119.01643"
        id="use22184"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -1123,7 +1112,7 @@
        height="40.392776"
        width="119.01643"
        id="use22298"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -1138,7 +1127,7 @@
          id="tspan22396"
          sodipodi:role="line">Dzag1-SP</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22310"
        width="119.01643"
        height="40.392776"
@@ -1278,7 +1267,7 @@
          x="-441.06772"
          y="277.42545">Dzag1-0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22670"
        width="119.01643"
        height="40.392776"
@@ -1433,7 +1422,7 @@
        height="40.392776"
        width="119.01643"
        id="use22748"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -1523,7 +1512,7 @@
        height="40.392776"
        width="119.01643"
        id="use22825"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -1578,7 +1567,7 @@
          id="tspan22901"
          sodipodi:role="line">Dzag1-0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22849"
        width="119.01643"
        height="40.392776"
@@ -1638,7 +1627,7 @@
          x="-1137.1417"
          y="497.37576">Dzag1-1</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22937"
        width="119.01643"
        height="40.392776"
@@ -1663,7 +1652,7 @@
        height="40.392776"
        width="119.01643"
        id="use22947"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -1758,7 +1747,7 @@
          x="-855.01013"
          y="-179.93147">Dzag1-0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use22993"
        width="119.01643"
        height="40.392776"
@@ -1853,7 +1842,7 @@
        height="40.392776"
        width="119.01643"
        id="use23013"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -2003,7 +1992,7 @@
        height="40.392776"
        width="119.01643"
        id="use23141"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -2018,7 +2007,7 @@
          id="tspan23239"
          sodipodi:role="line">Dzag1-SP</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use23153"
        width="119.01643"
        height="40.392776"
@@ -2115,7 +2104,7 @@
        height="39.195827"
        width="81.989548"
        id="use25697"
-       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        transform="matrix(0.26962339,1.0062482,-0.9937906,0,0,0)"
        sodipodi:linespacing="125%"
@@ -2130,7 +2119,7 @@
          id="tspan25719"
          sodipodi:role="line">Curve2</tspan></text>
     <rect
-       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use25745"
        width="81.989548"
        height="39.195827"
@@ -2206,7 +2195,7 @@
        d="m -27.38295,962.07777 -6.25467,-4.8346 3.66383,-4.83451"
        style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.97929406px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use25795"
        width="119.01643"
        height="40.392776"
@@ -2256,7 +2245,7 @@
        height="40.392776"
        width="119.01643"
        id="use25811"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -2277,7 +2266,7 @@
        height="39.195827"
        width="81.989548"
        id="use25829"
-       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        transform="matrix(0.26962339,1.0062482,-0.9937906,0,0,0)"
        sodipodi:linespacing="125%"
@@ -2292,7 +2281,7 @@
          id="tspan25837"
          sodipodi:role="line">Curve4</tspan></text>
     <rect
-       style="opacity:1;fill:#c8b7b7;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use25839"
        width="81.989548"
        height="39.195827"
@@ -2333,7 +2322,7 @@
        id="use26053"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use26063"
        width="39.018425"
        height="81.805893"
@@ -2353,7 +2342,7 @@
          x="-47.33445"
          y="-770.47443">Curve3</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use26067"
        width="119.01643"
        height="40.392776"
@@ -2378,7 +2367,7 @@
        height="40.392776"
        width="119.01643"
        id="use26071"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
@@ -2428,7 +2417,7 @@
        height="81.805893"
        width="39.018425"
        id="use26363"
-       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.26635413,0.99404714,-1.0059885,0,0,0)"
@@ -2448,7 +2437,7 @@
        height="81.805893"
        width="39.018425"
        id="use26387"
-       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.99873936;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.26635413,0.99404714,-1.0059885,0,0,0)"
@@ -2488,7 +2477,7 @@
          x="-443.99384"
          y="-180.92897">Dzag1-0</tspan></text>
     <rect
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use26457"
        width="119.01643"
        height="40.392776"
@@ -2583,7 +2572,7 @@
        height="40.392776"
        width="119.01643"
        id="use26477"
-       style="opacity:1;fill:#5fd3bc;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
