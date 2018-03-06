@@ -319,9 +319,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.77755374"
-     inkscape:cx="1709.6662"
-     inkscape:cy="5.0014987"
+     inkscape:zoom="1.5807139"
+     inkscape:cx="2199.5422"
+     inkscape:cy="-354.29677"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -352,6 +352,56 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
+       transform="matrix(1,0,0.25967163,0.96569697,0,0)"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:0.70888472;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44368"
+       width="59.266369"
+       height="40.69949"
+       x="2014.3817"
+       y="1224.7233" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2396.3774"
+       y="1193.1846"
+       id="use44370"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan44380"
+         x="2396.3774"
+         y="1193.1846">SP</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use44372"
+       d="m 2332.4624,1181.0316 6.3242,4.9889 -3.6506,4.989"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       transform="matrix(1,0,0.25967163,0.96569697,0,0)"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.70888472;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="use44350"
+       width="59.266369"
+       height="40.69949"
+       x="1903.2914"
+       y="1421.4725" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="2335.6165"
+       y="1380.8467"
+       id="use44352"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan44362"
+         x="2335.6165"
+         y="1380.8467">PFS-R</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="use44354"
+       d="m 2280.4624,1401.0316 6.3242,4.9889 -3.6506,4.989"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
        style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.81823587;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="use37987"
        width="81.989548"
@@ -372,11 +422,6 @@
          x="1408.5048"
          y="-2036.553"
          style="font-size:17.23431587px">Curve5</tspan></text>
-    <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 2391.4624,1371.0316 6.3242,4.9889 -3.6506,4.989"
-       id="use37991"
-       inkscape:connector-curvature="0" />
     <rect
        transform="matrix(0.25881905,0.96592583,-1,0,0,0)"
        y="-2114.0679"
@@ -399,43 +444,23 @@
          id="tspan37985"
          sodipodi:role="line">Curve5</tspan></text>
     <rect
-       transform="matrix(1,0,0.25881905,0.96592583,0,0)"
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="use37955"
-       width="119.01643"
-       height="40.392776"
-       x="1904.7725"
-       y="1421.2844" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="2369.0273"
-       y="1380.8467"
-       id="use37957"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan37965"
-         x="2369.0273"
-         y="1380.8467">PFS-L</tspan></text>
-    <rect
-       y="1224.5815"
-       x="1955.6819"
-       height="40.392776"
-       width="119.01643"
+       y="1224.7233"
+       x="1954.3817"
+       height="40.69949"
+       width="59.266369"
        id="use37945"
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.70888472;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25967163,0.96569697,0,0)" />
     <text
        transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
        sodipodi:linespacing="125%"
        id="use37947"
        y="1193.1846"
-       x="2369.0413"
+       x="2335.6304"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="1193.1846"
-         x="2369.0413"
+         x="2335.6304"
          id="tspan37953"
          sodipodi:role="line">PFS-R</tspan></text>
     <rect
@@ -3595,11 +3620,6 @@
          x="2247.532"
          id="tspan37907"
          sodipodi:role="line">Dzag2-SP</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="use37841"
-       d="m 2272.4624,1372.0316 6.3242,4.9889 -3.6506,4.989"
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <rect
        transform="matrix(1,0,0.25881905,0.96592583,0,0)"
        style="opacity:1;fill:#aad400;fill-opacity:1;stroke:#000000;stroke-width:1.00077093;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -3662,26 +3682,6 @@
          x="1328.5175"
          id="tspan37939"
          sodipodi:role="line">Curve3</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="use37969"
-       d="m 2391.4624,1181.0316 6.3242,4.9889 -3.6506,4.989"
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use37991"
-       id="use38005"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#use38005"
-       id="use38007"
-       transform="matrix(-1,0,-0.00187152,-1,4798.4329,2791.944)"
-       width="100%"
-       height="100%" />
     <path
        inkscape:connector-curvature="0"
        id="use38009"
@@ -3808,5 +3808,45 @@
          id="tspan39544"
          x="2605"
          y="1287.3622">D-zig3</tspan></text>
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2391.4624,1182.0316 6.3242,4.9889 -3.6506,4.989"
+       id="use44374"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="1421.4725"
+       x="1963.2914"
+       height="40.69949"
+       width="59.266369"
+       id="use44388"
+       style="opacity:1;fill:#ff9955;fill-opacity:1;stroke:#000000;stroke-width:0.70888472;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(1,0,0.25967163,0.96569697,0,0)" />
+    <text
+       transform="matrix(0.98770135,0,8.3692185e-5,1.0124518,0,0)"
+       sodipodi:linespacing="125%"
+       id="use44390"
+       y="1380.8467"
+       x="2396.3635"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.23960304px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1380.8467"
+         x="2396.3635"
+         id="tspan44402"
+         sodipodi:role="line">SP</tspan></text>
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2332.4624,1371.0316 6.3242,4.9889 -3.6506,4.989"
+       id="use44392"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2404.4045,1420.9124 -6.3335,-4.9889 3.6413,-4.989"
+       id="use44394"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="use44396"
+       d="m 2391.4624,1372.0316 6.3242,4.9889 -3.6506,4.989"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.9976449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
