@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  8 MAR 2018 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  8 MAR 2018 07:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,59 +729,62 @@ Underfull \hbox (badness 1215) in paragraph at lines 150--159
 \OT1/cmr/m/n/10 a cate-na-tion of bi-nary coun-
  []
 
-
-LaTeX Warning: Reference `fig:glider' on page 3 undefined on input line 180.
-
 [3 <./Figs/6bit_heighway.pdf>]
-Overfull \hbox (3.53142pt too wide) in paragraph at lines 194--204
+Overfull \hbox (3.53142pt too wide) in paragraph at lines 195--205
 \OT1/cmr/m/n/10 set of h-interactions $\OML/cmm/m/it/10 H[] \OMS/cmsy/m/n/10 ^^
 R []$\OT1/cmr/m/n/10 ,
  []
 
-[4] <Figs/dragon_vol5.png, id=58, 2771.956pt x 2354.396pt>
+[4]
+Underfull \hbox (badness 1478) in paragraph at lines 304--316
+\OT1/cmr/m/n/10 that folds into a mo-tif of
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 304--316
+\OT1/cmr/m/n/10 a delay-3 OS whose tran-
+ []
+
+[5] <Figs/dragon_vol5.png, id=62, 2771.956pt x 2354.396pt>
 File: Figs/dragon_vol5.png Graphic file (type png)
 
 <use Figs/dragon_vol5.png>
-Package pdftex.def Info: Figs/dragon_vol5.png used on input line 268.
+Package pdftex.def Info: Figs/dragon_vol5.png used on input line 358.
 (pdftex.def)             Requested size: 277.69987pt x 235.84857pt.
 
 
-LaTeX Warning: Reference `fig:PFS' on page 5 undefined on input line 279.
+LaTeX Warning: Reference `fig:PFS' on page 6 undefined on input line 369.
 
 
-LaTeX Warning: Reference `fig:change_route' on page 5 undefined on input line 2
-79.
+LaTeX Warning: Reference `fig:change_route' on page 6 undefined on input line 3
+69.
 
-[5]
 
-LaTeX Warning: Reference `fig:abst_dfao' on page 6 undefined on input line 287.
+LaTeX Warning: Reference `fig:abst_dfao' on page 6 undefined on input line 377.
 
 
 
 LaTeX Warning: Reference `fig:overall_turning' on page 6 undefined on input lin
-e 287.
+e 377.
 
-<Figs/seed_sample2.png, id=63, 1075.97984pt x 88.28986pt>
+<Figs/seed_sample2.png, id=64, 1075.97984pt x 88.28986pt>
 File: Figs/seed_sample2.png Graphic file (type png)
 
 <use Figs/seed_sample2.png>
-Package pdftex.def Info: Figs/seed_sample2.png used on input line 291.
+Package pdftex.def Info: Figs/seed_sample2.png used on input line 381.
 (pdftex.def)             Requested size: 347.12354pt x 28.48233pt.
+ [6] [7 <./Figs/dragon_vol5.png> <./Figs/seed_sample2.png>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Figs/dragon_vol5.png>]
-
-LaTeX Warning: Reference `fig:abst_dfao' on page 7 undefined on input line 318.
+LaTeX Warning: Reference `fig:abst_dfao' on page 8 undefined on input line 408.
 
 
 
-LaTeX Warning: Reference `fig:PFS' on page 7 undefined on input line 320.
+LaTeX Warning: Reference `fig:PFS' on page 8 undefined on input line 410.
 
-<Figs/DFAO-zig1.png, id=68, 504.4446pt x 291.36855pt>
+<Figs/DFAO-zig1.png, id=75, 504.4446pt x 291.36855pt>
 File: Figs/DFAO-zig1.png Graphic file (type png)
  <use Figs/DFAO-zig1.png>
-Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 325.
+Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 415.
 (pdftex.def)             Requested size: 225.62817pt x 130.32326pt.
 
 (./heighway_CIAA2018.bbl
@@ -804,7 +807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 \OT1/cmr/m/n/9 Ar-ti-fi-cial In-tel-li-gence.
  []
 
-[7 <./Figs/seed_sample2.png> <./Figs/DFAO-zig1.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 \OT1/cmr/m/n/9 der John-son, Ju-lian
  []
@@ -859,7 +862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 \OT1/cmr/m/n/9 ory of al-go-rith-mic
  []
 
-
+[8 <./Figs/DFAO-zig1.png>]
 Underfull \hbox (badness 2134) in paragraph at lines 26--29
 []\OT1/cmr/m/n/9 C. Geary and E. S.
  []
@@ -959,7 +962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--40
 \OT1/cmr/m/n/9 345(6198):799--804,
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--45
 \OT1/cmr/m/n/9 Rule-set op-ti-miza-tion
  []
@@ -1024,7 +1027,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 47--53
 \OT1/cmr/m/n/9 9818 of \OT1/cmr/m/it/9 LNCS\OT1/cmr/m/n/9 , pages
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 55--58
 []\OT1/cmr/m/n/9 Jun Ma and Judy
  []
@@ -1124,7 +1127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--81
 \OT1/cmr/m/n/9 23(12):1124--1133,
  []
 
-[9]
+
 Underfull \hbox (badness 1292) in paragraph at lines 83--86
 []\OT1/cmr/m/n/9 Erik Win-free.  \OT1/cmr/m/it/9 Al-go-
  []
@@ -1134,11 +1137,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--86
 \OT1/cmr/m/it/9 rith-mic Self-Assembly
  []
 
-) [10] <Figs/counter_zig.png, id=85, 578.16pt x 145.0218pt>
+) [10] <Figs/counter_zig.png, id=86, 578.16pt x 145.0218pt>
 File: Figs/counter_zig.png Graphic file (type png)
 
 <use Figs/counter_zig.png>
-Package pdftex.def Info: Figs/counter_zig.png used on input line 399.
+Package pdftex.def Info: Figs/counter_zig.png used on input line 489.
 (pdftex.def)             Requested size: 347.12354pt x 87.06906pt.
  [11 <./Figs/counter_zig.png>]
 (./heighway_CIAA2018.aux)
@@ -1147,11 +1150,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15866 strings out of 493013
- 332483 string characters out of 6136993
- 548736 words of memory out of 5000000
- 19066 multiletter control sequences out of 15000+600000
- 19216 words of font info for 74 fonts, out of 8000000 for 9000
+ 15906 strings out of 493013
+ 333126 string characters out of 6136993
+ 566745 words of memory out of 5000000
+ 19103 multiletter control sequences out of 15000+600000
+ 22499 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,71p,471b,2662s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
@@ -1159,28 +1162,28 @@ live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2016/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
-.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.
-pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-
-Output written on heighway_CIAA2018.pdf (11 pages, 2817054 bytes).
+ic/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on heighway_CIAA2018.pdf (11 pages, 2834997 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

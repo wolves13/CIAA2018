@@ -131,7 +131,7 @@ It outputs the following sequence, given $i = 0, 1, 2, \ldots$ in binary:
 P 	= {\rm RRLRRLLRRRLLRLLRRRLRRLLLRRLLRLL} \cdots.
 \]
 (The notation $P$ is after its appellative \textit{paperfolding sequence} \cite{AlloucheShallit2003}.) 
-For instance, given $i = 2$ in binary from the LSB as 01, the DFAO transitions as $q_0 \to q_1 \to q_2$ and hence $P[2] = L$. 
+For instance, given $i = 2$ in binary from the LSB as 01, the DFAO transitions as $q_0 \to q_1 \to q_2$ and hence $P[2] = {\rm L}$. 
 %where only the values of $i$ at the end of the first five iterations are specified. 
 A turtle should interpret an L (resp.~R) as ``move forward by unit distance and turn left (resp. right) 90 degrees.''
 Any portion of the dragon can be represented by a factor of $P$; for instance, Fig.~\ref{fig:heighway_dragon} (Right) depicts the portion $P[0 .. 1022]$, i.e., the first $2^{10}-1$ turns of the dragon. 
@@ -165,6 +165,7 @@ The generic design proves the next theorem (for terminologies, see Sect.~\ref{se
 
 \noindent
 A JavaScript program to run this OS is available at {\small {\tt https://wolves13.github.io}}. 
+
 %--------------------------------------------------------------------------------------------------------
 	\section{Preliminaries}
 	\label{sect:preliminaries}
@@ -228,6 +229,95 @@ The OS $\Xi$ is \textit{deterministic} if for all $i \ge 0$, there exists at mos
 Thus, a deterministic OS folds into a unique terminal conformation. 
 An OS is cyclic if its transcript is of the form $u^i u_p$ for some $i \ge 2$ and a prefix $u_p$ of $u$. 
 The cyclic OSs are considered to be one of the practical classes of OS because a periodic RNA transcript is likely to be transcribed out of a circular DNA sequence \cite{GearyAndersen2014}. 
+
+\begin{wrapfigure}{r}{0.6\linewidth}
+\vspace*{-5mm}
+\centering
+\scalebox{0.4}{\begin{tikzpicture}
+\tikzstyle{mol} = [fill,circle,inner sep=1pt]
+
+\foreach \x in {0, 4, 8, 13} {
+\draw[thick, red] (\x, 0) node[mol] {} node[above] {\Large $a$}
+-- ++(300:1) node[mol] {} 
+-- ++(240:1) node[mol] {} node[below] {\Large $b'$}
+-- ++(0:1) node[mol] {} node[below] {\Large $b$}
+-- ++(60:1) node[mol] {} 
+-- ++(120:1) node[mol] {} node[above] {\Large $a'$}
+;
+\draw[thick, dashed,red] (\x, 0) -- ++(0:1);
+}
+
+\draw[cyan, -latex] (1, 0) -- ++(120:1) node[mol] {} node[above] {\Large $a$} -- ++(180:1) node[mol]{} -- ++(240:1) node[mol] {} node[above] {\Large $b'$};
+\draw[cyan, -latex] (1, 0) -- ++(60:1) node[mol] {} node[above] {\Large $a$} -- ++(0:1) node[mol] {} -- ++(300:1) node[mol] {} node[right] {\Large $b'$};
+\draw[ultra thick, cyan, -latex] (1, 0) -- ++(0:1) node[mol] {} node[above] {\huge $a$} -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\huge $b'$};
+
+\draw[dashed, cyan] (0,0)++(300:2) -- ++(0:1);
+
+\draw (3,0)++(300:1) node {\Large $\Rightarrow$};
+\draw (7,0)++(300:1) node {\Large $\Rightarrow$};
+\draw (12,0)++(300:1) node {\Large $\Rightarrow$};
+
+
+\draw[thick, -latex] (5, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$};
+
+\draw[cyan, -latex] (6, 0) -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\Large $b'$} -- ++(0:1) node[mol] {} node[below] {\Large $b$};
+\draw[cyan, -latex] (5,0)++(300:2)++(240:0.3) -- ++(240:0.7) node[mol] {} node[below] {\Large $b$};
+\draw[cyan, -latex] (5,0)++(300:2.3) -- ++(300:0.7) node[mol] {} node[below] {\Large $b$};
+\draw[dashed, cyan] (4,0)++(300:2) -- ++(0:1);
+
+
+\draw[thick, -latex] (9, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
+-- ++(300:1) node[mol] {}
+;
+\draw[cyan, -latex] (10,0)++(300:1) -- ++(240:1) node[mol] {} node[below] {\Large $b'$}
+-- ++(240:1) node[mol] {} node[below] {\Large $b$}
+-- ++(180:1) node[mol] {}
+;
+\draw[cyan, -latex] (9,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$} -- ++(60:1) node[mol] {};
+\draw[cyan, -latex] (10,0)++(300:1) -- ++(60:1) node[mol] {} node[right] {\Large $b'$}
+-- ++(120:1) node[mol] {} node[above] {\Large $b$}
+-- ++(180:1) node[mol] {}
+;
+\draw[cyan,dashed] (8,0)++(300:2) -- ++(0:1);
+
+\draw[thick, -latex] (14, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
+-- ++(300:1) node[mol] {}
+-- ++(240:1) node[mol] {} node[below] {\Large $b'$}
+;
+\draw[dashed] (13,0)++(300:2) -- ++(0:1);
+\draw[cyan, -latex] (14,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$}
+-- ++(60:1) node[mol] {}
+-- ++(120:1) node[mol] {} node[above] {\Large $a'$}
+;
+\draw[cyan,dashed] (15,0) -- ++(0:1);
+
+\end{tikzpicture}}
+\caption{Progression of a glider by distance 1.}
+\label{fig:glider}
+\vspace*{-3mm}
+\end{wrapfigure}
+%\end{figure}
+
+%\begin{example}\label{ex:glider}
+%A motif called the \emph{glider} explains well how oritatami systems behave. 
+
+Let us provide an example of deterministic cyclic OS that folds into a motif of great use called the \textit{glider}. 
+Let $\Sigma = \{a, a', b, b', \bullet\}$. 
+Consider a delay-3 OS whose transcript $w$ is a repetition of $a \bullet b' b \bullet a'$ and whose rule set is $\mathcal{H} = \{(a, a'), (b, b')\}$, making $\bullet$-beads inert. 
+By the fragment $w[1..3] = a \bullet b'$, the seed of this OS, colored in red in Fig.~\ref{fig:glider}, can be elongated in various ways, only three of which are shown in Fig.~\ref{fig:glider} (left). 
+The only bead on the fragment capable of a new h-interaction is $b'$ (with a $b$-bead according to $\mathcal{H}$), and for that, the fragment must be folded as bolded in Fig.~\ref{fig:glider} (left). 
+The first bead $w[1] = a$ is hence stabilized to the east of the previous bead, and then the bead $w[4] = b$ is transcribed. 
+The next two beads $w[2], w[3]$ are stabilized as illustrated one after another, but we can easily see that the bolded elongation dominates even their stabilization. 
+It suffices to observe that neither $w[4]$ nor $w[5]$ can form any new h-interaction. 
+When $w[4] = b$ is transcribed (after $w[1]$ is stabilized), $b'$-beads around are either too far or too close  (recall that $w[4]$ cannot interact with $w[3] = b'$). 
+In addition, $w[5]$ is inert. 
+Thus, they cannot override the bolded ``decision.''
+It is easily induced inductively that gliders of arbitrary ``flight distance'' can be folded. 
+
+Gliders also provide a medium to propagate 1-bit at arbitrary distance as the position of their last beads, which is determined by the height (top or bottom) of the first bead and a flying distance.  
+%The height (top or bottom) of the first bead determines whether the last bead is stabilized top or bottom after flying a given distance.
+For instance, the glider in Fig.~\ref{fig:glider} launches top and thus its last bead (the $a'$) also comes top after traveling the distance 2.
+The OS we shall propose exploits this information-carrying capability.
 
 Denote the points in $\mathbb{R}^2$ that correspond to vertices of $\mathbb{T}$ by $\mathbb{Z}_\bigtriangleup^2$. 
 A \textit{shape} $S$ is a set of points on the triangular grid. 
