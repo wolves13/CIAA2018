@@ -160,7 +160,7 @@ It is a concatenation of three bit-sequence bifurcators, each of which folds int
 The generic design proves the next theorem (for terminologies, see Sect.~\ref{sect:preliminaries}). 
 
 \begin{theorem}\label{thm:main}
-	For any finite portion $P[i..j]$ of the Heighway dragon, there exist a scaling factor $c \in \mathbb{N}^+$ and a cyclic deterministic oritatami system of delay 3 and arity 3 that weakly folds into the $c$-rhombus scaling of $P[i..j]$. 
+	For any finite portion $P[i..j]$ of the Heighway dragon, there exist a scaling factor $c \in \mathbb{N}^+$ and a deterministic cyclic oritatami system of delay 3 and arity 3 that weakly folds into the $c$-rhombus scaling of $P[i..j]$. 
 \end{theorem}
 
 \noindent
@@ -226,9 +226,8 @@ We say that the bead $w[i+1]$ and the h-interactions it forms are \textit{stabil
 Note that an arity-$\alpha$ OS cannot fold any conformation of arity larger than $\alpha$.
 A conformation foldable by $\Xi$ is \textit{terminal} if none of its elongations is foldable by $\Xi$. 
 The OS $\Xi$ is \textit{deterministic} if for all $i \ge 0$, there exists at most one $C_{i+1}$ that satisfies \eqref{eq:cotranscriptional_folding}. 
-By DOS, we mean the deterministic OS. 
-Thus, a DOS folds into a unique terminal conformation. 
-An OS is \textit{cyclic} if its transcript is of the form $u^i u_p$ for some $i \ge 2$ and a prefix $u_p$ of $u$. 
+Thus, a deterministic OS folds into a unique terminal conformation. 
+An OS is cyclic if its transcript is of the form $u^i u_p$ for some $i \ge 2$ and a prefix $u_p$ of $u$. 
 The cyclic OSs are considered to be one of the practical classes of OS because a periodic RNA transcript is likely to be transcribed out of a circular DNA sequence \cite{GearyAndersen2014}. 
 
 \begin{wrapfigure}{r}{0.6\linewidth}
@@ -302,13 +301,12 @@ The cyclic OSs are considered to be one of the practical classes of OS because a
 %\begin{example}\label{ex:glider}
 %A motif called the \emph{glider} explains well how oritatami systems behave. 
 
-Let us provide an example of cyclic DOS that folds into a motif of great use called the \textit{glider}. 
+Let us provide an example of deterministic cyclic OS that folds into a motif of great use called the \textit{glider}. 
 Let $\Sigma = \{a, a', b, b', \bullet\}$. 
 Consider a delay-3 OS whose transcript $w$ is a repetition of $a \bullet b' b \bullet a'$ and whose rule set is $\mathcal{H} = \{(a, a'), (b, b')\}$, making $\bullet$-beads inert. 
-Its seed, colored in red in Fig.~\ref{fig:glider}, can be elongated by the fragment of the first three beads $w[1..3] = a \bullet b'$ in various ways, only three of which are shown in Fig.~\ref{fig:glider} (left). 
-Only the third bead, $b'$, can form a new h-interaction, with the $b$ in the seed (according to $\mathcal{H}$, the first $a$ is also capable of binding, with $a'$, but the sole $a'$ around is just ``too close''). 
-For the $b{-}b'$ interaction, the fragment must be folded as bolded in Fig.~\ref{fig:glider} (left). 
-According to this most stable folding, the first bead $w[1] = a$ is stabilized to the east of the previous bead, and then the bead $w[4] = b$ is transcribed. 
+By the fragment $w[1..3] = a \bullet b'$, the seed of this OS, colored in red in Fig.~\ref{fig:glider}, can be elongated in various ways, only three of which are shown in Fig.~\ref{fig:glider} (left). 
+The only bead on the fragment capable of a new h-interaction is $b'$ (with a $b$-bead according to $\mathcal{H}$), and for that, the fragment must be folded as bolded in Fig.~\ref{fig:glider} (left). 
+The first bead $w[1] = a$ is hence stabilized to the east of the previous bead, and then the bead $w[4] = b$ is transcribed. 
 The next two beads $w[2], w[3]$ are stabilized as illustrated one after another, but we can easily see that the bolded elongation dominates even their stabilization. 
 It suffices to observe that neither $w[4]$ nor $w[5]$ can form any new h-interaction. 
 When $w[4] = b$ is transcribed (after $w[1]$ is stabilized), $b'$-beads around are either too far or too close  (recall that $w[4]$ cannot interact with $w[3] = b'$). 
@@ -335,38 +333,25 @@ We say that an OS $\Xi$ \textit{weakly folds} (or ``self-assembles'') $\diamonds
 	\section{Folding the $n$-bit Heighway dragon}
 %--------------------------------------------------------------------------------------------------------
 
-We propose a generic design of DOS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
-Let $n = \min\{m \mid j_2 < 2^m\}$. 
-Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types with a fixed rule set $\mathcal{H}$ are employed (some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}). 
-The design also challenges to make the resulting DOS cyclic. 
-Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
-However, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
-Such a ``hardcoding'' also goes against the spirit of algorithmic self-assembly. 
+We propose a generic design of deterministic OS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
+Independently of $j_1, j_2$, the design sets both delay and arity to 3 and employs 567 bead types with a fixed rule set $\mathcal{H}$ (some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}). 
+It also challenges to make the resulting OS cyclic. 
+Otherwise, one could simply design left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
+Such a ``hardcoding'' however goes against the spirit of algorithmic self-assembly. 
+Furthermore, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
 
-\begin{figure}[tb]
-\includegraphics[width=\linewidth]{Figs/seed_sample2.png}
-\caption{The seed for the 3-bit Heighway dragon that starts at $j_1 = 100_2$.}
-\label{fig:seed}
-\end{figure}
-
-The initial count $i = j_1$ is encoded on the seed in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
-\begin{equation}\label{eq:turner_output}
-	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^2$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6) w_{t, b_1}} 
-%	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
-\end{equation}
-where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
-Upon this seed, a periodic transcript is folded into the dragon $P[j_1..j_2]$. 
-Its period is semantically divided into six \textit{modules} as $C D_v T C D_h T$, where 
+One period is semantically divided into six parts (\textit{modules}) as $C D_v T C D_h T$, where %$C$ is called a \textit{counter module}, $F_v$ and $F_h$ are called a \textit{DFAO module}, and $T$ is called a \textit{turner module}. 
 \begin{itemize}
 \item $C$ is called a \textit{counter module}, which increments $i$ by 1 and propagates it; 
-\item $D_v$ and $D_h$ are called a \textit{DFAO module}, which computes $P[i]$ and interprets it properly (this issue of interpretation shall be discussed in the next paragraph); 
-\item $T$ is called a \textit{turner module}, which makes a turn according to the interpretation. 
+\item $D_v$ and $D_h$ are called a \textit{DFAO module}, which computes $P[i]$ and interprets it properly as A(cute) or O(btuse); 
+\item $T$ is called a \textit{turning module}, which makes a turn according to A/O. 
 \end{itemize}
-The first $C$ and $D_v$ modules fold into a vertical line segment, while the second $C$ and $D_h$ fold into the next line segment, which is guaranteed to be horizontal since vertical and horizontal segments alternate on the Heighway dragon. 
+The first $C$ and $D_v$ modules fold into a vertical line segment, while the second $C$ and $D_h$ fold into the next line segment, which is guaranteed to be horizontal. 
 The DFAO modules $D_v, D_h$ differ only in their way to interpret their intermediate outcome $P[i]$. 
 The slanted dragon involves two types of left turn as well as two types of right turn: acute and obtuse. 
 Observe that after (slanted) vertical line segments, the dragon turns left obtusely and right acutely, whereas after horizontal ones, it turns left acutely and right obtusely. 
-Therefore, it suffices for $D_v$ and $D_h$ to compute $P[i] \in \{{\rm L}, {\rm R}\}$ in the same way and $D_v$ interprets L as O and R as A, while $D_h$ interprets L as A and R as O. 
+Moreover, vertical and horizontal segments alternate on the dragon. 
+Therefore, it suffices for $D_v$ and $D_h$ to compute $P[i] \in \{L, R\}$ in the same way and interpret it as $A$(cute)/$O$(btuse) in an opposite fashion as $D_v$ converts $L$ into $O$ and $R$ into $A$, while $D_h$ converts $L$ into $A$ and $R$ into $O$. 
 
 \begin{figure}[tb]
 \centering
@@ -377,41 +362,47 @@ Folding of one segment plus turn of the Heighway dragon, flow of information thr
 \label{fig:abst_dragon}
 \end{figure}
 
-Before explaining the modules, one issue intrinsic to the folding by OS should be pointed. 
+Before explaining the modules, one issue intrinsic to the folding by oritatami systems should be pointed. 
 It rises when the dragon makes a turn where it has already turned before. % that is, when two turns share a point. 
-By definition, OSs are not allowed to put a bead anywhere occupied by another bead. 
+By definition, OSs cannot put a bead anywhere occupied by another bead. 
 Being scaled sufficiently large, a rhombus corresponding to a point affords two turning modules, which otherwise collide, as long as they fold into an L-shape (Figs.~\ref{fig:heighway6_oritatami}, \ref{fig:abst_dragon}). 
 A turning module has its three bifurcator submodules direct further folding obtusely one after another guided by the signal O from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another by A, as colored in green, and folds into two L-shape conformations. 
-Note that two turns at a point are both acute or both obtuse. 
+Note that two turns which share a point are both acute or both obtuse. 
 
 Having outlined the generic design, now we explain how the design implements an OS for a specific target portion $P[j_1 .. j_2]$, or more precisely, how the modules $C, D_v, D_h, T$ and their submodules are implemented, interlocked with each other, and collaborate. 
+Let $n = \min\{m \mid j_2 < 2^m\}$. 
 The length of $C, T$, or more precisely, of their transcript, are of length $O(n^2)$ while $D_v, D_h$ are of length $O(n)$. 
 Thus, the period of the OS is of length proportional to $n^2$. 
+Each of these modules consists of submodules of constant size. 
+Using a simulator developed for \cite{HaKiOtSe2016}, we verified that all of the submodules fold as intended in all possible environments, which are abstracted in Figs.~\ref{fig:abst_dragon}, \ref{fig:abst_dfao}, and \ref{fig:overall_turning}. 
 
-Each of these modules consists of small submodules, say, with several dozens of beads. 
-Submodules implement various ``functions'' each of which is ``called'' in proper \textit{environments}, i.e., the beads already placed around the tip of the transcript acting as the memory in the computation. 
-The conformation that a submodule folds deterministically in a ``valid'' environment corresponds to the function to be called then. 
-These ``expected'' conformations are called \textit{bricks}, as they are the bricks upon which the whole folding is built. 
-In order to describe the OS' behavior at submodule level, \textit{brick automata} are employed. 
-They enumerate all the pairs of an environment to be encountered and the brick to be folded there as well as transitions among them. 
-Using a simulator developed for \cite{HaKiOtSe2016}, we verified all the brick automata, which can be found in Sects.~\ref{ap_subsect:DFAO_module_BA}, and \ref{ap_subsect:Turner_module_BA}. 
 
+\begin{figure}[tb]
+\includegraphics[width=\linewidth]{Figs/seed_sample2.png}
+\caption{The seed conformation for the 3-bit Heighway dragon encoding the initial count 100.}
+\label{fig:seed}
+\end{figure}
+
+\paragraph{Seed conformation} encodes the initial count $j_1$ in its binary representation as
+\begin{equation}\label{eq:turner_output}
+	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^1$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6)} 
+%	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
+\end{equation}
+where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
 
 \paragraph{Counter module} is borrowed from \cite{GeMeScSe2016} with technical modification to let it operate in the dynamics \eqref{eq:cotranscriptional_folding}, which is more prevailing \cite{HanKim2017,HaKiOtSe2016,OtaSeki2017} though less tractable. 
 We hence leave all its details to the Appendix (Sect.~\ref{sect:appendix_counter_module}), and just describe its input and output. 
 It takes the current count $i$ formatted as \eqref{eq:turner_output}, which is fed by the seed or by the previous turner module, increments the count by 1 unless it is preceded by the seed, and outputs the resulting count in its binary representation $a_n a_{n-1} \cdots a_1$ in the following format:
 \begin{equation}\label{eq:counter_output}{\tt 
-	44 \east 45 \east 46 \east 51 \east 52 \east \mbox{$\bigodot_{k = n}^2$} (w_{c, a_k} \east (75 \east 76 \east)^5 51 \east 52 \east) w_{c, a_1}
+	???
+%	44 \east 45 \east 46 \east 75 \east 76 \east \mbox{$\bigodot_{k = n}^1$} (w_{c, a_k} \east (69 \east 70 \east)^5 75 \east 76 \east)
 }\end{equation}
-where ${\tt w_{c, 0} = 57 \east 58 \east 63 \east 64 \east 69 \east 70}$ and ${\tt w_{c, 1} = 65 \east 66 \east 67 \east 68 \east 69 \east 70}$. 
+where ${\tt w_{c, 0} = 51 \east 52 \east 57 \east 58 \east 63 \east 64}$ and ${\tt w_{c, 1} = 59 \east 60 \east 61 \east 62 \east 63 \east 64}$. 
 
-\paragraph{DFAO modules $D_v, D_h$} receive the current count $i$ in the format \eqref{eq:counter_output} from the previous counter module, compute $P[i]$, and interpret it as A or O properly. 
-$D_v$ and $D_h$ then output the interpretation along with the count $i$ in the following formats, respectively: 
-\begin{eqnarray}
-& & {\tt \mbox{$\bigodot_{k=n}^2$} (w_{d, a_k} \east (52 \east 51 \east)^7) w_{d, a_1} \east 52 \east 51 \east 200 \east 199 \east w_{dv, P[i]}} \label{eq:Dv_output}\\
-& & {\tt \mbox{$\bigodot_{k=n}^2$} (w_{d, a_k} \east (52 \east 51 \east)^7) w_{d, a_1} \east 52 \east 51 \east 311 \east 310 \east w_{dh, P[i]}} \label{eq:Dh_output}
-\end{eqnarray}
-where ${\tt w_{dv, L} = 198 \east 197}$, ${\tt w_{dv, R} = 194 \east 193}$, ${\tt w_{dh, L} = 305 \east 304}$, and ${\tt w_{dh, R} = 309 \east 308}$.
+\paragraph{DFAO modules $D_v, D_h$} receive the current count $i$ in the format \eqref{eq:counter_output} from the previous counter module, compute $P[i]$ and interpret it as A or O properly, and output the interpretation along with the count $i$ in the following format: 
+\begin{equation}\label{eq:DFAO_output}{\tt 
+???
+}\end{equation}
 
 What the DFAO in Fig.~\ref{fig:heighway_dragon} really does for computing $P[i]$ is to search for the first 0 from the LSB and check whether it is followed by 0 ($P[i] = {\rm R}$) or by 1 ($P[i] = {\rm L}$). 
 See Fig.~\ref{fig:abst_dfao}. 
@@ -507,62 +498,5 @@ The first and third are diverted to implement the body-lpx2 component of the tur
 	\subsection{Transcript}
 %--------------------------------------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------------------------------------
-	\section{DFAO module}
-	\label{sect:appendix_DFAO_module}
-%--------------------------------------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Brick automata}
-	\label{ap_subsect:DFAO_module_BA}
-%--------------------------------------------------------------------------------------------------------
-
-The DFAO module is designed at the level of submodule based on the five brick automata shown in Figs.~\ref{fig:brick_automaton_Dzig1}, \ref{fig:brick_automaton_Dzag1}, \ref{fig:brick_automaton_Dzig2}, \ref{fig:brick_automaton_Dzag2}, and \ref{fig:brick_automaton_Dzig3}. 
-The labels B and T of transitions stand for that the previous submodule (glider) ends at the bottom and at the top, respectively. 
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{Figs/D-zig1_brick.pdf}
-\caption{The brick automaton for the first zig of DFAO module.}
-\label{fig:brick_automaton_Dzig1}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{Figs/D-zag1_brick.pdf}
-\caption{The brick automaton for the first zag of DFAO module.}
-\label{fig:brick_automaton_Dzag1}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{Figs/D-zig2_brick.pdf}
-\caption{The brick automaton for the second zig of DFAO module.}
-\label{fig:brick_automaton_Dzig2}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{Figs/D-zag2_brick.pdf}
-\caption{The brick automaton for the second zzg of DFAO module.}
-\label{fig:brick_automaton_Dzag2}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=\linewidth]{Figs/D-zig3_brick.pdf}
-\caption{The brick automaton for the third zig of DFAO module.}
-\label{fig:brick_automaton_Dzig3}
-\end{figure}
-
-%--------------------------------------------------------------------------------------------------------
-	\section{Turner module}
-	\label{ap_sect:Turner_module}
-%--------------------------------------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Brick automata}
-	\label{ap_subsect:Turner_module_BA}
-%--------------------------------------------------------------------------------------------------------
 
 \end{document}
