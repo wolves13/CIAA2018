@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.8.27)  8 MAR 2018 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.8.27)  8 MAR 2018 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,437 +764,111 @@ Overfull \hbox (13.25041pt too wide) in paragraph at lines 413--415
 \OT1/cmr/m/n/10 where $[]$, $[]$, $[]$, and $[]$. 
  []
 
+<pics/abst_DFAO.png, id=75, 853.38824pt x 270.7716pt>
+File: pics/abst_DFAO.png Graphic file (type png)
+ <use pics/abst_DFAO.png>
+Package pdftex.def Info: pics/abst_DFAO.png used on input line 417.
+(pdftex.def)             Requested size: 347.12354pt x 110.13702pt.
 
-LaTeX Warning: Reference `fig:abst_dfao' on page 8 undefined on input line 417.
 
+LaTeX Warning: Reference `fig:PFS' on page 8 undefined on input line 425.
 
-
-LaTeX Warning: Reference `fig:PFS' on page 8 undefined on input line 419.
-
-<Figs/DFAO-zig1.png, id=75, 504.4446pt x 291.36855pt>
+<Figs/DFAO-zig1.png, id=76, 504.4446pt x 291.36855pt>
 File: Figs/DFAO-zig1.png Graphic file (type png)
  <use Figs/DFAO-zig1.png>
-Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 424.
+Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 430.
 (pdftex.def)             Requested size: 225.62817pt x 130.32326pt.
 
-(./heighway_CIAA2018.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\OT1/cmr/m/n/9 Harold Abel-son and
+[8 <./pics/abst_DFAO.png>]
+Underfull \hbox (badness 3492) in paragraph at lines 436--445
+[][]\OT1/cmr/m/n/10 In the first zig, $\OML/cmm/m/it/10 n$
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 4--8
-\OT1/cmr/m/it/9 Ge-om-e-try The Com-
+Underfull \hbox (badness 2600) in paragraph at lines 436--445
+\OT1/cmr/m/n/10 Dzig1s de-tect the first
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmr/m/it/9 Ex-plor-ing Math-e-mat-
+Underfull \hbox (badness 1888) in paragraph at lines 436--445
+\OT1/cmr/m/n/10 the cor-re-spond-ing en-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/cmr/m/n/9 Ar-ti-fi-cial In-tel-li-gence.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-\OT1/cmr/m/n/9 der John-son, Ju-lian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-\OT1/cmr/m/n/9 Mar-tin Raff, Keith
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-\OT1/cmr/m/n/9 Roberts, and Pe-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-\OT1/cmr/m/n/9 Wal-ter.  \OT1/cmr/m/it/9 Molec-u-lar
- []
-
-[8 <./Figs/DFAO-zig1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-[]\OT1/cmr/m/n/9 Jean-Paul Al-louche
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-\OT1/cmr/m/n/9 and Jef-frey Shal-lit.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-\OT1/cmr/m/it/9 Au-to-matic Se-quences:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-\OT1/cmr/m/it/9 The-ory, Ap-pli-ca-tions,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-\OT1/cmr/m/n/9 bridge Uni-ver-sity
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 21--24
-[]\OT1/cmr/m/n/9 David Doty.  The-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-\OT1/cmr/m/n/9 ory of al-go-rith-mic
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 26--29
-[]\OT1/cmr/m/n/9 C. Geary and E. S.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-\OT1/cmr/m/n/9 An-der-sen.  De-sign
- []
-
-
-Underfull \hbox (badness 7613) in paragraph at lines 26--29
-\OT1/cmr/m/n/9 prin-ci-ples for single-
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 26--29
-\OT1/cmr/m/n/9 struc-tures.  In \OT1/cmr/m/it/9 Proc.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-\OT1/cmr/m/n/9 8727, pages 1--19.
- []
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 31--34
-[]\OT1/cmr/m/n/9 C. Geary, P.-[]E. Me-
- []
-
-
-Underfull \hbox (badness 7379) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 u-nier, N. Sch-a-banel,
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 and S. Seki.  Pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 that fold greed-ily
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 dur-ing tran-scrip-tion.
- []
-
-
-Underfull \hbox (badness 5771) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 In \OT1/cmr/m/it/9 Proc. MFCS2016\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
-\OT1/cmr/m/n/9 LIPIcs 58, pages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-[]\OT1/cmr/m/n/9 Cody Geary, Paul
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 W. K. Rothe-mund,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 and Ebbe S. An-
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 der-sen.  A single-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 stranded ar-chi-tec-ture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 for co-tran-scrip-tional
- []
-
-
-Underfull \hbox (badness 7168) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 truc-tures.  \OT1/cmr/m/it/9 Sci-ence\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-\OT1/cmr/m/n/9 345(6198):799--804,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
-\OT1/cmr/m/n/9 Rule-set op-ti-miza-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
-\OT1/cmr/m/n/9 on iso-mor-phic ori-
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 42--45
-\OT1/cmr/m/n/9 tatami sys-tems.  In
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 42--45
-\OT1/cmr/m/it/9 Proc. DNA23\OT1/cmr/m/n/9 , LNCS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
-\OT1/cmr/m/n/9 10467, pages 33--45.
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
-[]\OT1/cmr/m/n/9 Yo-Sub Han, Hwee
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
-\OT1/cmr/m/n/9 de-ter-min-is-tic seed-less
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
-\OT1/cmr/m/n/9 hard-ness of test-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
-\OT1/cmr/m/it/9 Proc. 22nd In-ter-na-
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 47--53
-\OT1/cmr/m/it/9 tional Con-fer-ence on
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 47--53
-\OT1/cmr/m/it/9 DNA Com-put-ing and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--53
-\OT1/cmr/m/it/9 Molec-u-lar Pro-gram-
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 47--53
-\OT1/cmr/m/n/9 9818 of \OT1/cmr/m/it/9 LNCS\OT1/cmr/m/n/9 , pages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
-[]\OT1/cmr/m/n/9 Jun Ma and Judy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
-\OT1/cmr/m/n/9 Morse meets Koch.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
-\OT1/cmr/m/it/9 Frac-tals\OT1/cmr/m/n/9 , 13:191--206,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-\OT1/cmr/m/n/9 de-sign prob-lems for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-\OT1/cmr/m/n/9 ori-tatami sys-tems.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-\OT1/cmr/m/it/9 The-o-ret-i-cal Com-puter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-\OT1/cmr/m/it/9 Sci-ence\OT1/cmr/m/n/9 , 671:26--35,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
-[]\OT1/cmr/m/n/9 Matthew J. Patitz.
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 65--69
-\OT1/cmr/m/n/9 Self-assembly of frac-
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 65--69
-\OT1/cmr/m/it/9 of Al-go-rithms\OT1/cmr/m/n/9 , pages
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
-\OT1/cmr/m/n/9 1918--1922. Springer,
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 71--74
-[]\OT1/cmr/m/n/9 Paul W. K. Rothe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-\OT1/cmr/m/n/9 of DNA Sier-pin-ski
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/n/9 John T. Lis, and
- []
-
-
-Underfull \hbox (badness 3219) in paragraph at lines 76--81
-\OT1/cmr/m/n/9 tran-scrip-tional fold-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/n/9 of a ri-boswitch at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/n/9 nu-cleotide res-o-lu-tion.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/it/9 Na-ture Struc-tural &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/it/9 Molec-u-lar Bi-ol-ogy\OT1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--81
-\OT1/cmr/m/n/9 23(12):1124--1133,
- []
-
-[10]
-Underfull \hbox (badness 1292) in paragraph at lines 83--86
-[]\OT1/cmr/m/n/9 Erik Win-free.  \OT1/cmr/m/it/9 Al-go-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-\OT1/cmr/m/it/9 rith-mic Self-Assembly
- []
+LaTeX Warning: Reference `fig:Dzag2' on page 9 undefined on input line 460.
 
-) [11] <Figs/counter_zig.png, id=89, 578.16pt x 145.0218pt>
+(./heighway_CIAA2018.bbl [9 <./Figs/DFAO-zig1.png>]) [10]
+<Figs/counter_zig.png, id=88, 578.16pt x 145.0218pt>
 File: Figs/counter_zig.png Graphic file (type png)
 
 <use Figs/counter_zig.png>
-Package pdftex.def Info: Figs/counter_zig.png used on input line 498.
+Package pdftex.def Info: Figs/counter_zig.png used on input line 532.
 (pdftex.def)             Requested size: 347.12354pt x 87.06906pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Figs/D-zig1_brick.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figs/D-zig1_brick.pdf, id=90, 1646.91286pt x 1072.72768pt>
+<Figs/D-zig1_brick.pdf, id=89, 1646.91286pt x 1072.72768pt>
 File: Figs/D-zig1_brick.pdf Graphic file (type pdf)
 
 <use Figs/D-zig1_brick.pdf>
-Package pdftex.def Info: Figs/D-zig1_brick.pdf used on input line 525.
+Package pdftex.def Info: Figs/D-zig1_brick.pdf used on input line 578.
 (pdftex.def)             Requested size: 347.12354pt x 226.09789pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Figs/D-zag1_brick.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figs/D-zag1_brick.pdf, id=91, 1895.88304pt x 655.24799pt>
+<Figs/D-zag1_brick.pdf, id=90, 1895.88304pt x 655.24799pt>
 File: Figs/D-zag1_brick.pdf Graphic file (type pdf)
 
 <use Figs/D-zag1_brick.pdf>
-Package pdftex.def Info: Figs/D-zag1_brick.pdf used on input line 532.
+Package pdftex.def Info: Figs/D-zag1_brick.pdf used on input line 585.
 (pdftex.def)             Requested size: 347.12354pt x 119.9692pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Figs/D-zig2_brick.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figs/D-zig2_brick.pdf, id=92, 1727.25305pt x 1028.64305pt>
+<Figs/D-zig2_brick.pdf, id=91, 1727.25305pt x 1028.64305pt>
 File: Figs/D-zig2_brick.pdf Graphic file (type pdf)
 
 <use Figs/D-zig2_brick.pdf>
-Package pdftex.def Info: Figs/D-zig2_brick.pdf used on input line 539.
+Package pdftex.def Info: Figs/D-zig2_brick.pdf used on input line 592.
 (pdftex.def)             Requested size: 347.12354pt x 206.7138pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Figs/D-zag2_brick.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figs/D-zag2_brick.pdf, id=93, 2207.12569pt x 964.44318pt>
+<Figs/D-zag2_brick.pdf, id=92, 2207.12569pt x 964.44318pt>
 File: Figs/D-zag2_brick.pdf Graphic file (type pdf)
 
 <use Figs/D-zag2_brick.pdf>
-Package pdftex.def Info: Figs/D-zag2_brick.pdf used on input line 546.
+Package pdftex.def Info: Figs/D-zag2_brick.pdf used on input line 599.
 (pdftex.def)             Requested size: 347.12354pt x 151.67986pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Figs/D-zig3_brick.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figs/D-zig3_brick.pdf, id=94, 2490.0729pt x 713.06403pt>
+<Figs/D-zig3_brick.pdf, id=93, 2490.0729pt x 713.06403pt>
 File: Figs/D-zig3_brick.pdf Graphic file (type pdf)
 
 <use Figs/D-zig3_brick.pdf>
-Package pdftex.def Info: Figs/D-zig3_brick.pdf used on input line 553.
+Package pdftex.def Info: Figs/D-zig3_brick.pdf used on input line 606.
 (pdftex.def)             Requested size: 347.12354pt x 99.39305pt.
- [12 <./Figs/counter_zig.png>] [13 <./Figs/D-zig1_brick.pdf>] [14 <./Figs/D-zag
-1_brick.pdf> <./Figs/D-zig2_brick.pdf>] [15 <./Figs/D-zag2_brick.pdf> <./Figs/D
+ [11 <./Figs/counter_zig.png>] [12] [13 <./Figs/D-zig1_brick.pdf> <./Figs/D-zag
+1_brick.pdf>] [14 <./Figs/D-zig2_brick.pdf> <./Figs/D-zag2_brick.pdf> <./Figs/D
 -zig3_brick.pdf>] (./heighway_CIAA2018.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15933 strings out of 493088
- 333836 string characters out of 6137143
- 566371 words of memory out of 5000000
- 19068 multiletter control sequences out of 15000+600000
+ 15943 strings out of 493088
+ 334009 string characters out of 6137143
+ 566412 words of memory out of 5000000
+ 19076 multiletter control sequences out of 15000+600000
  22499 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,71p,471b,2662s stack positions out of 5000i,500n,10000p,500000b,80000s
@@ -1221,10 +895,10 @@ c/amsfonts/cm/cmti9.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8
 .pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/w
 32tex/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on heighway_CIAA2018.pdf (15 pages, 15486885 bytes).
+Output written on heighway_CIAA2018.pdf (14 pages, 15947820 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 205 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
