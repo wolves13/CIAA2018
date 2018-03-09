@@ -148,13 +148,14 @@ Any portion of the dragon can be represented by a factor of $P$; for instance, F
 %\end{figure}
 
 In this paper, we propose a generic design of oritatami system for the algorithmic cotranscriptional folding of an arbitrary finite portion of the Heighway dragon. 
-Fig.~\ref{fig:heighway6_oritatami} shows the portion $P[0 .. 62]$ thus folded (the dragon is slanted but this is because the OS operates on the triangular grid). 
-The transcript is a repetition of three modules: a catenation of binary counters, DFAO module, and turning module. 
-The counter is a technical modification of the one proposed in \cite{GeMeScSe2016} so that it increments a given count $i$ exactly by 1 while folding into a (red) line segment. 
+Fig.~\ref{fig:heighway6_oritatami} shows the portion $P[0 .. 62]$ thus folded (the dragon is slanted but this is because the OS operates on the triangular grid rather than on the square grid). 
+The OS transcribes three modules: counter module, DFAO module, and turning module, in this order repeatedly. 
+The counter module is a technical modification of the binary counter proposed in \cite{GeMeScSe2016} so that it increments a given count $i$ exactly by 1 while folding into a (red) line segment. 
 %By being fed with carry exactly once, the catenation increments the count $i$ exactly by 1 while folding into a (red) line segment. 
-At the end of the segment comes a DFAO module, which computes the turn direction $P[i]$ and propagates it alogn with the count $i$ to the next module for turn.  
+At the end of the segment comes a DFAO module, which computes the turn direction $P[i]$ and propagates it along with the count $i$ to the next module for turn.  
 A (green) L-shaped block is the turning module. 
 It is a concatenation of three bit-sequence bifurcators, each of which folds into a rhombus, bifurcates $i$ leftward as well as rightward, and guides further folding according to the turning direction. 
+The next counter module then again increments one of the bifurcated $i$ and folds into the next line segment, and so on. 
 %We shall implement the DFAO and turning modules and verify them. 
 
 The generic design proves the next theorem (for terminologies, see Sect.~\ref{sect:preliminaries}). 
@@ -179,12 +180,12 @@ For two indices $i,j$ with $1\leq i \leq j \leq n$, we let $w[i..j]$ refer to th
 For $k \ge 1$, $w[1..k]$ is called a \textit{prefix} of $w$. 
 
 Oritatami systems fold their transcript, a sequence of beads, over the triangular grid graph $\mathbb{T} = (V, E)$ as suggested in Fig.~\ref{fig:glider} cotranscriptionally based on hydrogen-bond-based interactions (\textit{h-interactions} for short) which the system allow for between adjacent beads of particular types. 
+When two beads form an h-interaction, informally we say they are bound. 
 A directed path $P = p_1 p_2 \cdots p_n$ in $\mathbb{T}$ is a sequence of \textit{pairwise-distinct} points $p_1, p_2, \ldots, p_n \in V$ such that $\{p_i, p_{i+1}\} \in E$ for all $1 \leq i < n$.
 Its $i$-th point is referred to as $P[i]$. 
-
 A \textit{conformation} $C$ is a triple $(P, w, H)$ of a directed path $P$ in $\mathbb{T}$, $w \in \Sigma^*$ of the same length as $P$, and a set of h-interactions $H \subseteq \{\{i,j\} \mid 1 \leq i, i+2 \leq j, \{P[i], P[j]\} \in E\}$.
-This is to be interpreted as the sequence $w$ being folded in such a manner that its $i$-th bead $w[i]$ is placed on the $i$-th point $P[i]$ along the path and there is an h-interaction between the $i$-th and $j$-th beads if and only if $\{i, j\} \in H$. 
-The condition $i+2 \leq j$ represents the topological restriction that two consecutive beads along the path cannot form an h-interaction between them.
+This is to be interpreted as the sequence $w$ being folded in such a manner that its $i$-th bead $w[i]$ is placed on the $i$-th point $P[i]$ along the path and the $i$-th and $j$-th beads are bound if and only if $\{i, j\} \in H$. 
+The condition $i+2 \leq j$ represents the topological restriction that two consecutive beads along the path cannot be bound.
 A \textit{rule set} $\mathcal{H} \subseteq \Sigma \times \Sigma$ is a symmetric relation over the set of pairs of bead types, that is, for all bead types $a, b \in \Sigma$, $(a, b) \in \mathcal{H}$ implies $(b, a) \in \mathcal{H}$. 
 An h-interaction $\{i, j\} \in H$ is \textit{valid with respect to $\mathcal{H}$}, or simply \textit{$\mathcal{H}$-valid}, if $(w[i], w[j]) \in \mathcal{H}$. 
 This conformation $C$ is $\mathcal{H}$-valid if all of its h-interactions are $\mathcal{H}$-valid. 
@@ -226,10 +227,10 @@ We say that the bead $w[i+1]$ and the h-interactions it forms are \textit{stabil
 Note that an arity-$\alpha$ OS cannot fold any conformation of arity larger than $\alpha$.
 A conformation foldable by $\Xi$ is \textit{terminal} if none of its elongations is foldable by $\Xi$. 
 The OS $\Xi$ is \textit{deterministic} if for all $i \ge 0$, there exists at most one $C_{i+1}$ that satisfies \eqref{eq:cotranscriptional_folding}. 
-By DOS, we mean the deterministic OS. 
+The deterministic OS is abbreviated as DOS. 
 Thus, a DOS folds into a unique terminal conformation. 
 An OS is \textit{cyclic} if its transcript is of the form $u^i u_p$ for some $i \ge 2$ and a prefix $u_p$ of $u$. 
-The cyclic OSs are considered to be one of the practical classes of OS because a periodic RNA transcript is likely to be transcribed out of a circular DNA sequence \cite{GearyAndersen2014}. 
+The cyclic OS is considered to be one of the practical classes of OS because a periodic RNA transcript is likely to be transcribed out of a circular DNA sequence \cite{GearyAndersen2014}. 
 
 \begin{wrapfigure}{r}{0.6\linewidth}
 \vspace*{-5mm}
@@ -310,7 +311,7 @@ Only the third bead, $b'$, can form a new h-interaction, with the $b$ in the see
 For the $b{-}b'$ interaction, the fragment must be folded as bolded in Fig.~\ref{fig:glider} (left). 
 According to this most stable folding, the first bead $w[1] = a$ is stabilized to the east of the previous bead, and then the bead $w[4] = b$ is transcribed. 
 The next two beads $w[2], w[3]$ are stabilized as illustrated one after another, but we can easily see that the bolded elongation dominates even their stabilization. 
-It suffices to observe that neither $w[4]$ nor $w[5]$ can form any new h-interaction. 
+It suffices to observe that neither $w[4]$ nor $w[5]$ can bind. 
 When $w[4] = b$ is transcribed (after $w[1]$ is stabilized), $b'$-beads around are either too far or too close  (recall that $w[4]$ cannot interact with $w[3] = b'$). 
 In addition, $w[5]$ is inert. 
 Thus, they cannot override the bolded ``decision.''
@@ -337,7 +338,7 @@ We say that an OS $\Xi$ \textit{weakly folds} (or ``self-assembles'') $\diamonds
 
 We propose a generic design of DOS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
 Let $n = \min\{m \mid j_2 < 2^m\}$. 
-Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types with a fixed rule set $\mathcal{H}$ are employed (some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}). 
+Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}.} with a fixed rule set $\mathcal{H}$ are employed. 
 The design also challenges to make the resulting DOS cyclic. 
 Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
 However, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
@@ -358,9 +359,9 @@ where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 
 Upon this seed, a periodic transcript is folded into the dragon $P[j_1..j_2]$. 
 Its period is semantically divided into six \textit{modules} as $C D_v T C D_h T$, where 
 \begin{itemize}
-\item $C$ is called a \textit{counter module}, which increments $i$ by 1 and propagates it; 
-\item $D_v$ and $D_h$ are called a \textit{DFAO module}, which computes $P[i]$ and interprets it properly (this issue of interpretation shall be discussed in the next paragraph); 
-\item $T$ is called a \textit{turner module}, which makes a turn according to the interpretation. 
+\item $C$ is called a \textit{counter module}; it increments $i$ by 1 and propagates it; 
+\item $D_v$ and $D_h$ are called a \textit{DFAO module}; they compute $P[i]$ and interpret it properly (this issue of interpretation shall be discussed shortly); 
+\item $T$ is called a \textit{turner module}; it makes a turn according to the interpretation. 
 \end{itemize}
 The first $C$ and $D_v$ modules fold into a vertical line segment, while the second $C$ and $D_h$ fold into the next line segment, which is guaranteed to be horizontal since vertical and horizontal segments alternate on the Heighway dragon. 
 The DFAO modules $D_v, D_h$ differ only in their way to interpret their intermediate outcome $P[i]$. 
@@ -575,35 +576,35 @@ The labels B and T of transitions stand for that the previous submodule (glider)
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{pics/DFAO_brick/D-zig1_brick.png}
+%\includegraphics[width=\linewidth]{Figs/D-zig1_brick.pdf}
 \caption{The brick automaton for the first zig of DFAO module.}
 \label{fig:brick_automaton_Dzig1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{Figs/D-zag1_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zag1_brick.pdf}
 \caption{The brick automaton for the first zag of DFAO module.}
 \label{fig:brick_automaton_Dzag1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{Figs/D-zig2_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zig2_brick.pdf}
 \caption{The brick automaton for the second zig of DFAO module.}
 \label{fig:brick_automaton_Dzig2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{Figs/D-zag2_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zag2_brick.pdf}
 \caption{The brick automaton for the second zzg of DFAO module.}
 \label{fig:brick_automaton_Dzag2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{Figs/D-zig3_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zig3_brick.pdf}
 \caption{The brick automaton for the third zig of DFAO module.}
 \label{fig:brick_automaton_Dzig3}
 \end{figure}
