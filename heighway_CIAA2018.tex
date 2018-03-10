@@ -140,7 +140,7 @@ A turtle should interpret an L (resp.~R) as ``move forward by unit distance and 
 Any portion of the dragon can be represented by a factor of $P$; for instance, Fig.~\ref{fig:heighway_dragon} (Right) depicts the portion $P[0 .. 1022]$, i.e., the first $2^{10}-1$ turns of the dragon. 
 
 %\begin{figure}[htb]
-\begin{wrapfigure}{l}{0.57\linewidth}
+\begin{wrapfigure}[15]{l}{0.57\linewidth}
 \vspace*{-5mm}
 \centering
 \includegraphics[width=\linewidth]{Figs/6bit_heighway.pdf}
@@ -199,7 +199,8 @@ For two indices $i,j$ with $1\leq i \leq j \leq n$, we let $w[i..j]$ refer to th
 For $k \ge 1$, $w[1..k]$ is called a \textit{prefix} of $w$. 
 
 Oritatami systems fold their transcript, a sequence of beads, over the triangular grid graph $\mathbb{T} = (V, E)$ (see Figs.~\ref{fig:triangular_grid} and \ref{fig:glider}) cotranscriptionally based on hydrogen-bond-based interactions (\textit{h-interactions} for short) which the system allow for between adjacent beads of particular types. 
-When two beads form an h-interaction, informally we say they are bound. 
+When beads form an h-interaction, informally we say they are bound. 
+For two points $p_1 = (x_1, y_1), p_2 = (x_2, y_2) \in V$, $\{p_1, p_2\} \in E$ if $|x_1 - x_2| = 1$ and $y_1 = y_2$ or $x_1 = x_2$ and $|y_1 - y_2| = 1$. 
 A directed path $P = p_1 p_2 \cdots p_n$ in $\mathbb{T}$ is a sequence of \textit{pairwise-distinct} points $p_1, p_2, \ldots, p_n \in V$ such that $\{p_i, p_{i+1}\} \in E$ for all $1 \leq i < n$.
 Its $i$-th point is referred to as $P[i]$. 
 A \textit{conformation} $C$ is a triple $(P, w, H)$ of a directed path $P$ in $\mathbb{T}$, $w \in \Sigma^*$ of the same length as $P$, and a set of h-interactions $H \subseteq \{\{i,j\} \mid 1 \leq i, i+2 \leq j, \{P[i], P[j]\} \in E\}$.
@@ -335,7 +336,7 @@ Hence, $w[4]$ cannot override the previous ``decision'' so that $w[2]$ is stabil
 $w[5]$ cannot override it, either, simply because it is inert. 
 It is easily induced inductively that gliders of arbitrary ``flight distance'' can be folded. 
 
-Gliders also provide a medium to propagate 1-bit at arbitrary distance as the position of their last beads, which is determined by the height (top or bottom) of the first bead and a flying distance.  
+Gliders also provide a medium to propagate 1-bit arbitrarily far as the position of their last beads, which is determined by the height (top or bottom) of the first bead and a propagating distance.  
 %The height (top or bottom) of the first bead determines whether the last bead is stabilized top or bottom after flying a given distance.
 For instance, the glider in Fig.~\ref{fig:glider} launches top and thus its last bead (the $a'$) also comes top after traveling the distance 2.
 The OS we shall propose exploits this information-carrying capability.
@@ -397,9 +398,9 @@ Folding of one segment plus turn of the Heighway dragon, flow of information thr
 
 Before explaining the modules, one issue intrinsic to the folding by OS should be pointed. 
 It rises when the dragon makes a turn where it has already turned before. % that is, when two turns share a point. 
-By definition, OSs are not allowed to put a bead anywhere occupied by another bead. 
+By definition, the OS is not allowed to put a bead anywhere occupied by another bead. 
 Being scaled sufficiently large, a rhombus corresponding to a point affords two turning modules, which otherwise collide, as long as they fold into an L-shape (Figs.~\ref{fig:heighway6_oritatami}, \ref{fig:abst_dragon}). 
-A turning module has its three bifurcator submodules direct further folding obtusely one after another guided by the signal O from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another by A, as colored in green, and folds into two L-shape conformations. 
+A turning module has its three bifurcators direct further folding obtusely one after another guided by the signal O from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another by A, as colored in green, and folds into two L-shape conformations. 
 Note that two turns at a point are both acute or both obtuse. 
 
 Having outlined the generic design, now we explain how the design implements an OS for a specific target portion $P[j_1 .. j_2]$, or more precisely, how the modules $C, D_v, D_h, T$ and their submodules are implemented, interlocked with each other, and collaborate. 
@@ -532,7 +533,7 @@ We shall explain submodules to handle the other tasks.
 
 \begin{figure}[h]
 \centering
-\begin{tikzpicture}
+\scalebox{0.8}{\begin{tikzpicture}
 
 \foreach \x in {0} {
 \draw (\x, 0)++(120:1.5) -- ++(0:1) -- ++(300:0.5) -- ++(180:0.5) node (seedout) {} -- ++(180:0.5) -- cycle;
@@ -629,7 +630,7 @@ We shall explain submodules to handle the other tasks.
 }
 
 \foreach \x in {-1.5} {
-\draw[thick, ->] (\x, 0)++(300:6) 
+\draw[thick, ->] (\x, 0)++(300:5) 
 -- ++(120:0.5) node (A2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
 -- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
 -- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
@@ -658,7 +659,7 @@ We shall explain submodules to handle the other tasks.
 \draw (Dvout) to [out=300, in=180] (AO1in);
 \draw[-latex] (AO1in) to [out=0, in=120] node[below right] {($i$, A) in \eqref{eq:Dv_output}} (A1in);
 \draw[-latex] (AO1in) to [out=0, in=120] node[above] {($i$, O) in \eqref{eq:Dv_output}} (O1in);
-\draw (10.5, 0) ++(300:4.75) node (AO1out) {($i$, carry) in \eqref{eq:turner_output}};
+\draw (9.75, 0) ++(300:4) node (AO1out) {($i$, carry) in \eqref{eq:turner_output}};
 \draw (A1out) to [out=210, in=150] (AO1out);
 \draw (O1out) to [out=330, in=120] (AO1out);
 \draw[-latex] (AO1out) to [out=300, in=0] (C2in);
@@ -671,7 +672,7 @@ We shall explain submodules to handle the other tasks.
 \draw (O2out) to [out=150, in=270] (AO2-C1);
 \draw[-latex] (AO2-C1) to [out=90, in=120] (C1in);
 
-\end{tikzpicture}
+\end{tikzpicture}}
 \caption{Module automaton of the proposed cyclic DOS for the Heighway dragon $P[j_1 .. j_2]$. 
 Transitions are labeled with the information propagated with its format. 
 }
