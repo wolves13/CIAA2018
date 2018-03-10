@@ -359,7 +359,7 @@ Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead type
 The design also challenges to make the resulting DOS cyclic. 
 Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
 However, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
-Such a ``hardcoding'' also goes against the spirit of algorithmic self-assembly. 
+Such a ``hardcoding'' also runs counter to the spirit of algorithmic self-assembly. 
 
 \begin{figure}[tb]
 \includegraphics[width=\linewidth]{Figs/seed_sample2.png}
@@ -535,22 +535,23 @@ We shall explain submodules to handle the other tasks.
 \begin{tikzpicture}
 
 \foreach \x in {0} {
-\draw (\x, 0)++(120:1.5) -- node[below] {Seed} ++(0:1) -- ++(300:0.5) -- ++(180:0.5) node (seedout) {} -- ++(180:0.5) -- cycle;
+\draw (\x, 0)++(120:1.5) -- ++(0:1) -- ++(300:0.5) -- ++(180:0.5) node (seedout) {} -- ++(180:0.5) -- cycle;
+\draw[white] (\x, 0)++(120:1.25) -- node[black] {Seed} ++(0:1);
 }
 
 \foreach \x in {0} {
-\draw (\x, 0) -- ++(0:0.5) node (C1in) {} -- ++(0:0.5) -- ++(300:2) -- ++(180:1) -- cycle; 
-\draw[white] (\x+0.5, 0) -- node[sloped, black] {Counter $C$} ++(300:2) node (C1out) {};
+\draw (\x, 0) -- ++(0:0.5) node (C1in) {} -- ++(0:0.5) -- node[sloped, below] {Counter $C$} ++(300:3) -- ++(180:0.5) node (C1out) {} -- ++(180:0.5) -- node[sloped, above] {$i{+}{+}$ if carried} ++(120:3); 
+%\draw[white] (\x+0.5, 0) -- node[sloped, black] {Counter $C$} ++(300:2) node (C1out) {};
 }
 
-\foreach \x in {0} {
-\draw (\x, 0)++(300:3) -- ++(0:0.5) node (Dvin) {} -- ++(0:0.5) -- ++(300:0.5) -- ++(180:0.5) node (Dvout) {} -- ++(180:0.5) -- cycle; 
-\draw[white] (\x, 0)++(300:3.25) -- node[black] {$D_v$} ++(0:1);
+\foreach \x in {2} {
+\draw (\x, 0)++(300:1) -- ++(0:0.5) node (Dvin) {} -- ++(0:0.5) -- ++(300:0.5) -- ++(180:0.5) node (Dvout) {} -- ++(180:0.5) -- cycle; 
+\draw[white] (\x, 0)++(300:1.25) -- node[black] {$D_v$} ++(0:1);
 }
 
 \foreach \x in {7} {
 %\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
-\draw[thick, ->] (\x, 0) node (O1in) {} -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (O1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
@@ -567,13 +568,13 @@ We shall explain submodules to handle the other tasks.
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2)
+-- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2) node (O1out) {}
 ;
 }
 
 \foreach \x in {5} {
 %\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
-\draw[thick, ->] (\x, 0) node (A1in) {} -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (A1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
@@ -590,19 +591,90 @@ We shall explain submodules to handle the other tasks.
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
 -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node (A1out) {}
 ;
 }
 
-\draw[-latex] (seedout) -- node[right] {No carry} (C1in);
-\draw[-latex] (C1out) -- (Dvin);
+\foreach \x in {5.5} {
+\draw (\x, 0)++(300:5) -- node[below] {Counter $C$} ++(0:3) -- ++(300:0.5) node (C2in) {} -- ++(300:0.5) -- node[above] {$i{+}{+}$ if carried} ++(180:3) -- ++(120:0.5) node (C2out) {} -- ++(120:0.5);
+}
+
+\foreach \x in {3.5} {
+\draw (\x, 0)++(300:5) -- ++(0:0.5) -- ++(300:0.5) node (Dhin) {} -- ++(300:0.5) -- ++(180:0.5) -- ++(120:0.5) node (Dhout) {} -- cycle; 
+\draw (\x, 0)++(300:5.5)++(0:0.25) node {$D_h$};
+}
+
+\foreach \x in {1.5} {
+\draw[thick, ->] (\x, 0)++(300:6)
+-- ++(120:0.5) node (O2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node[draw, inner sep=0in] (O2m1) {}
+;
+\draw[thick,->] (O2m1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.9) -- ++(300:0.8) -- ++(180:0.2) node[draw, inner sep=0in] (O2m2) {}
+;
+\draw[thick, ->] (O2m2) 
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node (O2out) {}
+;
+}
+
+\foreach \x in {-1.5} {
+\draw[thick, ->] (\x, 0)++(300:6) 
+-- ++(120:0.5) node (A2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node[draw, inner sep=0in] (A2m1) {}
+;
+\draw[thick, ->] (A2m1) 
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node[draw, inner sep=0in] (A2m2) {}
+;
+\draw[thick, ->] (A2m2) 
+-- ++(120:0.5) -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node (A2out) {}
+;
+}
+
+\draw[-latex] (seedout) -- node[above right] {($i = j_1$, no carry) in \eqref{eq:turner_output}} (C1in);
+\draw[-latex] (C1out) to [out=300, in=120] node[below right] {$i$ in \eqref{eq:counter_output}} (Dvin);
 \draw(A1in)++(180:0.25)++(120:1) node[circle, draw, inner sep=0in] (AO1in) {};
 \draw (Dvout) to [out=300, in=180] (AO1in);
-\draw[-latex] (AO1in) to [out=0, in=120] node[below] {A} (A1in);
-\draw[-latex] (AO1in) to [out=0, in=120] node[above] {O} (O1in);
+\draw[-latex] (AO1in) to [out=0, in=120] node[below right] {($i$, A) in \eqref{eq:Dv_output}} (A1in);
+\draw[-latex] (AO1in) to [out=0, in=120] node[above] {($i$, O) in \eqref{eq:Dv_output}} (O1in);
+\draw (10.5, 0) ++(300:4.75) node (AO1out) {($i$, carry) in \eqref{eq:turner_output}};
+\draw (A1out) to [out=210, in=150] (AO1out);
+\draw (O1out) to [out=330, in=120] (AO1out);
+\draw[-latex] (AO1out) to [out=300, in=0] (C2in);
+\draw[-latex] (C2out) -- node[below] {$i$ in \eqref{eq:counter_output}} (Dhin);
+\draw[-latex] (Dhout) -- node[above] {($i$, O) in \eqref{eq:Dh_output}} (O2in); 
+\draw (0, 0)++(300:6.5) node (Dh-A2) {};
+\draw[-latex] (Dhout) to [out=180, in=0] (Dh-A2) node[below] {($i$, A) in \eqref{eq:Dh_output}} to [out=180, in=0] (A2in);
+\draw (-2, 0)++(300:1) node (AO2-C1) {($i$, carry) in \eqref{eq:turner_output}};
+\draw (A2out) to [out=240, in=270] (AO2-C1);
+\draw (O2out) to [out=150, in=270] (AO2-C1);
+\draw[-latex] (AO2-C1) to [out=90, in=120] (C1in);
 
 \end{tikzpicture}
-\caption{Module automaton}
+\caption{Module automaton of the proposed cyclic DOS for the Heighway dragon $P[j_1 .. j_2]$. 
+Transitions are labeled with the information propagated with its format. 
+}
 \label{fig:module_automaton}
 \end{figure}
 
