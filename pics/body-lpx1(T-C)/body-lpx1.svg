@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="body-lpx1.svg"
-   inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\path5416.png"
+   inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -295,22 +295,6 @@
        y2="470.48718"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,-2.463064)" />
-    <marker
-       inkscape:stockid="Arrow1Lend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Lend-5-6-8"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path39683-5-21-8"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
-    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -319,16 +303,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="508.33909"
-     inkscape:cy="924.99741"
+     inkscape:zoom="0.35"
+     inkscape:cx="-523.47129"
+     inkscape:cy="676.64383"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-grids="true"
-     inkscape:window-width="1920"
+     inkscape:window-width="2560"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="3832"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true">
@@ -375,74 +359,83 @@
            y="-20.787401" /></flowRegion><flowPara
          id="flowPara3777" /></flowRoot>    <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -83.09557,143.15974 2.679493,8.66025 h 24.999999 l -2.679489,-8.66026 z"
+       d="m 22.208651,143.15974 2.679493,8.66025 h 24.999999 l -2.679489,-8.66026 z"
        id="path3779-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -58.095567,143.15973 2.679489,8.66026 h 25.000001 l -2.6795,-8.66026 z"
+       d="m 47.208654,143.15973 2.679489,8.66026 h 25.000001 l -2.6795,-8.66026 z"
        id="path3779-7"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -55.416078,151.81999 2.679493,8.66025 h 25.000001 l -2.67949,-8.66026 z"
+       d="m 49.888143,151.81999 2.679493,8.66025 h 25.000001 l -2.67949,-8.66026 z"
        id="path3779-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -80.416077,151.81999 2.679493,8.66025 h 24.999999 l -2.679493,-8.66025 z"
+       d="m 24.888144,151.81999 2.679493,8.66025 h 24.999999 l -2.679493,-8.66025 z"
        id="path3779-35"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 329.21634,68.40003 2.67949,8.66025 h 25 l -2.67949,-8.66026 z"
        id="path3779-8"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 354.21634,68.40003 2.67949,8.66025 h 25 l -2.67949,-8.66026 z"
        id="path3779-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68200839;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 356.89583,77.06028 2.67949,8.660251 h 25 l -2.67949,-8.660251 z"
        id="path3779-61"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#8fe9ef;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 379.21634,68.40002 h 10 l 5.35898,17.320511 h -10 z"
        id="path3832"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="256.19556"
-       y="-295.3013"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="168.8631"
+       y="-352.12775"
        id="text3844"
-       transform="rotate(60)"
+       transform="rotate(75)"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3842"
-         x="256.19556"
-         y="-295.3013"
-         style="stroke-width:0.26458332">turn</tspan></text>
+         x="168.8631"
+         y="-352.12775"
+         style="font-size:4.58611107px;stroke-width:0.26458332"> Turn</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3846"
@@ -463,7 +456,7 @@
          id="tspan3854-3"
          x="-83.659393"
          y="-57.490395"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -35.616073,-72.627513 5,8.660251 h 25.0000001 l -5.0000001,-8.660261 z"
@@ -486,35 +479,40 @@
        id="path3779-1"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 242.98943,49.350028 2.67949,8.660252 25,4e-6 -2.67949,-8.66026 z"
        id="path3779-6-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 267.98943,49.350024 2.67949,8.660254 25,10e-7 -2.6795,-8.66026 z"
        id="path3779-7-1"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 270.66892,58.010283 2.6795,8.660245 24.99999,10e-6 -2.67949,-8.660261 z"
        id="path3779-3-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 245.66892,58.01028 2.6795,8.660248 h 25 l -2.6795,-8.66025 z"
        id="path3779-35-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -527,35 +525,39 @@
          id="tspan3854-3-4"
          x="230.01962"
          y="55.654739"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 136.36218,65.560576 2.67949,8.66025 25,4e-6 -2.67949,-8.660258 z"
        id="path3779-6-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 161.36218,65.560572 2.67949,8.660252 25,1e-6 -2.6795,-8.660258 z"
        id="path3779-7-18"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 164.04167,74.220829 2.67949,8.66025 25,3e-6 -2.67949,-8.660259 z"
        id="path3779-3-33"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 139.04167,74.220826 2.67949,8.660252 25,10e-7 -2.67949,-8.660255 z"
        id="path3779-35-7"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -568,7 +570,7 @@
          id="tspan3854-3-1"
          x="147.96321"
          y="71.542351"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -581,42 +583,46 @@
          id="tspan3854-3-12"
          x="151.93196"
          y="80.046814"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 327.62893,15.483377 2.67948,8.6603 h 25 l -2.67948,-8.66031 z"
        id="path3779-8-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 352.62893,15.483377 2.67948,8.6603 h 25 l -2.67947,-8.66031 z"
        id="path3779-5-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#8fe9ef;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 377.62894,15.483367 h 9.99999 l 5.35897,17.3206 h -10.00001 z"
        id="path3832-8"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="209.57544"
-       y="-320.38522"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="117.33934"
+       y="-364.2908"
        id="text3844-5"
-       transform="rotate(60)"
+       transform="rotate(75)"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3842-5"
-         x="209.57544"
-         y="-320.38522"
-         style="stroke-width:0.26458332">turn</tspan></text>
+         x="117.33934"
+         y="-364.2908"
+         style="font-size:4.58611107px;stroke-width:0.26458332"> Turn</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -630,185 +636,203 @@
          style="stroke-width:0.26458332">T-A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="360.08679"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="356.91174"
        y="21.497713"
        id="text4267-0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-1"
-         x="360.08679"
+         x="356.91174"
          y="21.497713"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="335.32935"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="332.1543"
        y="21.308786"
        id="text4267-3"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-8"
-         x="335.32935"
+         x="332.1543"
          y="21.308786"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 329.50801,132.23566 2.67949,8.66025 h 25 l -2.67949,-8.66026 z"
        id="path3779-8-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 354.50801,132.23566 2.67949,8.66025 h 25 l -2.67949,-8.66026 z"
        id="path3779-5-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 357.1875,140.89591 2.67949,8.66025 h 25 l -2.67949,-8.66025 z"
        id="path3779-61-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#8fe9ef;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 379.50801,132.23565 h 10 l 5.35898,17.32051 h -10 z"
        id="path3832-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="311.62512"
-       y="-263.63626"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="230.46249"
+       y="-335.37677"
        id="text3844-2"
-       transform="rotate(60)"
+       transform="rotate(75)"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3842-6"
-         x="311.62512"
-         y="-263.63626"
-         style="stroke-width:0.26458332">turn</tspan></text>
+         x="230.46249"
+         y="-335.37677"
+         style="font-size:4.58611107px;stroke-width:0.26458332"> Turn</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="336.47885"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="334.36215"
        y="74.225456"
        id="text4267-3-6"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-8-1"
-         x="336.47885"
+         x="334.36215"
          y="74.225456"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="336.24133"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="334.65381"
        y="137.87187"
        id="text4267-3-3"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-8-9"
-         x="336.24133"
+         x="334.65381"
          y="137.87187"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="364.23361"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="361.58774"
        y="74.447647"
        id="text4267-6"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83"
-         x="364.23361"
+         x="361.58774"
          y="74.447647"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="364.3363"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="362.74878"
        y="138.09406"
        id="text4267-7"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6"
-         x="364.3363"
+         x="362.74878"
          y="138.09406"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="368.31906"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="364.61484"
        y="82.677116"
        id="text3840-54-9-6-4"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8"
-         x="368.31906"
+         x="364.61484"
          y="82.677116"
-         style="stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="368.42172"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="365.77585"
        y="147.07941"
        id="text3840-54-9-6-9"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9"
-         x="368.42172"
+         x="365.77585"
          y="147.07941"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 1</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 218.75563,77.202266 2.67949,8.660255 h 25.00001 l -2.6795,-8.66026 z"
        id="path3779-1-7"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 243.75563,77.20227 2.6795,8.660251 h 25 l -2.6795,-8.660255 z"
        id="path3779-6-3-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 268.75563,77.202266 2.6795,8.660255 h 25 l -2.6795,-8.66026 z"
        id="path3779-7-1-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 271.43513,85.862521 2.67949,8.660242 25,1e-5 -2.67949,-8.660252 z"
        id="path3779-3-3-1"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 246.43513,85.862521 2.67949,8.660242 h 25 l -2.67949,-8.660242 z"
        id="path3779-35-4-8"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -821,42 +845,47 @@
          id="tspan3854-3-4-8"
          x="231.36967"
          y="83.506981"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 219.84128,117.94819 2.67948,8.66027 h 25.00001 l -2.6795,-8.66028 z"
        id="path3779-1-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 244.84128,117.94819 2.67949,8.66027 24.99999,1e-5 -2.67948,-8.66028 z"
        id="path3779-6-3-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 269.84128,117.94819 2.67949,8.66027 h 25 l -2.6795,-8.66028 z"
        id="path3779-7-1-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 272.52076,126.60847 2.6795,8.66024 25,1e-5 -2.67949,-8.66026 z"
        id="path3779-3-3-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 247.52077,126.60846 2.67949,8.66025 h 25 l -2.67949,-8.66025 z"
        id="path3779-35-4-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -869,42 +898,47 @@
          id="tspan3854-3-4-2"
          x="231.36967"
          y="124.25275"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 220.60793,143.54168 2.67948,8.66025 h 25.00001 l -2.6795,-8.66026 z"
        id="path3779-1-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 245.60793,143.54168 2.67949,8.66025 25,1e-5 -2.67949,-8.66026 z"
        id="path3779-6-3-46"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 270.60793,143.54168 2.67949,8.66025 h 25 l -2.6795,-8.66026 z"
        id="path3779-7-1-26"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 273.28742,152.20194 2.67949,8.66024 25,1e-5 -2.67949,-8.66026 z"
        id="path3779-3-3-8"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 248.28742,152.20193 2.67949,8.66025 h 25 l -2.67949,-8.66025 z"
        id="path3779-35-4-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -917,535 +951,573 @@
          id="tspan3854-3-4-5"
          x="232.13637"
          y="149.84637"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="277.18561"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="274.53973"
        y="55.208664"
        id="text4267-6-7"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7"
-         x="277.18561"
+         x="274.53973"
          y="55.208664"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="280.8931"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="278.24722"
        y="63.627129"
        id="text3840-54-9-6-4-8"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4"
-         x="280.8931"
+         x="278.24722"
          y="63.627129"
-         style="stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="278.43286"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="275.78699"
        y="83.405693"
        id="text4267-6-0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-0"
-         x="278.43286"
+         x="275.78699"
          y="83.405693"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="282.51831"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="279.87244"
        y="91.635124"
        id="text3840-54-9-6-4-2"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-6"
-         x="282.51831"
+         x="279.87244"
          y="91.635124"
-         style="stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="278.34656"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="276.75903"
        y="123.80677"
        id="text4267-7-3"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6-9"
-         x="278.34656"
+         x="276.75903"
          y="123.80677"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="282.43198"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="280.84445"
        y="132.79205"
        id="text3840-54-9-6-9-5"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9-1"
-         x="282.43198"
+         x="280.84445"
          y="132.79205"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="279.78284"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="277.66614"
        y="149.24449"
        id="text4267-7-6"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6-0"
-         x="279.78284"
+         x="277.66614"
          y="149.24449"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="283.86826"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="281.75156"
        y="158.2299"
        id="text3840-54-9-6-9-2"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9-6"
-         x="283.86826"
+         x="281.75156"
          y="158.2299"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="252.99521"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="249.82025"
        y="55.208656"
        id="text4267-6-7-5"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7-7"
-         x="252.99521"
+         x="249.82025"
          y="55.208656"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="256.70261"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="253.52763"
        y="63.627121"
        id="text3840-54-9-6-4-8-9"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4-7"
-         x="256.70261"
+         x="253.52763"
          y="63.627121"
-         style="fill:#000000;fill-opacity:1;stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;fill:#000000;fill-opacity:1;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="254.43141"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="252.31477"
        y="124.52946"
        id="text4267-6-7-4"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7-5"
-         x="254.43141"
+         x="252.31477"
          y="124.52946"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="258.13885"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="256.02216"
        y="132.94783"
        id="text3840-54-9-6-4-8-2"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4-9"
-         x="258.13885"
+         x="256.02216"
          y="132.94783"
-         style="stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="253.58919"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="250.94339"
        y="83.060905"
        id="text4267-7-3-9"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6-9-9"
-         x="253.58919"
+         x="250.94339"
          y="83.060905"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="257.67453"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="255.02869"
        y="92.046349"
        id="text3840-54-9-6-9-5-4"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9-1-0"
-         x="257.67453"
+         x="255.02869"
          y="92.046349"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        x="254.45848"
        y="149.62248"
        id="text4267-7-3-6"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6-9-0"
          x="254.45848"
          y="149.62248"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="stroke-width:0.26458332;font-size:4.58611111px;">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        x="258.54385"
        y="158.60788"
        id="text3840-54-9-6-9-5-1"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9-1-7"
          x="258.54385"
          y="158.60788"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="stroke-width:0.26458332;font-size:4.58611111px;">T-C 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="169.09274"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="165.91779"
        y="71.607414"
        id="text4267-6-7-5-4"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7-7-3"
-         x="169.09274"
+         x="165.91779"
          y="71.607414"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="172.80023"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="169.62527"
        y="80.025871"
        id="text3840-54-9-6-4-8-9-5"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4-7-9"
-         x="172.80023"
+         x="169.62527"
          y="80.025871"
-         style="stroke-width:0.26458332">T-C 0/1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0/1</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -103.90392,44.393919 2.67953,8.660252 25.000027,3e-6 -2.6795,-8.66026 z"
+       d="m 1.4003272,44.393919 2.6795135,8.660252 25.0000173,3e-6 -2.6795,-8.66026 z"
        id="path3779-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -78.903855,44.393923 2.679492,8.660251 25,4e-6 -2.679492,-8.660259 z"
+       d="m 26.400366,44.393923 2.679492,8.660251 25,4e-6 -2.679492,-8.660259 z"
        id="path3779-6-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -53.903855,44.393919 2.679494,8.660252 24.999999,1e-6 -2.6795,-8.660258 z"
+       d="m 51.400366,44.393919 2.679494,8.660252 24.999999,1e-6 -2.6795,-8.660258 z"
        id="path3779-7-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -51.224363,53.054176 2.679493,8.660251 25,3e-6 -2.679491,-8.660259 z"
+       d="m 54.079858,53.054176 2.679493,8.660251 25,3e-6 -2.679491,-8.660259 z"
        id="path3779-3-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -76.224363,53.054174 2.679493,8.660252 25,10e-7 -2.679491,-8.660256 z"
+       d="m 29.079858,53.054174 2.679493,8.660252 25,10e-7 -2.679491,-8.660256 z"
        id="path3779-35-5"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -103.87298,82.687493 2.67953,8.660238 h 25.000033 l -2.679502,-8.660248 z"
+       d="m 1.4312672,82.687493 2.6795135,8.660238 H 29.110804 l -2.679502,-8.660248 z"
        id="path3779-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -78.872912,82.687493 2.679495,8.660238 24.999998,1e-5 -2.679494,-8.660248 z"
+       d="m 26.431309,82.687493 2.679495,8.660238 24.999998,1e-5 -2.679494,-8.660248 z"
        id="path3779-6-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -53.872913,82.687493 2.679497,8.660238 h 25 l -2.679502,-8.660248 z"
+       d="m 51.431308,82.687493 2.679497,8.660238 h 25 l -2.679502,-8.660248 z"
        id="path3779-7-0"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -51.193416,91.347731 2.679507,8.660199 24.999997,1e-5 -2.679504,-8.660209 z"
+       d="m 54.110805,91.347731 2.679507,8.660199 24.999997,1e-5 -2.679504,-8.660209 z"
        id="path3779-3-6"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:#ff2557;fill-opacity:0.68235294;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -76.193417,91.347731 2.679508,8.660199 h 25 l -2.679507,-8.660199 z"
+       d="m 29.110804,91.347731 2.679508,8.660199 h 25 l -2.679507,-8.660199 z"
        id="path3779-35-8"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-42.820229"
+       x="62.483997"
        y="50.642967"
        id="text3856-2-0-9"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-1-1"
-         x="-42.820229"
+         x="62.483997"
          y="50.642967"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-38.851482"
+       x="66.452736"
        y="59.14743"
        id="text3856-2-4-9"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-12-4"
-         x="-38.851482"
+         x="66.452736"
          y="59.14743"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-42.558327"
+       x="62.745895"
        y="88.748322"
        id="text3856-2-0-0"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-1-5"
-         x="-42.558327"
+         x="62.745895"
          y="88.748322"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-38.589577"
+       x="66.714645"
        y="97.252777"
        id="text3856-2-4-0"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-12-8"
-         x="-38.589577"
+         x="66.714645"
          y="97.252777"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-69.288826"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="33.898727"
        y="50.975296"
        id="text4267-6-7-5-5"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7-7-5"
-         x="-69.288826"
+         x="33.898727"
          y="50.975296"
-         style="stroke-width:0.26458332">T-A 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-65.581329"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="37.606228"
        y="59.393753"
        id="text3840-54-9-6-4-8-9-7"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4-7-5"
-         x="-65.581329"
+         x="37.606228"
          y="59.393753"
-         style="stroke-width:0.26458332">T-C 0</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-68.422127"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="34.236263"
        y="88.892441"
        id="text4267-7-3-9-6"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-6-9-9-4"
-         x="-68.422127"
+         x="34.236263"
          y="88.892441"
-         style="stroke-width:0.26458332">T-A 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-64.3367"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.32169"
        y="97.877853"
        id="text3840-54-9-6-9-5-4-3"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-9-1-0-0"
-         x="-64.3367"
+         x="38.32169"
          y="97.877853"
-         style="stroke-width:0.26458332">T-C 1</tspan></text>
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-92.823807"
+       x="12.480423"
        y="50.375698"
        id="text3856-2-0-6"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-1-2"
-         x="-92.823807"
+         x="12.480423"
          y="50.375698"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-92.267776"
+       x="13.036453"
        y="88.213783"
        id="text3856-2-0-7"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-1-14"
-         x="-92.267776"
+         x="13.036453"
          y="88.213783"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-51.724236"
-       y="148.8876"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="52.521652"
+       y="149.41676"
        id="text4267-6-7-5-4-1"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4265-83-7-7-3-9"
-         x="-51.724236"
-         y="148.8876"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
+         x="52.521652"
+         y="149.41676"
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-48.016747"
-       y="157.30606"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="56.229141"
+       y="157.83522"
        id="text3840-54-9-6-4-8-9-5-9"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3838-1-2-4-8-4-7-9-3"
-         x="-48.016747"
-         y="157.30606"
-         style="stroke-width:0.26458332">T-C 0/1</tspan></text>
+         x="56.229141"
+         y="157.83522"
+         style="font-size:4.58611107px;stroke-width:0.26458332">T-C 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-70.715607"
+       x="34.588615"
        y="149.62436"
        id="text3856-2-0-9-0"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-1-1-4"
-         x="-70.715607"
+         x="34.588615"
          y="149.62436"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-66.746857"
+       x="38.557369"
        y="158.12881"
        id="text3856-2-4-9-0"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3854-3-12-4-3"
-         x="-66.746857"
+         x="38.557369"
          y="158.12881"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        style="fill:#87aade;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -95.791124,134.35749 h 9.999953 L -80.4322,151.678 h -9.999977 z"
+       d="M 9.5130978,134.35749 H 19.51305 l 5.358971,17.32051 h -9.999977 z"
        id="path3832-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="75.908104"
-       y="148.88307"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="136.93619"
+       y="21.867151"
        id="text3844-6"
-       transform="rotate(60)"
+       transform="rotate(75)"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3842-1"
-         x="75.908104"
-         y="148.88307"
-         style="stroke-width:0.26458332">turn</tspan></text>
+         x="136.93619"
+         y="21.867151"
+         style="font-size:4.58611107px;stroke-width:0.26458332"> Turn</tspan></text>
     <path
        style="fill:#8fe9ef;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -90.416057,151.81999 h 9.99998 l 5.358984,17.32051 h -10 z"
+       d="m 14.888164,151.81999 h 9.99998 l 5.358984,17.32051 h -10 z"
        id="path3832-1"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="93.676376"
-       y="153.03154"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="154.66209"
+       y="21.138445"
        id="text3844-3"
-       transform="rotate(60)"
+       transform="rotate(75)"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan3842-9"
-         x="93.676376"
-         y="153.03154"
-         style="stroke-width:0.26458332">turn</tspan></text>
+         x="154.66209"
+         y="21.138445"
+         style="font-size:4.58611107px;stroke-width:0.26458332"> Turn</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -19.495633,-51.212228 -1.32292,1.322916 2.9131,1.523369"
@@ -1459,7 +1531,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 381.89583,77.06028 -1.6774,1.322917 2.50492,1.523369"
@@ -1467,7 +1540,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 356.89583,77.06028 -1.6774,1.322916 2.50492,1.52337"
@@ -1475,7 +1549,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 270.66892,58.010278 -1.67739,1.322916 2.50491,1.52337"
@@ -1483,7 +1558,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 295.66892,58.010277 -1.67739,1.322916 2.50491,1.523369"
@@ -1491,7 +1567,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 245.66892,58.01028 -1.67739,1.322916 2.50491,1.52337"
@@ -1499,7 +1576,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 296.42205,85.925321 -1.67739,1.322914 2.50491,1.523371"
@@ -1507,7 +1585,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 271.43513,85.862521 -1.6774,1.322914 2.50492,1.523371"
@@ -1515,7 +1594,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 246.43513,85.862521 -1.6774,1.322914 2.50492,1.523371"
@@ -1523,7 +1603,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 297.52077,126.60846 -1.6774,1.32291 2.50492,1.52337"
@@ -1531,7 +1612,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 272.52076,126.60847 -1.67739,1.32292 2.50491,1.52337"
@@ -1539,7 +1621,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 247.52077,126.60846 -1.6774,1.32291 2.50492,1.52337"
@@ -1547,7 +1630,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 298.28742,152.20193 -1.6774,1.32292 2.50492,1.52337"
@@ -1555,7 +1639,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 273.28742,152.20194 -1.6774,1.32292 2.50492,1.52337"
@@ -1563,7 +1648,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 248.28742,152.20193 -1.6774,1.32292 2.50492,1.52337"
@@ -1571,7 +1657,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 189.04167,74.220825 -1.67739,1.322916 2.50491,1.52337"
@@ -1579,7 +1666,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 164.04167,74.220824 -1.67739,1.322916 2.50491,1.52337"
@@ -1587,7 +1675,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 139.04167,74.220826 -1.67739,1.322916 2.50491,1.52337"
@@ -1595,81 +1684,91 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -26.224361,53.054171 -1.677395,1.322916 2.504915,1.52337"
+       d="m 79.07986,53.054171 -1.677395,1.322916 2.504915,1.52337"
        id="path4971-2-6-18"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -51.224361,53.054171 -1.677395,1.322916 2.504915,1.52337"
+       d="m 54.07986,53.054171 -1.677395,1.322916 2.504915,1.52337"
        id="path4971-2-6-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -76.31442,53.036596 -1.677394,1.322916 2.504914,1.52337"
+       d="m 28.989801,53.036596 -1.677394,1.322916 2.504914,1.52337"
        id="path4971-2-6-56"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -26.193416,91.347731 -1.67739,1.322901 2.504917,1.523361"
+       d="m 79.110805,91.347731 -1.67739,1.322901 2.504917,1.523361"
        id="path4971-2-6-98"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -51.193416,91.347731 -1.677393,1.322911 2.504917,1.523361"
+       d="m 54.110805,91.347731 -1.677393,1.322911 2.504917,1.523361"
        id="path4971-2-6-360"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -76.193417,91.347731 -1.67739,1.322901 2.504917,1.523361"
+       d="m 29.110804,91.347731 -1.67739,1.322901 2.504917,1.523361"
        id="path4971-2-6-659"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -30.416074,151.81998 -1.677395,1.32292 2.504914,1.52337"
+       d="m 74.888147,151.81998 -1.677395,1.32292 2.504914,1.52337"
        id="path4971-2-6-13"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -55.416078,151.81999 -1.677395,1.32292 2.504914,1.52337"
+       d="m 49.888143,151.81999 -1.677395,1.32292 2.504914,1.52337"
        id="path4971-2-6-61"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:transform-center-x="0.44693597"
        inkscape:transform-center-y="-0.10633686"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -80.294774,152.05269 -1.677395,1.32292 2.504914,1.52337"
+       d="m 25.009447,152.05269 -1.677395,1.32292 2.504914,1.52337"
        id="path4971-2-6-43"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <rect
        style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#dfdd5d;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
        id="rect5168"
@@ -1678,7 +1777,8 @@
        x="320.72345"
        y="46.604729"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <rect
        style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#dfdd5d;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
        id="rect5170"
@@ -1687,7 +1787,8 @@
        x="323.66339"
        y="132.13089"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <rect
        style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#dfdd5d;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
        id="rect5172"
@@ -1696,7 +1797,8 @@
        x="320.72345"
        y="46.604729"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <rect
        style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#dfdd5d;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
        id="rect5176"
@@ -1705,230 +1807,268 @@
        x="325.4375"
        y="134.54568"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 400.04998,156.77089 v -29.10417 h -76.72916 v 29.10417 z"
        id="path5178"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 398.99166,92.741692 V 63.63752 H 322.2625 v 29.104172 z"
        id="path5178-2"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 320.14583,57.81668 v 105.83345 h 82.02083 V 57.81668 Z"
        id="path5197"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <g
-       transform="matrix(0.10142356,0,0,0.28222223,283.32472,2.8222213)"
-       id="g44696"
-       style="stroke-width:1.66811585"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
+    <text
+       id="text5223"
+       y="48.701294"
+       x="358.27271"
+       style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44135568"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.10688019px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="442.99094"
-         y="271.17496"
-         id="text5223"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221"
-           x="442.99094"
-           y="271.17496"
-           style="font-size:27.10688019px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 389.12997,31.737208 V 116.11221 H 1119.5652 V 31.737208 Z"
-         id="path5225"
-         inkscape:connector-curvature="0" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.0173893px;line-height:0%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="369.85202"
-         y="47.728416"
-         id="text44433"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan44435"
-           x="369.85202"
-           y="47.728416"
-           style="font-size:50.04347229px;line-height:1.25;stroke-width:1.66811585px">Start</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -680.43573,157.3622 v 178.125 h 913.04395 v -178.125 z"
-         id="path5235"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -680.43579,391.7372 v 178.125 h 913.04395 v -178.125 z"
-         id="path5235-3"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M -706.5227,138.61221 V 588.6122 H 258.69519 V 138.61221 Z"
-         id="path5252"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44674-0"
-         d="M 383.91257,254.8622 H 321.30383"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44676-4"
-         d="m 285.65163,254.8622 h -50"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.1068821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="175.41241"
-         y="434.52277"
-         id="text5223-1"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221-7"
-           x="175.41241"
-           y="434.52277"
-           style="font-size:27.1068821px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path44674-0-2"
-         d="M 394.34734,492.9872 H 323.91256"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44676-4-0"
-         d="m 283.04299,492.9872 h -50"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-0)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.1068821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="173.84859"
-         y="831.74396"
-         id="text5223-1-7"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221-7-6"
-           x="173.84859"
-           y="831.74396"
-           style="font-size:27.1068821px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -1750.0016,206.1122 v 93.75 h 886.95703 v -93.75 z"
-         id="path5235-4"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M -3868.2646,131.11221 V 356.1122 h 913.0439 V 131.11221 Z"
-         id="path5235-2"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44674-0-0"
-         d="m -706.52274,256.7372 h -62.6087"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44676-4-6"
-         d="m -810.00103,256.7372 h -50"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-1)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.1068821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="-481.40811"
-         y="437.65054"
-         id="text5223-1-4"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221-7-3"
-           x="-481.40811"
-           y="437.65054"
-           style="font-size:27.1068821px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path44674-0-25"
-         d="m -1750.0016,252.9872 h -62.6087"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66680229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44676-4-8"
-         d="m -1853.4799,252.9872 h -50"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-6)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.1068821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="-1106.9515"
-         y="431.39508"
-         id="text5223-1-44"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221-7-60"
-           x="-1106.9515"
-           y="431.39508"
-           style="font-size:27.1068821px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -3821.3081,455.48719 v 150 h 834.783 v -150 z"
-         id="path5235-2-8"
-         inkscape:connector-curvature="0" />
-      <path
-         style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#df0000;stroke-width:1.75748026;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.70000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
-         d="m 827.79152,117.50157 c -4.8125,-8.37936 -8.75,-15.4455 -8.75,-15.70254 0,-0.25704 20.6884,-0.46734 45.97422,-0.46734 h 45.97422 l 8.08758,14.10714 c 4.44817,7.75893 8.54673,14.83036 9.10793,15.71429 l 1.02035,1.60714 -46.33215,-0.0117 -46.33215,-0.0117 z m 49.12352,5.95661 c 1.87785,-1.87785 0.86272,-4.0007 -2.3057,-4.82173 -1.241,-0.32157 -2.37217,-0.93209 -2.51371,-1.35671 -0.39004,-1.17014 1.73401,-1.70754 3.73781,-0.94569 1.39155,0.52907 1.77951,0.4498 1.77951,-0.36357 0,-2.49378 -6.7064,-2.13919 -7.5114,0.39715 -0.58536,1.84428 0.67246,3.38831 3.31886,4.07406 2.99074,0.77498 2.46698,1.97156 -0.83156,1.89978 -1.82663,-0.0397 -2.83304,0.25628 -2.83304,0.83333 0,2.07917 5.15922,2.28338 7.15923,0.28338 z m 4.26934,-0.23745 c 0,-1.28613 0.54676,-1.83825 2.32143,-2.34416 1.8418,-0.52504 2.37098,-1.09254 2.56128,-2.74667 0.28364,-2.46556 -1.3281,-3.94107 -4.30494,-3.94107 h -2.00634 v 5.35715 c 0,3.09523 0.30159,5.35714 0.71429,5.35714 0.39285,0 0.71428,-0.75707 0.71428,-1.68239 z"
-         id="path7801"
-         inkscape:connector-curvature="0"
-         transform="matrix(2.608697,0,0,0.93749997,-2793.4803,-9.9999965)" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.74845052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5716)"
-         d="m -3403.9166,365.4872 v 74.99999"
-         id="path5519"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.56385851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -2796.089,206.1122 v 93.75 h 886.957 v -93.75 z"
-         id="path5235-4-1"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44674-0-25-6"
-         d="m -2798.6978,255.7997 h -62.6087"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66680229;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path44676-4-8-7"
-         d="m -2902.1761,255.7997 h -50"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.66811585px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-6-8)" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:27.1068821px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.60869718"
-         x="-1735.6227"
-         y="436.08664"
-         id="text5223-1-44-5"
-         transform="scale(1.6681158,0.59947877)"><tspan
-           sodipodi:role="line"
-           id="tspan5221-7-60-3"
-           x="-1735.6227"
-           y="436.08664"
-           style="font-size:27.1068821px;stroke-width:2.60869718">T</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.74845052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 754.34754,115.17471 V 147.0497"
-         id="path6457"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:2.74845052;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6581)"
-         d="m 754.34762,165.7997 v 15.00001"
-         id="path6459"
-         inkscape:connector-curvature="0" />
-    </g>
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:4.58611107px;stroke-width:0.44135568"
+         y="48.701294"
+         x="358.27271"
+         id="tspan5221"
+         sodipodi:role="line">T</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5225"
+       d="m 322.79167,11.779167 v 23.812501 h 74.08334 V 11.779167 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text44433"
+       y="10.897213"
+       x="345.89859"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:8.46666718px;line-height:1.25;stroke-width:0.28222224px"
+         y="10.897213"
+         x="345.89859"
+         id="tspan44435"
+         sodipodi:role="line">Start</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5235"
+       d="m 214.31251,47.233332 v 50.270835 h 92.60416 V 47.233332 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5235-3"
+       d="M 214.3125,113.37917 V 163.65 h 92.60417 v -50.27083 z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5252"
+       d="M 211.66667,41.941668 V 168.94167 h 97.89584 V 41.941668 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 322.2625,74.75 h -6.35"
+       id="path44674-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5)"
+       d="m 312.29653,74.75 h -5.07118"
+       id="path44676-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text5223-1"
+       y="76.337494"
+       x="313.00208"
+       style="font-style:normal;font-weight:normal;font-size:4.58611155px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44135568"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:4.58611155px;stroke-width:0.44135568"
+         y="76.337494"
+         x="313.00208"
+         id="tspan5221-7"
+         sodipodi:role="line">T</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 323.32083,141.95417 h -7.14375"
+       id="path44674-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-0)"
+       d="m 312.03195,141.95417 h -5.07118"
+       id="path44676-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text5223-1-7"
+       y="143.54185"
+       x="312.73752"
+       style="font-style:normal;font-weight:normal;font-size:4.58611155px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44135568"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:4.58611155px;stroke-width:0.44135568"
+         y="143.54185"
+         x="312.73752"
+         id="tspan5221-7-6"
+         sodipodi:role="line">T</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5235-4"
+       d="M 105.83333,60.991666 V 87.45 h 89.95834 V 60.991666 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5235-2"
+       d="M -3.7041696,39.825002 V 103.325 H 88.899937 V 39.825002 Z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 211.66667,75.279166 h -6.35"
+       id="path44674-0-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-1)"
+       d="m 201.17153,75.279166 h -5.07118"
+       id="path44676-4-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text5223-1-4"
+       y="76.866669"
+       x="201.87709"
+       style="font-style:normal;font-weight:normal;font-size:4.58611155px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44135568"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:4.58611155px;stroke-width:0.44135568"
+         y="76.866669"
+         x="201.87709"
+         id="tspan5221-7-3"
+         sodipodi:role="line">T</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.83333,74.220833 h -6.35"
+       id="path44674-0-25"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-5-6)"
+       d="M 95.33819,74.220833 H 90.267012"
+       id="path44676-4-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       id="text5223-1-44"
+       y="75.808334"
+       x="96.043755"
+       style="font-style:normal;font-weight:normal;font-size:4.58611155px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44135568"
+       xml:space="preserve"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:4.58611155px;stroke-width:0.44135568"
+         y="75.808334"
+         x="96.043755"
+         id="tspan5221-7-60"
+         sodipodi:role="line">T</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5235-2-8"
+       d="m 1.0583006,131.37083 v 42.33334 H 85.724933 v -42.33334 z"
+       style="fill:none;stroke:#000000;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7801"
+       d="m 219.01985,31.088957 c -1.27331,-2.217039 -2.31511,-4.086622 -2.31511,-4.154631 0,-0.06801 5.47381,-0.12365 12.16402,-0.12365 h 12.16401 l 2.13984,3.732514 c 1.17691,2.052884 2.26132,3.923866 2.4098,4.157739 l 0.26997,0.425223 -12.25871,-0.0031 -12.25872,-0.0031 z m 12.99726,1.576019 c 0.49685,-0.496847 0.22826,-1.058518 -0.61005,-1.275749 -0.32834,-0.08508 -0.62763,-0.246615 -0.66508,-0.358963 -0.1032,-0.309599 0.45879,-0.451786 0.98896,-0.250214 0.36818,0.139983 0.47083,0.11901 0.47083,-0.09619 0,-0.659813 -1.7744,-0.565994 -1.98739,0.105079 -0.15488,0.487966 0.17792,0.89649 0.87811,1.077928 0.7913,0.205047 0.65272,0.521642 -0.22001,0.502651 -0.4833,-0.0105 -0.74958,0.06781 -0.74958,0.220485 0,0.550113 1.36504,0.604144 1.89421,0.07498 z m 1.1296,-0.06283 c 0,-0.340289 0.14466,-0.48637 0.61421,-0.620226 0.48731,-0.138916 0.62732,-0.289067 0.67767,-0.726723 0.0751,-0.652346 -0.35139,-1.042741 -1.13901,-1.042741 h -0.53085 v 1.417412 c 0,0.818947 0.0798,1.41741 0.18899,1.41741 0.10394,0 0.18899,-0.200308 0.18899,-0.445132 z"
+       style="opacity:1;fill:none;fill-opacity:0.63921569;stroke:#df0000;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.70000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5519"
+       d="M 43.391601,105.97083 V 127.1375"
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5716)"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6457"
+       d="m 359.83333,35.327085 v 8.995831"
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6459"
+       d="m 359.83334,49.614582 v 4.233337"
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6581)"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 357.37311,141.08957 -1.6774,1.32292 2.50492,1.52337"
@@ -1936,15 +2076,17 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -77.736584,160.48024 2.196152,1.5 -1.470835,1"
+       d="m 27.567637,160.48024 2.196152,1.5 -1.470835,1"
        id="path9510"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -36.533033,-52.737629 2.59808,1.5 -1.20289,1"
@@ -1954,167 +2096,39 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="24.039238"
+       x="60.551773"
        y="12.799706"
        id="text4822"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan4820"
-         x="24.039238"
+         x="60.551773"
          y="12.799706"
          style="font-size:8.46666622px;stroke-width:0.26458332">for(i=1;i&lt;n;n++)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="45.296516"
-       y="32.376175"
+       x="99.953133"
+       y="31.173462"
        id="text5412"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
          sodipodi:role="line"
          id="tspan5410"
-         x="45.296516"
-         y="32.376175"
+         x="99.953133"
+         y="31.173462"
          style="stroke-width:0.26458332">T</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.395, 1.395;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -10.617698,10.720829 H -111.125 V 105.9708 H 198.4375 V 10.720829 h -88.44645"
+       style="fill:none;stroke:#000000;stroke-width:0.46499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.39500001, 1.39500001;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 57.280571,10.720829 H -10.583333 V 105.9708 H 198.4375 V 10.720829 h -59.72025"
        id="path5509"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 3.9413409,65.560578 2.6794825,8.660252 25.0000116,2e-6 -2.679499,-8.660259 z"
-       id="path3779-11-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 28.941343,65.560582 2.679492,8.66025 25,4e-6 -2.679492,-8.660258 z"
-       id="path3779-6-4-5"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 31.620835,74.220832 2.679494,8.660252 24.999999,10e-7 -2.679491,-8.660255 z"
-       id="path3779-35-7-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="40.542385"
-       y="71.542351"
-       id="text3856-2-0-5"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan3854-3-1-53"
-         x="40.542385"
-         y="71.542351"
-         style="stroke-width:0.26458332">SP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="44.511135"
-       y="80.046814"
-       id="text3856-2-4-8"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan3854-3-12-7"
-         x="44.511135"
-         y="80.046814"
-         style="stroke-width:0.26458332">SP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="10.09159"
-       y="71.607414"
-       id="text4267-6-7-5-4-6-4"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan4265-83-7-7-3-1-5"
-         x="10.09159"
-         y="71.607414"
-         style="stroke-width:0.26458332">T-A 0/1</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 56.620837,74.22083 -1.677395,1.322916 2.504915,1.52337"
-       id="path4971-2-6-48-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 31.620835,74.220832 -1.677393,1.322916 2.504914,1.52337"
-       id="path4971-2-6-36-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 53.812176,65.56058 2.679493,8.66025 24.999999,4e-6 -2.679491,-8.660258 z"
-       id="path3779-6-4-5-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 56.491669,74.22083 2.679493,8.660253 25,10e-7 -2.679493,-8.660256 z"
-       id="path3779-35-7-8-7"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="65.413216"
-       y="71.542351"
-       id="text3856-2-0-5-4"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan3854-3-1-53-4"
-         x="65.413216"
-         y="71.542351"
-         style="stroke-width:0.26458332">SP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="69.381966"
-       y="80.046814"
-       id="text3856-2-4-8-7"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan3854-3-12-7-0"
-         x="69.381966"
-         y="80.046814"
-         style="stroke-width:0.26458332">SP</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 81.491669,74.220828 -1.677393,1.322917 2.504914,1.52337"
-       id="path4971-2-6-48-3-0"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 111.22676,65.560575 2.67949,8.66025 25,4e-6 -2.67949,-8.660258 z"
-       id="path3779-6-4-0"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -2127,20 +2141,44 @@
          id="tspan3854-3-1-7"
          x="122.82779"
          y="71.542351"
-         style="stroke-width:0.26458332">SP</tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M -63.499999,40.354167 V 29.770834 H 42.333333"
+       style="fill:none;stroke:#000000;stroke-width:0.46499994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 44.979164,40.354166 V 29.770833 h 52.916665"
        id="path6865"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6877)"
-       d="M 50.270833,29.770834 H 156.10416 V 58.875"
+       style="fill:none;stroke:#000000;stroke-width:0.46499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6877)"
+       d="m 104.51041,29.770834 h 51.59376 V 58.875"
        id="path6867"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 111.26042,65.489588 2.67949,8.660252 25.00001,2e-6 -2.6795,-8.660259 z"
+       id="path3779-11-8-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.58611111px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="117.41068"
+       y="71.536423"
+       id="text4267-6-7-5-4-6-4-2"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="D:\OneDrive\lab\CIAA2018\画像\body-lpx1(T-C)\T-C_ver2.png"><tspan
+         sodipodi:role="line"
+         id="tspan4265-83-7-7-3-1-5-1"
+         x="117.41068"
+         y="71.536423"
+         style="stroke-width:0.26458332;font-size:4.58611111px;">T-A 0/1</tspan></text>
   </g>
 </svg>
