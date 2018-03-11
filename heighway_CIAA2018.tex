@@ -355,7 +355,6 @@ We say that an OS $\Xi$ \textit{weakly folds} (or ``self-assembles'') $\diamonds
 %--------------------------------------------------------------------------------------------------------
 
 We propose a generic design of DOS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
-Let $n = \min\{m \mid j_2 < 2^m\}$. 
 Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}.} with a fixed rule set $\mathcal{H}$ are employed. 
 The design also challenges to make the resulting DOS cyclic. 
 Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
@@ -363,23 +362,164 @@ However, it is highly unlikely that an OS for the infinite Heighway dragon, if a
 Such a ``hardcoding'' also runs counter to the spirit of algorithmic self-assembly. 
 
 \begin{figure}[tb]
-\includegraphics[width=\linewidth]{Figs/seed_sample2.png}
-\caption{The seed for the 3-bit Heighway dragon that starts at $j_1 = 100_2$.}
-\label{fig:seed}
+\centering
+\scalebox{0.8}{\begin{tikzpicture}
+
+\foreach \x in {0} {
+\draw (\x, 0)++(120:1.5) -- ++(0:1) -- ++(300:0.5) -- ++(180:0.5) node (seedout) {} -- ++(180:0.5) -- cycle;
+\draw[white] (\x, 0)++(120:1.25) -- node[black] {Seed} ++(0:1);
+}
+
+\foreach \x in {0} {
+\draw (\x, 0) -- ++(0:0.5) node (C1in) {} -- ++(0:0.5) -- node[sloped, below] {Counter $C$} ++(300:3) -- ++(180:0.5) node (C1out) {} -- ++(180:0.5) -- node[sloped, above] {$i{+}{+}$ if carried} ++(120:3); 
+%\draw[white] (\x+0.5, 0) -- node[sloped, black] {Counter $C$} ++(300:2) node (C1out) {};
+}
+
+\foreach \x in {2} {
+\draw (\x, 0)++(300:1) -- ++(0:0.5) node (Dvin) {} -- ++(0:0.5) -- ++(300:0.5) -- ++(180:0.5) node (Dvout) {} -- ++(180:0.5) -- cycle; 
+\draw[white] (\x, 0)++(300:1.25) -- node[black] {$D_v$} ++(0:1);
+}
+
+\foreach \x in {7} {
+%\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
+\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (O1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2)
+;
+\draw[thick, ->] (\x+1.1, 0) 
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
+-- ++(300:0.9) -- ++(180:0.8) -- ++(300:0.2)
+;
+\draw[thick, ->] (\x+1.1, 0)++(300:1.1) -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2) node (O1out) {}
+;
+}
+
+\foreach \x in {5} {
+%\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
+\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (A1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:1)
+;
+\draw[thick,->] (\x,0)++(300:0.9)++(180:0.2) 
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:1)
+;
+\draw[thick, ->] (\x-1.1, 0)++(300:1.1) -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node (A1out) {}
+;
+}
+
+\draw(6.5, 0)++(300:1.5) node {Turner $T$};
+
+\foreach \x in {5.5} {
+\draw (\x, 0)++(300:5) -- node[below] {Counter $C$} ++(0:3) -- ++(300:0.5) node (C2in) {} -- ++(300:0.5) -- node[above] {$i{+}{+}$ if carried} ++(180:3) -- ++(120:0.5) node (C2out) {} -- ++(120:0.5);
+}
+
+\foreach \x in {3.5} {
+\draw (\x, 0)++(300:5) -- ++(0:0.5) -- ++(300:0.5) node (Dhin) {} -- ++(300:0.5) -- ++(180:0.5) -- ++(120:0.5) node (Dhout) {} -- cycle; 
+\draw (\x, 0)++(300:5.5)++(0:0.25) node {$D_h$};
+}
+
+\foreach \x in {1.5} {
+\draw[thick, ->] (\x, 0)++(300:6)
+-- ++(120:0.5) node (O2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node[draw, inner sep=0in] (O2m1) {}
+;
+\draw[thick,->] (O2m1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
+-- ++(180:0.9) -- ++(300:0.8) -- ++(180:0.2) node[draw, inner sep=0in] (O2m2) {}
+;
+\draw[thick, ->] (O2m2) 
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node (O2out) {}
+;
+}
+
+\foreach \x in {-1.5} {
+\draw[thick, ->] (\x, 0)++(300:5) 
+-- ++(120:0.5) node (A2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node[draw, inner sep=0in] (A2m1) {}
+;
+\draw[thick, ->] (A2m1) 
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
+-- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node[draw, inner sep=0in] (A2m2) {}
+;
+\draw[thick, ->] (A2m2) 
+-- ++(120:0.5) -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
+-- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node (A2out) {}
+;
+}
+\draw(-0.75, 0)++(300:3.75) node {Turner $T$};
+
+\draw[-latex] (seedout) -- node[above right] {($i = j_1$, no carry) in \eqref{eq:turner_output}} (C1in);
+\draw[-latex] (C1out) to [out=300, in=120] node[below right] {$i$ in \eqref{eq:counter_output}} (Dvin);
+\draw(A1in)++(180:0.25)++(120:1) node[circle, draw, inner sep=0in] (AO1in) {};
+\draw (Dvout) to [out=300, in=180] (AO1in);
+\draw[-latex] (AO1in) to [out=0, in=120] node[below right] {($i$, A) in \eqref{eq:Dv_output}} (A1in);
+\draw[-latex] (AO1in) to [out=0, in=120] node[above] {($i$, O) in \eqref{eq:Dv_output}} (O1in);
+\draw (9.75, 0) ++(300:4) node (AO1out) {($i$, carry) in \eqref{eq:turner_output}};
+\draw (A1out) to [out=210, in=150] (AO1out);
+\draw (O1out) to [out=330, in=120] (AO1out);
+\draw[-latex] (AO1out) to [out=300, in=0] (C2in);
+\draw[-latex] (C2out) -- node[below] {$i$ in \eqref{eq:counter_output}} (Dhin);
+\draw[-latex] (Dhout) -- node[above] {($i$, O) in \eqref{eq:Dh_output}} (O2in); 
+\draw (0, 0)++(300:6.5) node (Dh-A2) {};
+\draw[-latex] (Dhout) to [out=180, in=0] (Dh-A2) node[below] {($i$, A) in \eqref{eq:Dh_output}} to [out=180, in=0] (A2in);
+\draw (-2, 0)++(300:1) node (AO2-C1) {($i$, carry) in \eqref{eq:turner_output}};
+\draw (A2out) to [out=240, in=270] (AO2-C1);
+\draw (O2out) to [out=150, in=270] (AO2-C1);
+\draw[-latex] (AO2-C1) to [out=90, in=120] (C1in);
+
+\end{tikzpicture}}
+\caption{Module automaton for the Heighway dragon $P[j_1 .. j_2]$. 
+Transitions are labeled with the information propagated with its format. 
+}
+\label{fig:module_automaton}
 \end{figure}
 
-The initial count $i = j_1$ is encoded on the seed in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
-\begin{equation}\label{eq:turner_output}
-	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^2$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6) w_{t, b_1}} 
-%	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
-\end{equation}
-where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
-Upon this seed, a periodic transcript is folded into the dragon $P[j_1..j_2]$. 
-Its period is semantically divided into six \textit{modules} as $C D_v T C D_h T$, where 
+\paragraph{Modularization} is a factorization of transcript into functional units. 
+Functions of modules and transitions from one module to another are described in the form of module automaton. 
+The generic design employs the module automaton in Fig.~\ref{fig:module_automaton}.  
+This automaton yields the transcript that repeats $C D_v T C D_h T$, where
 \begin{itemize}
-\item $C$ is called a \textit{counter module}; it increments $i$ by 1 and propagates it; 
-\item $D_v$ and $D_h$ are called a \textit{DFAO module}; they compute $P[i]$ and interpret it properly (this issue of interpretation shall be discussed shortly); 
-\item $T$ is called a \textit{turner module}; it makes a turn according to the interpretation. 
+\item $C$ is a \textit{counter module}; it increments $i$ by 1 and propagates it; 
+\item $D_v$ and $D_h$ are a \textit{DFAO module}; they compute $P[i]$ and interpret it properly (this issue of interpretation shall be discussed shortly); 
+\item $T$ is a \textit{turner module}; it makes a turn according to the interpretation. 
 \end{itemize}
 The first $C$ and $D_v$ modules fold into a vertical line segment, while the second $C$ and $D_h$ fold into the next line segment, which is guaranteed to be horizontal since vertical and horizontal segments alternate on the Heighway dragon. 
 The DFAO modules $D_v, D_h$ differ only in their way to interpret their intermediate outcome $P[i]$. 
@@ -399,15 +539,15 @@ Folding of one segment plus turn of the Heighway dragon, flow of information thr
 Before explaining the modules, one issue intrinsic to the folding by OS should be pointed. 
 It rises when the dragon makes a turn where it has already turned before. % that is, when two turns share a point. 
 By definition, the OS is not allowed to put a bead anywhere occupied by another bead. 
-Being scaled sufficiently large, a rhombus corresponding to a point affords two turning modules, which otherwise collide, as long as they fold into an L-shape (Figs.~\ref{fig:heighway6_oritatami}, \ref{fig:abst_dragon}). 
+Being scaled sufficiently large, a rhombus corresponding to a point affords two turning modules, which otherwise collide, as long as they fold into an L-shape (see Figs.~\ref{fig:heighway6_oritatami}, \ref{fig:module_automaton}, and \ref{fig:abst_dragon}). 
 A turning module has its three bifurcators direct further folding obtusely one after another guided by the signal O from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another by A, as colored in green, and folds into two L-shape conformations. 
 Note that two turns at a point are both acute or both obtuse. 
 
 Having outlined the generic design, now we explain how the design implements an OS for a specific target portion $P[j_1 .. j_2]$, or more precisely, how the modules $C, D_v, D_h, T$ and their submodules are implemented, interlocked with each other, and collaborate. 
-The length of $C, T$, or more precisely, of their transcript, are of length $O(n^2)$ while $D_v, D_h$ are of length $O(n)$. 
-Thus, the period of the OS is of length proportional to $n^2$. 
-
-Each of these modules consists of small submodules, say, with several dozens of beads. 
+Let $n = \min\{m \mid j_2 < 2^m\}$. 
+%The length of $C, T$, or more precisely, of their transcript, are of length $O(n^2)$ while $D_v, D_h$ are of length $O(n)$. 
+%Thus, the period of the OS is of length proportional to $n^2$. 
+Each of the modules consists of small submodules, say, with several dozens of beads. 
 Submodules implement various ``functions'' each of which is ``called'' in proper \textit{environments}, i.e., the beads already placed around the tip of the transcript acting as the memory in the computation. 
 The conformation that a submodule folds deterministically in a ``valid'' environment corresponds to the function to be called then. 
 These ``functional'' conformations are called \textit{bricks}, as they are the bricks upon which the whole folding is built. 
@@ -416,7 +556,23 @@ They enumerate all the pairs of an environment to be encountered and the brick t
 Using a simulator developed for \cite{HaKiOtSe2016}, we verified all the brick automata, which can be found in Sects.~\ref{ap_subsect:DFAO_module_BA}, and \ref{ap_subsect:Turner_module_BA}. 
 
 
-\paragraph{Counter module} is borrowed from \cite{GeMeScSe2016} with technical modification to let it operate in the dynamics \eqref{eq:cotranscriptional_folding}, which is more prevailing \cite{HanKim2017,HaKiOtSe2016,OtaSeki2017} though less tractable. 
+
+\begin{figure}[tb]
+\includegraphics[width=\linewidth]{Figs/seed_sample2.png}
+\caption{The seed for the 3-bit Heighway dragon that starts at $j_1 = 100_2$.}
+\label{fig:seed}
+\end{figure}
+
+\paragraph{Seed} encodes the initial count $i = j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
+\begin{equation}\label{eq:turner_output}
+	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^2$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6) w_{t, b_1}} 
+%	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
+\end{equation}
+where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
+
+
+
+\paragraph{Counter module} $C$ is borrowed from \cite{GeMeScSe2016} with technical modification to let it operate in the dynamics \eqref{eq:cotranscriptional_folding}, which is more prevailing \cite{HanKim2017,HaKiOtSe2016,OtaSeki2017} though less tractable. 
 We hence leave all its details to the Appendix (Sect.~\ref{sect:appendix_counter_module}), and just describe its input and output. 
 It takes the current count $i$ formatted as \eqref{eq:turner_output}, which is fed by the seed or by the previous turner module, increments the count by 1 unless it is preceded by the seed, and outputs the resulting count in its binary representation $a_n a_{n-1} \cdots a_1$ in the following format:
 \begin{equation}\label{eq:counter_output}{\tt 
@@ -445,21 +601,20 @@ The first zigzag is for the search, the second is for the check and computation 
 %at the beginning of the third zig, as shown in Fig.~\ref{fig:PFS}, $\mathrm{AO}_v$ interprets the output L of PFS as O and R as A, while $\mathrm{AO}_h$ interprets them the other way around otherwise. 
 While performing these tasks, these zigs and zags also propagate the count $i$ to the next turner module. 
 
-In the first zig, $n$ copies of Dzig1 detect the first 0 collaboratively in two phases. 
-See Fig.~\ref{fig:DFAO-zig1} for all the bricks of Dzig1 with the corresponding environments. 
-Phase 1 is to copy all the 1's prior to the first 0 and Phase 2 is to copy all the bits after the 0. 
-Dzig1 knows which phase it is in by the relative position where it starts folding to the input above (far in Phase1, close in Phase 2). 
-In Phase 1, Dzig1's certainly fold into the brick Dzig1-1. 
-%
-\begin{wrapfigure}[14]{r}{0.6\linewidth}
-%\vspace*{-5mm}
+\begin{wrapfigure}{r}{0.6\linewidth}
+\vspace*{-5mm}
 \centering
 \includegraphics[width=\linewidth]{Figs/DFAO-zig1.png}  
 \caption{The four bricks of Dzig1: (top) Dzig1-1 and Dzig1-f0; (bottom) Dzig1-20 and Dzig1-21.}
 \label{fig:DFAO-zig1}
 \vspace*{-3mm}
 \end{wrapfigure}
-%
+
+In the first zig, $n$ copies of Dzig1 detect the first 0 collaboratively in two phases. 
+See Fig.~\ref{fig:DFAO-zig1} for all the bricks of Dzig1 with the corresponding environments. 
+Phase 1 is to copy all the 1's prior to the first 0 and Phase 2 is to copy all the bits after the 0. 
+Dzig1 knows which phase it is in by the relative position where it starts folding to the input above (far in Phase1, close in Phase 2). 
+In Phase 1, Dzig1's certainly fold into the brick Dzig1-1. 
 At the first 0, a Dzig1 rather folds into Dzig1-f0 brick, ending at the top in order to transition to Phase 2. 
 Each of the remaining Dzig1 folds into either Dzig1-20 or Dzig1-21, copying all the remaining bits. 
 Interleaving spacers are implemented as a glider (see Sect.~\ref{sect:preliminaries}), hence capable of propagating 1bit (far/close) on which phase the system is in. 
@@ -528,156 +683,9 @@ We shall explain submodules to handle the other tasks.
 %--------------------------------------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------------------------------------
-	\section{Module automaton}
+%	\section{Module automaton}
 %--------------------------------------------------------------------------------------------------------
 
-\begin{figure}[h]
-\centering
-\scalebox{0.8}{\begin{tikzpicture}
-
-\foreach \x in {0} {
-\draw (\x, 0)++(120:1.5) -- ++(0:1) -- ++(300:0.5) -- ++(180:0.5) node (seedout) {} -- ++(180:0.5) -- cycle;
-\draw[white] (\x, 0)++(120:1.25) -- node[black] {Seed} ++(0:1);
-}
-
-\foreach \x in {0} {
-\draw (\x, 0) -- ++(0:0.5) node (C1in) {} -- ++(0:0.5) -- node[sloped, below] {Counter $C$} ++(300:3) -- ++(180:0.5) node (C1out) {} -- ++(180:0.5) -- node[sloped, above] {$i{+}{+}$ if carried} ++(120:3); 
-%\draw[white] (\x+0.5, 0) -- node[sloped, black] {Counter $C$} ++(300:2) node (C1out) {};
-}
-
-\foreach \x in {2} {
-\draw (\x, 0)++(300:1) -- ++(0:0.5) node (Dvin) {} -- ++(0:0.5) -- ++(300:0.5) -- ++(180:0.5) node (Dvout) {} -- ++(180:0.5) -- cycle; 
-\draw[white] (\x, 0)++(300:1.25) -- node[black] {$D_v$} ++(0:1);
-}
-
-\foreach \x in {7} {
-%\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
-\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (O1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2)
-;
-\draw[thick, ->] (\x+1.1, 0) 
--- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
--- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
--- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
--- ++(300:0.8) -- ++(0:0.1) -- ++(120:0.8) -- ++(0:0.1)
--- ++(300:0.9) -- ++(180:0.8) -- ++(300:0.2)
-;
-\draw[thick, ->] (\x+1.1, 0)++(300:1.1) -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.9) -- ++(120:0.8) -- ++(0:0.2) node (O1out) {}
-;
-}
-
-\foreach \x in {5} {
-%\draw (\x, 0) -- ++(0:0.8) -- ++(300:0.8) -- ++(180:0.8) -- cycle;
-\draw[thick, ->] (\x, 0) -- ++(0:0.4) node (A1in) {} -- ++(0:0.4) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:1)
-;
-\draw[thick,->] (\x,0)++(300:0.9)++(180:0.2) 
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:1)
-;
-\draw[thick, ->] (\x-1.1, 0)++(300:1.1) -- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node (A1out) {}
-;
-}
-
-\foreach \x in {5.5} {
-\draw (\x, 0)++(300:5) -- node[below] {Counter $C$} ++(0:3) -- ++(300:0.5) node (C2in) {} -- ++(300:0.5) -- node[above] {$i{+}{+}$ if carried} ++(180:3) -- ++(120:0.5) node (C2out) {} -- ++(120:0.5);
-}
-
-\foreach \x in {3.5} {
-\draw (\x, 0)++(300:5) -- ++(0:0.5) -- ++(300:0.5) node (Dhin) {} -- ++(300:0.5) -- ++(180:0.5) -- ++(120:0.5) node (Dhout) {} -- cycle; 
-\draw (\x, 0)++(300:5.5)++(0:0.25) node {$D_h$};
-}
-
-\foreach \x in {1.5} {
-\draw[thick, ->] (\x, 0)++(300:6)
--- ++(120:0.5) node (O2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node[draw, inner sep=0in] (O2m1) {}
-;
-\draw[thick,->] (O2m1)
--- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
--- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
--- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
--- ++(180:0.8) -- ++(120:0.1) -- ++(0:0.8) -- ++(120:0.1)
--- ++(180:0.9) -- ++(300:0.8) -- ++(180:0.2) node[draw, inner sep=0in] (O2m2) {}
-;
-\draw[thick, ->] (O2m2) 
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.9) -- ++(0:0.8) -- ++(120:0.2) node (O2out) {}
-;
-}
-
-\foreach \x in {-1.5} {
-\draw[thick, ->] (\x, 0)++(300:5) 
--- ++(120:0.5) node (A2in) {} -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node[draw, inner sep=0in] (A2m1) {}
-;
-\draw[thick, ->] (A2m1) 
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:0.8) -- ++(300:0.1)
--- ++(0:0.8) -- ++(300:0.1) -- ++(180:1) node[draw, inner sep=0in] (A2m2) {}
-;
-\draw[thick, ->] (A2m2) 
--- ++(120:0.5) -- ++(120:0.3) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:0.8) -- ++(180:0.1)
--- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node (A2out) {}
-;
-}
-
-\draw[-latex] (seedout) -- node[above right] {($i = j_1$, no carry) in \eqref{eq:turner_output}} (C1in);
-\draw[-latex] (C1out) to [out=300, in=120] node[below right] {$i$ in \eqref{eq:counter_output}} (Dvin);
-\draw(A1in)++(180:0.25)++(120:1) node[circle, draw, inner sep=0in] (AO1in) {};
-\draw (Dvout) to [out=300, in=180] (AO1in);
-\draw[-latex] (AO1in) to [out=0, in=120] node[below right] {($i$, A) in \eqref{eq:Dv_output}} (A1in);
-\draw[-latex] (AO1in) to [out=0, in=120] node[above] {($i$, O) in \eqref{eq:Dv_output}} (O1in);
-\draw (9.75, 0) ++(300:4) node (AO1out) {($i$, carry) in \eqref{eq:turner_output}};
-\draw (A1out) to [out=210, in=150] (AO1out);
-\draw (O1out) to [out=330, in=120] (AO1out);
-\draw[-latex] (AO1out) to [out=300, in=0] (C2in);
-\draw[-latex] (C2out) -- node[below] {$i$ in \eqref{eq:counter_output}} (Dhin);
-\draw[-latex] (Dhout) -- node[above] {($i$, O) in \eqref{eq:Dh_output}} (O2in); 
-\draw (0, 0)++(300:6.5) node (Dh-A2) {};
-\draw[-latex] (Dhout) to [out=180, in=0] (Dh-A2) node[below] {($i$, A) in \eqref{eq:Dh_output}} to [out=180, in=0] (A2in);
-\draw (-2, 0)++(300:1) node (AO2-C1) {($i$, carry) in \eqref{eq:turner_output}};
-\draw (A2out) to [out=240, in=270] (AO2-C1);
-\draw (O2out) to [out=150, in=270] (AO2-C1);
-\draw[-latex] (AO2-C1) to [out=90, in=120] (C1in);
-
-\end{tikzpicture}}
-\caption{Module automaton of the proposed cyclic DOS for the Heighway dragon $P[j_1 .. j_2]$. 
-Transitions are labeled with the information propagated with its format. 
-}
-\label{fig:module_automaton}
-\end{figure}
 
 %--------------------------------------------------------------------------------------------------------
 	\section{Counter module}
