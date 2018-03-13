@@ -774,8 +774,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="310.73423"
-     inkscape:cy="560.9861"
+     inkscape:cx="389.98123"
+     inkscape:cy="579.37088"
      inkscape:document-units="px"
      inkscape:current-layer="g38053"
      showgrid="true"
@@ -6444,28 +6444,6 @@
           </g>
         </g>
       </g>
-      <path
-         inkscape:export-ydpi="600"
-         inkscape:export-xdpi="600"
-         inkscape:connector-curvature="0"
-         id="use18833"
-         d="m 129.69592,319.38959 28.53179,-0.43334 28.34645,0 14.56692,23.86684 -14.56692,25.23067 -28.34646,0 -28.27982,0.43333"
-         style="opacity:0.75;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79680002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         transform="scale(1,-1)"
-         inkscape:export-ydpi="600"
-         inkscape:export-xdpi="600"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.75;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="159.35414"
-         y="-339.70358"
-         id="use18871"
-         sodipodi:linespacing="125%"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-           sodipodi:role="line"
-           id="tspan20875"
-           x="159.35414"
-           y="-339.70358">T-F</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="use245815"
@@ -6481,32 +6459,6 @@
            id="tspan245819"
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">T-D</tspan></text>
-      <g
-         id="use242883"
-         transform="translate(478.71273,-94.424871)">
-        <path
-           inkscape:export-ydpi="600"
-           inkscape:export-xdpi="600"
-           inkscape:connector-curvature="0"
-           id="path242887"
-           d="m -121.46882,414.72863 28.531788,-0.43334 28.346448,0 14.566928,23.86684 -14.566928,25.23067 -28.346456,0 -28.27982,0.43333"
-           style="opacity:0.75;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79680002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
-        <text
-           transform="scale(1,-1)"
-           inkscape:export-ydpi="600"
-           inkscape:export-xdpi="600"
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.75;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-91.810593"
-           y="-435.04263"
-           id="text242889"
-           sodipodi:linespacing="125%"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Dingbats;-inkscape-font-specification:'Dingbats, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle"
-             sodipodi:role="line"
-             id="tspan242891"
-             x="-91.810593"
-             y="-435.04263">T-F</tspan></text>
-      </g>
       <ellipse
          transform="matrix(0,1,1,0,0,0)"
          style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.46683556;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
