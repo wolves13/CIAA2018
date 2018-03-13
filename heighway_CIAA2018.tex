@@ -705,25 +705,33 @@ The \texttt{body-lgy} and \texttt{turn-lgp} are the zig-counterparts of them (Fi
 
 One period of the transcript of the $n$-bit counter module is the concatenation of the following submodules: 
 \begin{itemize}
-\item $n$ submodules $C_{HA}$; the half-adder; 
-\item $n-1$ submodules $C_{SPzig}$ interleaved between the 
-half-adders; 
-\item Submodule $C_{LT}$; the left-turner; 
-\item $n$ submodules $C_{F}$, the formatter; 
-\item $n-1$ submodules $C_{SPzag}$ interleaved between the formatters; 
-\item Submodule $C_{RT}$; the right-turner.
+\item $n$ submodules \texttt{HA}; the half-adder; 
+\item $n-1$ spacers interleaved between \texttt{HA}s; 
+\item Submodule \texttt{CLT}; the left-turner; 
+\item $n$ submodules \texttt{CF}, the formatter; 
+\item $n-1$ spacers interleaved between \texttt{CF}s; 
+\item Submodule \texttt{CRT}; the right-turner.
 \end{itemize}
 
 
 \begin{figure}[htb]
-\vspace*{-5mm}
 \centering
 \includegraphics[width=\linewidth]{Figs/counter_zig.png}
-\caption{All conformations of the half-adder.
-The first and third are diverted to implement the body-lpx2 component of the turning module. 
+\caption{The four bricks of \texttt{HA}.
+The first and third are diverted to implement the \texttt{body-lpx2} (T-D) submodule of the turning module. 
 }
 \label{fig:half-adder}
 \end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.66\linewidth]{Figs/counter_zag.png}
+\caption{The two bricks of \texttt{CF}.
+This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of the turning module. 
+}
+\label{fig:half-adder}
+\end{figure}
+
 
 
 %--------------------------------------------------------------------------------------------------------
@@ -760,7 +768,7 @@ All the bricks of the submodules of DFAO module omitted in the main text are sho
 \centering
 \includegraphics[width=\linewidth]{Figs/DFAO-zag2.png}  
 \caption{The five bricks of \texttt{Dzag2}: (top) Dzag2-L0, Dzag2-L1, and Dzag2-T1; (bottom) Dzag2-R0 and Dzag2-R1. 
-The first and second halves are diverted to implement the \texttt{body-rgy} and \texttt{body-gx} submodules of the turner module, respectively.}
+The first and second halves are diverted to implement the \texttt{body-gx1} (T-E) and \texttt{body-rgy} (T-G) submodules of the turner module, respectively.}
 \label{fig:Dzag2}
 \end{figure}
 
@@ -798,7 +806,7 @@ The labels B and T of transitions stand for that the previous submodule (glider)
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=\linewidth]{Figs/D-zag2_brick.pdf}
-\caption{The brick automaton for the second zzg of DFAO module.}
+\caption{The brick automaton for the second zag of DFAO module.}
 \label{fig:brick_automaton_Dzag2}
 \end{figure}
 
@@ -819,21 +827,47 @@ The labels B and T of transitions stand for that the previous submodule (glider)
 	\label{ap_subsect:Turner_module_bricks}
 %--------------------------------------------------------------------------------------------------------
 
-All the bricks of the submodules of turner module omitted in the main text are shown in Figs.~\ref{fig:body-lgy}, \ref{fig:turn-lgp}. 
+Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turner module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
+Below, we enumerate the bricks of the \texttt{body-rpx1} (T-A), \texttt{body-lpx1} (T-C), \texttt{body-lgy} (T-H), \texttt{turn-lgp} (T-J), and \texttt{move} (T-L) submodules in Fig.s~\ref{fig:body-rpx1}, \ref{fig:body-lpx1}, \ref{fig:body-lgy}, \ref{fig:turn-lgp}, and \ref{fig:move}, respectively. 
+The formatter \text{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
+The \texttt{Dzag2} submodule of the DFAO module is split into half, and the first and second halves are diverted respectively as the \texttt{body-rgy} (T-G) and \texttt{body-gx1} (T-E) submodules. 
+Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \texttt{body-gx2} (T-E) using a pairwise-distinct transcript \texttt{414}-\texttt{415}-\dots-\texttt{425}; they behave exactly in the same way; this copy is necessary because if \texttt{body-gx1} were used in place for \texttt{body-gx2}, the previous \texttt{body-gx1} would prevent it from folding correctly into bricks. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{Figs/body-lgy}
-\caption{The two bricks of \texttt{body-lgy} submodule}
+\includegraphics[width=\linewidth]{Figs/body-rpx1.png}
+\caption{The two bricks of \texttt{body-rpx1} (T-A) submodule}
+\label{fig:body-rpx1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/body-lpx1.png}
+\caption{The two bricks of \texttt{body-lpx1} (T-C) submodule}
+\label{fig:body-lpx1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{Figs/body-lgy}
+\caption{The two bricks of \texttt{body-lgy} (T-H) submodule}
 \label{fig:body-lgy}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{Figs/turn-lgp}
-\caption{The two bricks of \texttt{turn-lgp} submodule}
+\caption{The two bricks of \texttt{turn-lgp} (T-J) submodule}
 \label{fig:turn-lgp}
 \end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/move.png}
+\caption{The two bricks of \texttt{move} (T-L) submodule}
+\label{fig:move}
+\end{figure}
+
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Brick automata}
