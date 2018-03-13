@@ -707,8 +707,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.61816951"
-     inkscape:cx="1601.6151"
-     inkscape:cy="1240.4675"
+     inkscape:cx="1283.5559"
+     inkscape:cy="1192.5151"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -811,7 +811,7 @@
        id="path4970-4"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991"
        width="56.250004"
        height="29.117142"
@@ -1029,7 +1029,7 @@
        y="-307.16644"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9"
        width="56.250008"
        height="29.117142"
@@ -1037,7 +1037,7 @@
        y="-307.16644"
        transform="matrix(1,0,0.25881905,0.96592583,0,0)" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0"
        width="56.250011"
        height="29.117142"
@@ -1082,7 +1082,7 @@
          id="tspan6107-7-72-0-9-3-3"
          x="1075.9908"
          y="-278.78839"
-         style="font-size:10px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:10px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -1095,7 +1095,7 @@
          id="tspan6107-7-72-0-9-3-3-7"
          x="1300.9547"
          y="-278.78836"
-         style="font-size:10px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:10px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -1108,9 +1108,9 @@
          id="tspan6107-7-72-0-9-3-3-0"
          x="1357.2047"
          y="-278.78836"
-         style="font-size:10px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:10px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-8"
        width="56.250008"
        height="29.117142"
@@ -1137,9 +1137,9 @@
          id="tspan6107-7-72-0-9-3-3-3"
          x="1188.4547"
          y="-278.78842"
-         style="font-size:10px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:10px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0-85"
        width="56.250015"
        height="29.117142"
@@ -1160,7 +1160,7 @@
          id="tspan6107-7-72-0-9-3-3-0-9"
          x="2176.5454"
          y="58.711678"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot5379"
@@ -1172,7 +1172,7 @@
            x="1425"
            y="-117.48032" /></flowRegion><flowPara
          id="flowPara5385" /></flowRoot>    <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-7-5"
        width="56.250011"
        height="29.117142"
@@ -1249,7 +1249,7 @@
          id="tspan6107-7-72-0-9-3-3-1-6"
          x="1710.6801"
          y="-249.72575"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot5579"
@@ -2342,7 +2342,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-73"
        width="56.250008"
        height="29.117142"
@@ -2363,7 +2363,7 @@
          id="tspan6107-7-72-0-9-3-3-9"
          x="1045.9908"
          y="48.399128"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0</tspan></text>
     <path
        style="fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1026.5625,2.3622047 -3.75,14.0625003 11.25,42.187512 h -46.875 l -3.75,-14.062501 h -18.75 l -3.74999,-14.0625 8.43749,-28.1250113 z"
@@ -2413,7 +2413,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-4"
        width="56.250008"
        height="29.117142"
@@ -2434,7 +2434,7 @@
          id="tspan6107-7-72-0-9-3-3-6"
          x="1044.1158"
          y="165.58662"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <path
        style="fill:#ff5555;fill-opacity:1;stroke:#000000;stroke-width:0.93749994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1026.5625,119.54971 -3.75,14.0625 11.25,42.18751 h -46.875 l -3.75,-14.0625 h -18.75 l -3.74999,-14.0625 8.43749,-28.12501 z"
@@ -2554,7 +2554,7 @@
            d="m 523.09,419.16 v 0.05 0.05 0.05 0.06 0.06 l -0.01,0.06 v 0.06 l -0.01,0.06 -0.01,0.06 -0.01,0.06 -0.01,0.07 -0.01,0.06 -0.02,0.06 -0.02,0.06 -0.02,0.06 -0.02,0.06 -0.03,0.06 -0.04,0.05 -0.03,0.05 -0.04,0.06 -0.05,0.04 -0.04,0.05 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.03,0.01 -0.04,0.02 -0.03,0.01 -0.04,0.02 -0.04,0.01 -0.04,0.01 -0.04,0.01 -0.05,0.01 h -0.04 l -0.05,0.01 -0.05,0.01 h -0.05 -0.05 -0.05 c -0.73,0 -0.94,-0.45 -1.12,-0.8 -1.53,-3.24 -3.14,-3.38 -4.22,-3.45 -0.49,-0.04 -1.01,-0.45 -1.01,-1.15 0,-0.42 0.21,-1.15 1.26,-1.15 1.67,0 3.13,1.01 3.59,1.39 V 401.3 h -3.1 c -0.53,0 -1.54,0 -1.54,-1.15 0,-1.15 1.05,-1.15 1.54,-1.15 h 8.85 c 0.53,0 1.54,0 1.54,1.15 0,1.15 -1.05,1.15 -1.54,1.15 h -3.1 z"
            id="path26593-1" /></g>    </g>
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-0"
        width="56.250008"
        height="29.117142"
@@ -2585,7 +2585,7 @@
          id="tspan6107-7-72-0-9-3-3-00"
          x="1223.1783"
          y="104.64914"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path5872-6-7-18"
@@ -2757,7 +2757,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-8-9"
        width="56.250011"
        height="29.117142"
@@ -2819,7 +2819,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780331;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-8-1"
        width="56.250011"
        height="29.117142"
@@ -2952,7 +2952,7 @@
          id="tspan6107-7-72-0-9-3-3-9-6"
          x="1531.6158"
          y="-43.475864"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -2965,9 +2965,9 @@
          id="tspan6107-7-72-0-9-3-3-6-4"
          x="1533.4908"
          y="68.086624"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-48"
        width="56.250011"
        height="29.117142"
@@ -3029,7 +3029,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-09"
        width="56.250011"
        height="29.117142"
@@ -3137,7 +3137,7 @@
          id="tspan6107-7-72-0-9-3-3-9-6-4"
          x="1782.8658"
          y="50.274132"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0</tspan></text>
     <g
        transform="matrix(0.38735293,0,0,0.38735293,1652.4477,-3.488006)"
        id="use26581-32-0-5"
@@ -3185,7 +3185,7 @@
          id="tspan6107-7-72-0-9-3-3-6-4-6"
          x="1782.8658"
          y="163.71162"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <rect
        style="stroke:none;fill:url(#pattern8738)"
        width="9.3750052"
@@ -3345,7 +3345,7 @@
            sodipodi:role="line">/</tspan></text>
     </g>
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-7"
        width="56.250011"
        height="29.117142"
@@ -3355,7 +3355,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0-6"
        width="56.250015"
        height="29.117142"
@@ -3376,7 +3376,7 @@
          id="tspan6107-7-72-0-9-3-3-7-5"
          x="1966.5797"
          y="128.08665"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -3389,7 +3389,7 @@
          id="tspan6107-7-72-0-9-3-3-0-6"
          x="2032.2047"
          y="128.08665"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1995.9375,110.17472 -3.75,-14.062514 3.75,-14.0625 h 18.75 l -3.75,14.0625 3.75,14.062514 z"
@@ -3440,7 +3440,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-74"
        width="56.250011"
        height="29.117142"
@@ -3450,7 +3450,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0-2"
        width="56.250015"
        height="29.117142"
@@ -3471,7 +3471,7 @@
          id="tspan6107-7-72-0-9-3-3-7-2"
          x="1966.5797"
          y="240.58664"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -3484,7 +3484,7 @@
          id="tspan6107-7-72-0-9-3-3-0-2"
          x="2032.2047"
          y="240.58664"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1995.9375,222.67472 -3.75,-14.06251 3.75,-14.0625 h 18.75 l -3.75,14.0625 3.75,14.06251 z"
@@ -3685,7 +3685,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-7-5-0"
        width="56.250019"
        height="29.117142"
@@ -3695,7 +3695,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0-6-6-2"
        width="56.250023"
        height="29.117142"
@@ -3716,7 +3716,7 @@
          id="tspan6107-7-72-0-9-3-3-7-5-9-5"
          x="1967.5173"
          y="-96.913361"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -3729,7 +3729,7 @@
          id="tspan6107-7-72-0-9-3-3-0-6-7-2"
          x="2033.1423"
          y="-96.913361"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1996.875,-114.82529 -3.75,-14.06252 3.75,-14.0625 h 18.75 l -3.75,14.0625 3.75,14.06252 z"
@@ -3780,7 +3780,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-74-7-4"
        width="56.250019"
        height="29.117142"
@@ -3790,7 +3790,7 @@
        inkscape:export-xdpi="600"
        inkscape:export-ydpi="600" />
     <rect
-       style="opacity:1;fill:#b15ac1;fill-opacity:0.6;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.01780355;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4991-9-0-2-1-4"
        width="56.250023"
        height="29.117142"
@@ -3811,7 +3811,7 @@
          id="tspan6107-7-72-0-9-3-3-7-2-6-3"
          x="1967.5173"
          y="15.586647"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 0/1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 0/1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
@@ -3824,7 +3824,7 @@
          id="tspan6107-7-72-0-9-3-3-0-2-7-8"
          x="2033.1423"
          y="15.586647"
-         style="font-size:12.5px;stroke-width:0.9375">T-B 1</tspan></text>
+         style="font-size:12.5px;stroke-width:0.9375">T-A 1</tspan></text>
     <path
        style="fill:#94ff55;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1996.875,-2.325278 -3.75,-14.06251 3.75,-14.0625 h 18.75 l -3.75,14.0625 3.75,14.06251 z"
