@@ -18,7 +18,8 @@
 
 \DeclareMathOperator*{\argmin}{arg\,min}
 
-\title{Towards the Algorithmic Molecular Self-Assembly of Fractals by Cotranscriptional Folding\thanks{This work is in part supported by JST Program to Disseminate Tenure Tracking System, MEXT, Japan, No.~6F36 and by JSPS KAKENHI Grant-in-Aid for Young Scientists (A) No.~16H05854 to S.~S.}}
+\title{Towards the Algorithmic Molecular Self-Assembly of Fractals by Cotranscriptional Folding\thanks{This work is in part supported by JST Program to Disseminate Tenure Tracking System, MEXT, Japan, No.~6F36 and by JSPS KAKENHI Grant-in-Aid for Young Scientists (A) No.~16H05854 to S.~S.
+}}
 \titlerunning{Algorithmic Self-Assembly of Fractals by Cotranscriptional Folding}
 \author{
 Yusei Masuda \and 
@@ -355,7 +356,7 @@ We say that an OS $\Xi$ \textit{weakly folds} (or ``self-assembles'') $\diamonds
 %--------------------------------------------------------------------------------------------------------
 
 We propose a generic design of DOS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
-Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}.} with a fixed rule set $\mathcal{H}$ are employed. 
+Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}.} \texttt{1}, \texttt{2}, \dots, \texttt{567} with a fixed rule set $\mathcal{H}$ are employed. 
 The design also challenges to make the resulting DOS cyclic. 
 Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
 However, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
@@ -426,7 +427,7 @@ Such a ``hardcoding'' also runs counter to the spirit of algorithmic self-assemb
 ;
 }
 
-\draw(6.5, 0)++(300:1.5) node {Turner $T$};
+\draw(6.5, 0)++(300:1.5) node {Turning $T$};
 
 \foreach \x in {5.5} {
 \draw (\x, 0)++(300:5) -- node[below] {Counter $C$} ++(0:3) -- ++(300:0.5) node (C2in) {} -- ++(300:0.5) -- node[above] {$i{+}{+}$ if carried} ++(180:3) -- ++(120:0.5) node (C2out) {} -- ++(120:0.5);
@@ -484,7 +485,7 @@ Such a ``hardcoding'' also runs counter to the spirit of algorithmic self-assemb
 -- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node (A2out) {}
 ;
 }
-\draw(-0.75, 0)++(300:3.75) node {Turner $T$};
+\draw(-0.75, 0)++(300:3.75) node {Turning $T$};
 
 \draw[-latex] (seedout) -- node[above right] {($i = j_1$, no carry) in \eqref{eq:turner_output}} (C1in);
 \draw[-latex] (C1out) to [out=300, in=120] node[below right] {$i$ in \eqref{eq:counter_output}} (Dvin);
@@ -512,18 +513,18 @@ Transitions are labeled with the information propagated with its format.
 \label{fig:module_automaton}
 \end{figure}
 
-\paragraph{Modularization} is a factorization of transcript into functional units. 
+\paragraph{Modularization} is a semantic factorization of transcript into functional units. 
 Functions of modules and transitions from one module to another are described in the form of module automaton. 
 The generic design employs the module automaton in Fig.~\ref{fig:module_automaton}.  
 This automaton yields the transcript that repeats $C D_v T C D_h T$, where
 \begin{itemize}
 \item $C$ is a \textit{counter module}; it increments $i$ by 1 and propagates it; 
 \item $D_v$ and $D_h$ are a \textit{DFAO module}; they compute $P[i]$ and interpret it properly (this issue of interpretation shall be discussed shortly); 
-\item $T$ is a \textit{turner module}; it makes a turn according to the interpretation. 
+\item $T$ is a \textit{turning module}; it makes a turn according to the interpretation. 
 \end{itemize}
 The first $C$ and $D_v$ modules fold into a vertical line segment, while the second $C$ and $D_h$ fold into the next line segment, which is guaranteed to be horizontal since vertical and horizontal segments alternate on the Heighway dragon. 
-The DFAO modules $D_v, D_h$ differ only in their way to interpret their intermediate outcome $P[i]$. 
-The slanted dragon involves two types of left turn as well as two types of right turn: acute and obtuse. 
+The DFAO modules $D_v, D_h$ differ from each other only in their way to interpret their intermediate outcome $P[i]$. 
+The slanted Heighway dragon involves two types of left turn as well as two types of right turn: acute and obtuse. 
 Observe that after (slanted) vertical line segments, the dragon turns left obtusely and right acutely, whereas after horizontal ones, it turns left acutely and right obtusely. 
 Therefore, it suffices for $D_v$ and $D_h$ to compute $P[i] \in \{{\rm L}, {\rm R}\}$ in the same way and $D_v$ interprets L as O and R as A, while $D_h$ interprets L as A and R as O. 
 
@@ -536,22 +537,23 @@ Folding of one segment plus turn of the Heighway dragon, flow of information thr
 \label{fig:abst_dragon}
 \end{figure}
 
-Before explaining the modules, one issue intrinsic to the folding by OS should be pointed. 
+One issue intrinsic to the folding by OS should be pointed. 
 It rises when the dragon makes a turn where it has already turned before. % that is, when two turns share a point. 
 By definition, the OS is not allowed to put a bead anywhere occupied by another bead. 
 Being scaled sufficiently large, a rhombus corresponding to a point affords two turning modules, which otherwise collide, as long as they fold into an L-shape (see Figs.~\ref{fig:heighway6_oritatami}, \ref{fig:module_automaton}, and \ref{fig:abst_dragon}). 
-A turning module has its three bifurcators direct further folding obtusely one after another guided by the signal O from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another by A, as colored in green, and folds into two L-shape conformations. 
-Note that two turns at a point are both acute or both obtuse. 
+Being guided by the signal O, a turning module has its three bifurcator components direct further folding obtusely one after another from the previous DFAO module, as colored in yellow in Figs.~\ref{fig:abst_dragon}, \ref{fig:PFS}, \ref{fig:change_route}, or acutely one after another being guided by the signal A, as colored in green. 
+The turning module can thus fold into two L-shape conformations. 
+Note that two turns that share a point are both acute or both obtuse. 
 
 Having outlined the generic design, now we explain how the design implements an OS for a specific target portion $P[j_1 .. j_2]$, or more precisely, how the modules $C, D_v, D_h, T$ and their submodules are implemented, interlocked with each other, and collaborate. 
 Let $n = \min\{m \mid j_2 < 2^m\}$. 
 %The length of $C, T$, or more precisely, of their transcript, are of length $O(n^2)$ while $D_v, D_h$ are of length $O(n)$. 
 %Thus, the period of the OS is of length proportional to $n^2$. 
-Each of the modules consists of small submodules, say, with several dozens of beads. 
+Each of the modules consists of submodules which are small, say, with several dozens of beads. 
 Submodules implement various ``functions'' each of which is ``called'' in proper \textit{environments}, i.e., the beads already placed around the tip of the transcript acting as the memory in the computation. 
 The conformation that a submodule folds deterministically in a ``valid'' environment corresponds to the function to be called then. 
 These ``functional'' conformations are called \textit{bricks}, as they are the bricks upon which the whole folding is built. 
-\textit{Brick automata} (BA) describe the OS' behavior at submodule level, which can be found in Sects.~\ref{ap_subsect:DFAO_module_BA}, and \ref{ap_subsect:Turner_module_BA}.
+\textit{Brick automata} (BA) describe the OS' behavior at submodule level, which can be found in Sects.~\ref{ap_subsect:DFAO_module_BA} and \ref{ap_subsect:Turner_module_BA}.
 They enumerate all the pairs of an environment to be encountered and the brick to be folded there as well as transitions among them. 
 Once verified, all the BAs for $C$ (resp. $D_v$, $D_h$, and $T$) guarantee that the module outputs in the expected format \eqref{eq:counter_output} (resp.~\eqref{eq:Dv_output}, \eqref{eq:Dh_output}, and \eqref{eq:turner_output}), and hence we can say that the DOS behaves as described in the module automaton and folds into $P[j_1 .. j_2]$. 
 Using a simulator developed for \cite{HaKiOtSe2016}, we verified all the BAs. 
@@ -564,7 +566,7 @@ This amounts to the proof of Theorem~\ref{thm:main}.
 \label{fig:seed}
 \end{figure}
 
-\paragraph{Seed} encodes the initial count $i = j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
+\paragraph{Seed} (Fig.~\ref{fig:seed}) encodes the initial count $i = j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
 \begin{equation}\label{eq:turner_output}
 	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^2$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6) w_{t, b_1}} 
 %	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
@@ -572,10 +574,9 @@ This amounts to the proof of Theorem~\ref{thm:main}.
 where ${\tt w_{t, 0} = 338 \east 339 \east 344 \east 345}$ and ${\tt w_{t, 1} = 346 \east 347 \east 348 \east 349}$. 
 
 
-
 \paragraph{Counter module} $C$ is borrowed from \cite{GeMeScSe2016} with technical modification to let it operate in the dynamics \eqref{eq:cotranscriptional_folding}, which is more prevailing \cite{HanKim2017,HaKiOtSe2016,OtaSeki2017} though less tractable. 
 We hence leave all its details to the Appendix (Sect.~\ref{sect:appendix_counter_module}), and just describe its input and output. 
-It takes the current count $i$ formatted as \eqref{eq:turner_output}, which is fed by the seed or by the previous turner module, increments the count by 1 unless it is preceded by the seed, and outputs the resulting count in its binary representation $a_n a_{n-1} \cdots a_1$ in the following format:
+It takes the current count $i$ formatted as \eqref{eq:turner_output}, which is fed by the seed or by the previous turning module, increments the count by 1 unless it is preceded by the seed, and outputs the resulting count in its binary representation $a_n a_{n-1} \cdots a_1$ in the following format:
 \begin{equation}\label{eq:counter_output}{\tt 
 	44 \east 45 \east 46 \east 51 \east 52 \east \mbox{$\bigodot_{k = n}^2$} (w_{c, a_k} \east (75 \east 76 \east)^5 51 \east 52 \east) w_{c, a_1}
 }\end{equation}
@@ -597,10 +598,10 @@ where ${\tt w_{dv, L} = 198 \east 197}$, ${\tt w_{dv, R} = 194 \east 193}$, ${\t
 
 What the DFAO in Fig.~\ref{fig:heighway_dragon} really does for computing $P[i]$ is to search for the first 0 from the LSB and check if it is followed by 0 ($P[i] = {\rm R}$) or by 1 ($P[i] = {\rm L}$). 
 See Fig.~\ref{fig:abst_dfao}. 
-$D_v$ employs the six submodules: {\tt Dzig1}, \texttt{Dzag1}, \texttt{Dzig2}, \texttt{Dzag2}, \texttt{PFS}, and $\mathtt{AO}_v$ (resp.~$\mathtt{AO}_h$), which are interleaved by spacers, as well as those that guide the transcript into two zigzags and one more zig. 
+$D_v$ employs the six submodules: {\tt Dzig1}, \texttt{Dzag1}, \texttt{Dzig2}, \texttt{Dzag2}, \texttt{PFS}, and $\mathtt{AO}_v$ (resp.~$\mathtt{AO}_h$), which are interleaved by spacers, as well as those that guide the transcript into two zigzags and one more zig (throughout the paper, zigs are to go leftward while zags are to go rightward). 
 The first zigzag is for the search, the second is for the check and computation of $P[i]$, and the third zig is for the interpretation of $P[i]$ as A/O. 
 %at the beginning of the third zig, as shown in Fig.~\ref{fig:PFS}, $\mathrm{AO}_v$ interprets the output L of PFS as O and R as A, while $\mathrm{AO}_h$ interprets them the other way around otherwise. 
-While performing these tasks, these zigs and zags also propagate the count $i$ to the next turner module. 
+While performing these tasks, these zigs and zags also propagate the count $i$ to the next turning module. 
 
 \begin{wrapfigure}[15]{r}{0.6\linewidth}
 \vspace*{-5mm}
@@ -614,23 +615,23 @@ While performing these tasks, these zigs and zags also propagate the count $i$ t
 In the first zig, $n$ copies of \texttt{Dzig1} detect the first 0 collaboratively in two phases. 
 See Fig.~\ref{fig:DFAO-zig1} for all the bricks of \texttt{Dzig1} with the corresponding environments. 
 Phase 1 is to copy all the 1's prior to the first 0 and Phase 2 is to copy all the bits after the 0. 
-\texttt{Dzig1} knows which phase it is in by the relative position where it starts folding to the input above (far in Phase1, close in Phase 2). 
+\texttt{Dzig1} knows which phase it is in by the relative position where it starts folding to the input above (top in Phase1, bottom in Phase 2). 
 In Phase 1, \texttt{Dzig1}s certainly fold into the brick Dzig1-1. 
 At the first 0, a \texttt{Dzig1} rather folds into Dzig1-f0 brick, ending at the top in order to transition to Phase 2. 
 Each of the remaining \texttt{Dzig1} folds into either Dzig1-20 or Dzig1-21, copying all the remaining bits. 
-Interleaving spacers are implemented as a glider (see Sect.~\ref{sect:preliminaries}), hence capable of propagating 1bit (far/close) on which phase the system is in. 
-In the first zag, $n$ copies of \texttt{Dzag1} reformat and propagate 0's, 1's, and the first 0 using three bricks in Fig.~\ref{fig:Dzag1}.
+Interleaving spacers are implemented as a glider (see Sect.~\ref{sect:preliminaries}), hence capable of propagating 1bit (top/bottom) on which phase the system is in. 
+In the first zag, $n$ copies of \texttt{Dzag1} reformat and propagate 0's, 1's, and the first 0 using the three bricks in Fig.~\ref{fig:Dzag1}.
 
 In the second zig, $n$ copies of \texttt{Dzig2} check whether the first 0 is followed (being read from LSB) by 0 or 1, in a similar manner to the search in the first zig. 
 They usually take one of the two bricks Dzig2-0 and Dzig2-1 to copy 1's and 0's, which start and end at the bottom (see Fig.~\ref{fig:Dzig2}).
 At the encounter to the first 0, a \texttt{Dzig2} folds into a special brick Dzig2-f0 and ends rather at the top. 
-The next \texttt{Dzig2}, if any, starts folding at the top so that it takes the special brick Dzig2-0f0 if the first 0 is followed by 0 or Dzig2-1f0 if it is follwed by 1. 
-Recall the reading 1 here is a necessary and sufficient condition for the DFAO to transition to $q_2$, that is, $P[i] = L$. 
+The next \texttt{Dzig2}, if any, starts folding at the top so that it takes the special brick Dzig2-0f0 if the first 0 is followed by 0 or Dzig2-1f0 if it is followed by 1. 
+Recall the reading 1 here is a necessary and sufficient condition for the DFAO in Fig.~\ref{fig:heighway_dragon} to transition to $q_2$, that is, $P[i] = {\rm L}$. 
 Dzig2-1f0 exposes a marker $q_2$ downward. 
-These bricks ends at the bottom so that the remaining bits are copied by the ordinary bricks Dzig2-0 and -1. 
+These bricks end at the bottom so that the remaining bits are copied by the ordinary bricks Dzig2-0 and -1. 
 The second zag starts at the bottom and copy 0's and 1's by the two bricks of \texttt{Dzag2} (top left and center in Fig.~\ref{fig:Dzag2}) until a \texttt{Dzag2} encounters the 1 marked by $q_2$, if any. 
 At the encounter, the \texttt{Dzag2} folds into the special brick Dzag2-T1 and changes the ending position to the top, letting the remaining \texttt{Dzag2} rather fold into the bricks Dzag2-R0 and -R1 for copying, which end at the top. 
-As such, the second zag can feed $P[i]$ to PFS as the position of its first bead. 
+As such, the second zag can feed $P[i]$ to \texttt{PFS} as the position of its first bead. 
 
 \begin{figure}[tb]
 \centering
@@ -641,7 +642,7 @@ As such, the second zag can feed $P[i]$ to PFS as the position of its first bead
 
 
 At the beginning of the third zig, $D_v$ employs $\mathtt{AO}_v$ to convert $P[i]$ into ${\tt w_{dv, P[i]}}$ while $D_h$ employs rather $\mathtt{AO}_h$ to convert $P[i]$ into ${\tt w_{dh, P[i]}}$. 
-The turner module interprets ${\tt w_{dv, L}}$ and ${\tt w_{dh, R}}$ as turning obtusely while ${\tt w_{dv, R}}$ and ${\tt w_{dh, L}}$ as turning acutely. 
+The turning module interprets ${\tt w_{dv, L}}$ and ${\tt w_{dh, R}}$ as turning obtusely while ${\tt w_{dv, R}}$ and ${\tt w_{dh, L}}$ as turning acutely. 
 As a part of effort to save bead types, the submodule $\mathtt{AO}_v$ is also diverted in order for both $D_v$ and $D_h$ to propagate the count $i$ in the rest of this zig. 
 
 \begin{figure}[tb]
@@ -653,28 +654,28 @@ All the white submodules are spacers, some of which are implemented in the shape
 \end{figure}
 
 \begin{wrapfigure}[8]{r}{0.5\linewidth}
-\vspace*{-5mm}
+\vspace*{-7mm}
 \centering
 \includegraphics[width=\linewidth]{Figs/turn-rgp.png}
 \caption{The two bricks of \texttt{turn-rgp}.}
 \label{fig:turn-rgp}
 \end{wrapfigure}
 
-\paragraph{Turner module} $T$ consists of 3 copies of the pair of two functional units called \textit{bit-bifurcator} and \textit{steering arm}. 
+\paragraph{Turning module} $T$ consists of 3 copies of the pair of two functional units called \textit{bit-bifurcator} and \textit{steering arm}. 
 See Fig.~\ref{fig:turner}. 
-The bit-bifurcator bifurcates the current count $i = a_n a_{n-1} \cdots a_1$ as well as the A/O signal into the left and right while folding into zigzags. 
-It consists of 10 submodules, which handle the following four types of tasks: 
+The bit-bifurcator forks the count $i = a_n a_{n-1} \cdots a_1$ left and rightward while folding into zigzags. 
+It consists of 10 submodules, which handle the following tasks: 
 \begin{enumerate}[topsep=0in, itemsep=0in]
 \item Propagate 1-bit vertically: {\tt body-rpx1}, {\tt body-rpx2}, {\tt body-lpx1}, {\tt body-lpx2}; 
-\item Let 1-bit that propagates vertically cross another 1-bit that propagates horizontally: {\tt body-gx1}, {\tt body-gx2}; 
+\item Let 1-bit propagating vertically cross another 1-bit propagating horizontally: {\tt body-gx1}, {\tt body-gx2}; 
 \item Fork 1-bit vertically and horizontally: {\tt body-rgy}, {\tt body-lgy}; 
 \item Undergo transition between a zig and a zag and exposes 1-bit outside: {\tt turn-rgp}, {\tt turn-lgp}. 
 \end{enumerate}
 Submodules to handle the first two types of tasks have already been implemented (see, e.g., \cite{HaKiOtSe2016}). 
-The submodule \texttt{body-rgy} is implemented by reusing the first half of \texttt{Dzag2} (Fig.~\ref{fig:Dzag2}). 
+The submodule \texttt{body-rgy} is implemented by recycling the first half of \texttt{Dzag2} (Fig.~\ref{fig:Dzag2}). 
 Starting from the bottom, it can take two conformations that end at different heights and expose sequences bead types distinct enough downward. 
 The 1-bit thus forked transfers till the end of a zag and is converted into a sequence of bead types by \texttt{turn-rgp} (Fig.~\ref{fig:turn-rgp}). 
-The \texttt{body-lgy} and \texttt{turn-lgp} are the zig-counterparts of them (Fig.~\ref{fig:body-lgy} and \ref{fig:turn-lgp}). 
+The \texttt{body-lgy} and \texttt{turn-lgp} are the zig-counterparts of them (Figs.~\ref{fig:body-lgy} and \ref{fig:turn-lgp}). 
 
 \begin{figure}[tb]
 \centering
@@ -682,6 +683,17 @@ The \texttt{body-lgy} and \texttt{turn-lgp} are the zig-counterparts of them (Fi
 \caption{The two bricks of \texttt{change-route}.}
 \label{fig:change_route}
 \end{figure}
+
+The bifurcator also propagates the 1-bit A/O signal, output by the previous DFAO module, to let the steering arm know which way to go. 
+Specifically, the signal has the \texttt{change-route} submodule of the steering arm take one of the two bricks shown in Fig.~\ref{fig:change_route}, guiding the rest of the arm towards the specified direction. 
+The rest of the arm is a catenation of \texttt{move} submodules (Fig.~\ref{fig:move}), which is capable of letting the bifurcated bit sequence through. 
+Note that the turning module does not have to bifurcate the A/O signal. 
+Indeed, the second and third pairs of bifurcator and steering arm are supposed to turn in the same manner as the first. 
+It hence suffices to append A and O to the bifurcated bit sequences on the acute and obtuse sides, respectively. 
+
+\paragraph{Acknowledgements} 
+We would like to thank Hwee Kim for valuable discussions. 
+
 
 %--------------------------------------------------------------------------------------------------------
 	\bibliographystyle{splncs03}
@@ -768,7 +780,7 @@ All the bricks of the submodules of DFAO module omitted in the main text are sho
 \centering
 \includegraphics[width=\linewidth]{Figs/DFAO-zag2.png}  
 \caption{The five bricks of \texttt{Dzag2}: (top) Dzag2-L0, Dzag2-L1, and Dzag2-T1; (bottom) Dzag2-R0 and Dzag2-R1. 
-The first and second halves are diverted to implement the \texttt{body-gx1} (T-E) and \texttt{body-rgy} (T-G) submodules of the turner module, respectively.}
+The first and second halves are diverted to implement the \texttt{body-gx1} (T-E) and \texttt{body-rgy} (T-G) submodules of the turning module, respectively.}
 \label{fig:Dzag2}
 \end{figure}
 
@@ -827,7 +839,7 @@ The labels B and T of transitions in these brick automata stand for that the pre
 \end{figure}
 
 %--------------------------------------------------------------------------------------------------------
-	\section{Turner module}
+	\section{Turning module}
 	\label{ap_sect:Turner_module}
 %--------------------------------------------------------------------------------------------------------
 
@@ -836,7 +848,7 @@ The labels B and T of transitions in these brick automata stand for that the pre
 	\label{ap_subsect:Turner_module_bricks}
 %--------------------------------------------------------------------------------------------------------
 
-Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turner module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
+Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turning module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
 Below, we enumerate the bricks of the \texttt{body-rpx1} (T-A), \texttt{body-lpx1} (T-C), \texttt{body-lgy} (T-H), \texttt{turn-lgp} (T-J), and \texttt{move} (T-L) submodules in Fig.s~\ref{fig:body-rpx1}, \ref{fig:body-lpx1}, \ref{fig:body-lgy}, \ref{fig:turn-lgp}, and \ref{fig:move}, respectively. 
 The formatter \text{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
 The \texttt{Dzag2} submodule of the DFAO module is split into half, and the first and second halves are diverted respectively as the \texttt{body-rgy} (T-G) and \texttt{body-gx1} (T-E) submodules. 
@@ -886,49 +898,49 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_under_DFAO.png}
-\caption{The brick automaton for the first zag of Turner module.}
+\caption{The brick automaton for the first zag of Turning module.}
 \label{fig:BA_T-A_under_DFAO}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_under_gx_left.png}
-\caption{The brick automaton for all zags that involve \texttt{body-rpx1} (T-A) below a zig that involves \texttt{body-gx1} (T-E) of Turner module.}
+\caption{The brick automaton for all zags that involve \texttt{body-rpx1} (T-A) below a zig that involves \texttt{body-gx1} (T-E) of Turning module.}
 \label{fig:BA_T-A_under_gx_left}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/T-B.png}
-\caption{The brick automaton for all zags that involve \texttt{body-rpx2} (T-B) of Turner module.}
+\caption{The brick automaton for all zags that involve \texttt{body-rpx2} (T-B) of Turning module.}
 \label{fig:BA_T-B}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/T-C_ver2.png}
-\caption{The brick automaton for all zigs that involve \texttt{body-lpx1} (T-C) of Turner module.}
+\caption{The brick automaton for all zigs that involve \texttt{body-lpx1} (T-C) of Turning module.}
 \label{fig:BA_T-C}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/T-D_ver2.png}
-\caption{The brick automaton for all zigs that involve \texttt{body-lpx2} (T-D) of Turner module.}
+\caption{The brick automaton for all zigs that involve \texttt{body-lpx2} (T-D) of Turning module.}
 \label{fig:BA_T-D}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/gx_right_ver3.png}
-\caption{The brick automaton for all zags that involve \texttt{body-gx1} (T-E) of Turner module, which also involve one \texttt{body-rgy} (T-G) and $n-1$ \texttt{body-gx2} (T-F).}
+\caption{The brick automaton for all zags that involve \texttt{body-gx1} (T-E) of Turning module, which also involve one \texttt{body-rgy} (T-G) and $n-1$ \texttt{body-gx2} (T-F).}
 \label{fig:BA_gx_right}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Turner_BA/gx_left.png}
-\caption{The brick automaton for all zigs that involve \texttt{body-gx1} (T-E) of Turner module, which also involve one \texttt{body-lgy} (T-H).}
+\caption{The brick automaton for all zigs that involve \texttt{body-gx1} (T-E) of Turning module, which also involve one \texttt{body-lgy} (T-H).}
 \label{fig:BA_gx_left}
 \end{figure}
 
