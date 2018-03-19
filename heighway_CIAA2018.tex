@@ -635,7 +635,7 @@ As such, the second zag can feed $P[i]$ to PFS as the position of its first bead
 \begin{figure}[tb]
 \centering
 \includegraphics[width=\linewidth]{Figs/PFS.png}
-\caption{The two bricks of \texttt{PFS} above and the corresponding two bricks of (left) $\mathtt{AO}_v$ and (right) $\mathtt{AO}_h$.}
+\caption{The two bricks of \texttt{PFS} above and the corresponding two bricks of (left) $\mathtt{AO}_v$ and (right) those of $\mathtt{AO}_h$.}
 \label{fig:PFS}
 \end{figure}
 
@@ -744,7 +744,7 @@ This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of 
 %--------------------------------------------------------------------------------------------------------
 
 %--------------------------------------------------------------------------------------------------------
-	\subsection{Bricks}
+	\subsection{Bricks for DFAO module}
 	\label{ap_subsect:DFAO_module_bricks}
 %--------------------------------------------------------------------------------------------------------
 
@@ -775,46 +775,55 @@ The first and second halves are diverted to implement the \texttt{body-gx1} (T-E
 
 
 %--------------------------------------------------------------------------------------------------------
-	\subsection{Brick automata}
+	\subsection{Brick automata for DFAO module}
 	\label{ap_subsect:DFAO_module_BA}
 %--------------------------------------------------------------------------------------------------------
 
-The DFAO module is designed at the level of submodule based on the five brick automata shown in Figs.~\ref{fig:brick_automaton_Dzig1}, \ref{fig:brick_automaton_Dzag1}, \ref{fig:brick_automaton_Dzig2}, \ref{fig:brick_automaton_Dzag2}, and \ref{fig:brick_automaton_Dzig3}. 
-The labels B and T of transitions stand for that the previous submodule (glider) ends at the bottom and at the top, respectively. 
+The DFAO module is designed at the level of submodule based on the six brick automata shown in Figs.~\ref{fig:brick_automaton_Dzig1}, \ref{fig:brick_automaton_Dzag1}, \ref{fig:brick_automaton_Dzig2}, \ref{fig:brick_automaton_Dzag2}, \ref{fig:brick_automaton_Dzig3}, and \ref{fig:brick_automaton_Dzig3_hori}. 
+The brick automaton in Fig.~\ref{fig:brick_automaton_Dzig3} is for $D_v$, while the one in Fig.~\ref{fig:brick_automaton_Dzig3_hori} is for $D_h$. 
+They differ only in the type of bricks that converts $P_i$ into the A/O-signal; $\mathtt{AO}_v$ (blue in Fig.~\ref{fig:brick_automaton_Dzig3}) for $D_v$ while $\mathtt{AO}_h$ (red in Fig.~\ref{fig:brick_automaton_Dzig3_hori}). 
+The labels B and T of transitions in these brick automata stand for that the previous submodule (glider) ends at the bottom and at the top, respectively. 
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig1_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zig1_brick.png}
 \caption{The brick automaton for the first zig of DFAO module.}
 \label{fig:brick_automaton_Dzig1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zag1_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zag1_brick.png}
 \caption{The brick automaton for the first zag of DFAO module.}
 \label{fig:brick_automaton_Dzag1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig2_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zig2_brick.png}
 \caption{The brick automaton for the second zig of DFAO module.}
 \label{fig:brick_automaton_Dzig2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zag2_brick.pdf}
+%\includegraphics[width=\linewidth]{Figs/D-zag2_brick.png}
 \caption{The brick automaton for the second zag of DFAO module.}
 \label{fig:brick_automaton_Dzag2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig3_brick.pdf}
-\caption{The brick automaton for the third zig of DFAO module.}
+%\includegraphics[width=\linewidth]{Figs/D-zig3_brick.png}
+\caption{The brick automaton for the third zig of DFAO module $D_v$, which is for a vertical segment.}
 \label{fig:brick_automaton_Dzig3}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+%\includegraphics[width=\linewidth]{Figs/D-zig3_brick_hori.png}
+\caption{The brick automaton for the third zig of DFAO module $D_h$, which is for a horizontal segment.}
+\label{fig:brick_automaton_Dzig3_hori}
 \end{figure}
 
 %--------------------------------------------------------------------------------------------------------
@@ -849,7 +858,7 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\linewidth]{Figs/body-lgy}
+\includegraphics[width=0.7\linewidth]{Figs/body-lgy}
 \caption{The two bricks of \texttt{body-lgy} (T-H) submodule}
 \label{fig:body-lgy}
 \end{figure}
@@ -873,5 +882,54 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 	\subsection{Brick automata}
 	\label{ap_subsect:Turner_module_BA}
 %--------------------------------------------------------------------------------------------------------
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_under_DFAO.png}
+\caption{The brick automaton for the first zag of Turner module.}
+\label{fig:BA_T-A_under_DFAO}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_under_gx_left.png}
+\caption{The brick automaton for all zags that involve \texttt{body-rpx1} (T-A) below a zig that involves \texttt{body-gx1} (T-E) of Turner module.}
+\label{fig:BA_T-A_under_gx_left}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-B.png}
+\caption{The brick automaton for all zags that involve \texttt{body-rpx2} (T-B) of Turner module.}
+\label{fig:BA_T-B}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-C_ver2.png}
+\caption{The brick automaton for all zigs that involve \texttt{body-lpx1} (T-C) of Turner module.}
+\label{fig:BA_T-C}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-D_ver2.png}
+\caption{The brick automaton for all zigs that involve \texttt{body-lpx2} (T-D) of Turner module.}
+\label{fig:BA_T-D}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/gx_right_ver3.png}
+\caption{The brick automaton for all zags that involve \texttt{body-gx1} (T-E) of Turner module, which also involve one \texttt{body-rgy} (T-G) and $n-1$ \texttt{body-gx2} (T-F).}
+\label{fig:BA_gx_right}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/gx_left.png}
+\caption{The brick automaton for all zigs that involve \texttt{body-gx1} (T-E) of Turner module, which also involve one \texttt{body-lgy} (T-H).}
+\label{fig:BA_gx_left}
+\end{figure}
 
 \end{document}
