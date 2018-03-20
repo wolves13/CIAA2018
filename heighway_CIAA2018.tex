@@ -553,7 +553,7 @@ Each of the modules consists of submodules which are small, say, with several do
 Submodules implement various ``functions'' each of which is ``called'' in proper \textit{environments}, i.e., the beads already placed around the tip of the transcript acting as the memory in the computation. 
 The conformation that a submodule folds deterministically in a ``valid'' environment corresponds to the function to be called then. 
 These ``functional'' conformations are called \textit{bricks}, as they are the bricks upon which the whole folding is built. 
-\textit{Brick automata} (BA) describe the OS' behavior at submodule level, which can be found in Sects.~\ref{ap_subsect:DFAO_module_BA} and \ref{ap_subsect:Turner_module_BA}.
+\textit{Brick automata} (BA) describe the OS' behavior at submodule level, which can be found in Sects.~\ref{ap_subsect:Counter_module_BA}, \ref{ap_subsect:DFAO_module_BA}, and \ref{ap_subsect:Turner_module_BA}.
 They enumerate all the pairs of an environment to be encountered and the brick to be folded there as well as transitions among them. 
 Once verified, all the BAs for $C$ (resp. $D_v$, $D_h$, and $T$) guarantee that the module outputs in the expected format \eqref{eq:counter_output} (resp.~\eqref{eq:Dv_output}, \eqref{eq:Dh_output}, and \eqref{eq:turner_output}), and hence we can say that the DOS behaves as described in the module automaton and folds into $P[j_1 .. j_2]$. 
 Using a simulator developed for \cite{HaKiOtSe2016}, we verified all the BAs. 
@@ -647,7 +647,7 @@ As a part of effort to save bead types, the submodule $\mathtt{AO}_v$ is also di
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width=\linewidth]{Figs/bitmap.png}
+\includegraphics[width=\linewidth]{Figs/overall_turn_part.png}
 \caption{Submodule-level abstraction of the whole folding of the pair of a bifurcator and steering arm. 
 All the white submodules are spacers, some of which are implemented in the shape of parallelogram instead of glider.}
 \label{fig:turner}
@@ -700,6 +700,8 @@ We would like to thank Hwee Kim for valuable discussions.
 	\bibliography{heighway_CIAA2018}
 %--------------------------------------------------------------------------------------------------------
 
+\clearpage
+
 %--------------------------------------------------------------------------------------------------------
 	\newpage
 	\appendix
@@ -725,6 +727,10 @@ One period of the transcript of the $n$-bit counter module is the concatenation 
 \item Submodule \texttt{CRT}; the right-turner.
 \end{itemize}
 
+%--------------------------------------------------------------------------------------------------------
+	\subsection{Bricks for Counter module}
+	\label{ap_subsect:Counter_module_bricks}
+%--------------------------------------------------------------------------------------------------------
 
 \begin{figure}[htb]
 \centering
@@ -744,11 +750,46 @@ This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of 
 \label{fig:half-adder}
 \end{figure}
 
-
+\clearpage
 
 %--------------------------------------------------------------------------------------------------------
-	\subsection{Transcript}
+	\subsection{Brick automata for Counter module}
+	\label{ap_subsect:Counter_module_BA}
 %--------------------------------------------------------------------------------------------------------
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-C_brick.png}
+\caption{}
+\label{fig:BA_counter_c}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-NC_brick.png}
+\caption{}
+\label{fig:BA_counter_nc}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-NC_seed_brick.png}
+\caption{}
+\label{fig:BA_counter_nc_seed}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-zag.png}
+\caption{}
+\label{fig:BA_counter_zag}
+\end{figure}
+
+%--------------------------------------------------------------------------------------------------------
+%	\subsection{Transcript}
+%--------------------------------------------------------------------------------------------------------
+
+\clearpage
 
 %--------------------------------------------------------------------------------------------------------
 	\section{DFAO module}
@@ -760,7 +801,7 @@ This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of 
 	\label{ap_subsect:DFAO_module_bricks}
 %--------------------------------------------------------------------------------------------------------
 
-All the bricks of the submodules of DFAO module omitted in the main text are shown in Figs.~\ref{fig:Dzag1} and \ref{fig:Dzig2}. 
+All the bricks of the submodules of DFAO module omitted in the main text are shown in Figs.~\ref{fig:Dzag1}, \ref{fig:Dzig2}, and \ref{fig:Dzag2}. 
 
 \begin{figure}[h]
 \centering
@@ -784,7 +825,7 @@ The first and second halves are diverted to implement the \texttt{body-gx1} (T-E
 \label{fig:Dzag2}
 \end{figure}
 
-
+\clearpage
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Brick automata for DFAO module}
@@ -798,45 +839,47 @@ The labels B and T of transitions in these brick automata stand for that the pre
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig1_brick.png}
+\includegraphics[width=\linewidth]{Figs/D-zig1_brick.png}
 \caption{The brick automaton for the first zig of DFAO module.}
 \label{fig:brick_automaton_Dzig1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zag1_brick.png}
+\includegraphics[width=\linewidth]{Figs/D-zag1_brick.png}
 \caption{The brick automaton for the first zag of DFAO module.}
 \label{fig:brick_automaton_Dzag1}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig2_brick.png}
+\includegraphics[width=\linewidth]{Figs/D-zig2_brick.png}
 \caption{The brick automaton for the second zig of DFAO module.}
 \label{fig:brick_automaton_Dzig2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zag2_brick.png}
+\includegraphics[width=\linewidth]{Figs/D-zag2_brick.png}
 \caption{The brick automaton for the second zag of DFAO module.}
 \label{fig:brick_automaton_Dzag2}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig3_brick.png}
+\includegraphics[width=\linewidth]{Figs/D-zig3_brick.png}
 \caption{The brick automaton for the third zig of DFAO module $D_v$, which is for a vertical segment.}
 \label{fig:brick_automaton_Dzig3}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-%\includegraphics[width=\linewidth]{Figs/D-zig3_brick_hori.png}
+\includegraphics[width=\linewidth]{Figs/D-zig3_brick_hori.png}
 \caption{The brick automaton for the third zig of DFAO module $D_h$, which is for a horizontal segment.}
 \label{fig:brick_automaton_Dzig3_hori}
 \end{figure}
+
+\clearpage
 
 %--------------------------------------------------------------------------------------------------------
 	\section{Turning module}
@@ -850,7 +893,7 @@ The labels B and T of transitions in these brick automata stand for that the pre
 
 Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turning module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
 Below, we enumerate the bricks of the \texttt{body-rpx1} (T-A), \texttt{body-lpx1} (T-C), \texttt{body-lgy} (T-H), \texttt{turn-lgp} (T-J), and \texttt{move} (T-L) submodules in Fig.s~\ref{fig:body-rpx1}, \ref{fig:body-lpx1}, \ref{fig:body-lgy}, \ref{fig:turn-lgp}, and \ref{fig:move}, respectively. 
-The formatter \text{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
+The formatter \texttt{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
 The \texttt{Dzag2} submodule of the DFAO module is split into half, and the first and second halves are diverted respectively as the \texttt{body-rgy} (T-G) and \texttt{body-gx1} (T-E) submodules. 
 Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \texttt{body-gx2} (T-E) using a pairwise-distinct transcript \texttt{414}-\texttt{415}-\dots-\texttt{425}; they behave exactly in the same way; this copy is necessary because if \texttt{body-gx1} were used in place for \texttt{body-gx2}, the previous \texttt{body-gx1} would prevent it from folding correctly into bricks. 
 
@@ -889,11 +932,14 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 \label{fig:move}
 \end{figure}
 
+\clearpage
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Brick automata}
 	\label{ap_subsect:Turner_module_BA}
 %--------------------------------------------------------------------------------------------------------
+
+The turning module is designed at the level of submodule based on the ten brick automata shown in Figs.~\ref{fig:BA_T-A_under_DFAO}, \ref{fig:BA_T-A_under_gx_left}, \ref{fig:BA_T-A_afterA}, \ref{fig:BA_T-A_afterO}, \ref{fig:BA_T-B}, \ref{fig:BA_T-C}, \ref{fig:BA_T-D}, \ref{fig:BA_gx_right}, \ref{fig:BA_gx_left}, and \ref{fig:BA_move}. 
 
 \begin{figure}[ht]
 \centering
@@ -908,6 +954,21 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 \caption{The brick automaton for all zags that involve \texttt{body-rpx1} (T-A) below a zig that involves \texttt{body-gx1} (T-E) of Turning module.}
 \label{fig:BA_T-A_under_gx_left}
 \end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_afterA.png}
+\caption{The brick automaton for the first zag of the second and third bifurcators in case the first bifurcator received the A-signal.}
+\label{fig:BA_T-A_afterA}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/T-A_afterO.png}
+\caption{The brick automaton for the first zag of the second and third bifurcators in case the first bifurcator received the O-signal.}
+\label{fig:BA_T-A_afterO}
+\end{figure}
+
 
 \begin{figure}[ht]
 \centering
@@ -942,6 +1003,13 @@ Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \t
 \includegraphics[width=\linewidth]{Figs/Turner_BA/gx_left.png}
 \caption{The brick automaton for all zigs that involve \texttt{body-gx1} (T-E) of Turning module, which also involve one \texttt{body-lgy} (T-H).}
 \label{fig:BA_gx_left}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{Figs/Turner_BA/move.png}
+\caption{The brick automaton for \texttt{change-route} (T-K) and \texttt{move} (T-L).}
+\label{fig:BA_move}
 \end{figure}
 
 \end{document}
