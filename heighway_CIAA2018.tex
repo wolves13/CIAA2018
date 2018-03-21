@@ -485,7 +485,7 @@ Such a ``hardcoding'' also runs counter to the spirit of algorithmic self-assemb
 -- ++(120:0.8) -- ++(180:0.1) -- ++(300:1) node (A2out) {}
 ;
 }
-\draw(-0.75, 0)++(300:3.75) node {Turning module $T$};
+\draw(-1.25, 0)++(300:3.75) node {Turning module $T$};
 
 \draw[-latex] (seedout) -- node[above right] {($i = j_1$, no carry) in \eqref{eq:turner_output}} (C1in);
 \draw[-latex] (C1out) to [out=300, in=120] node[below right] {$i$ in \eqref{eq:counter_output}} (Dvin);
@@ -568,7 +568,7 @@ This amounts to the proof of Theorem~\ref{thm:main}.
 \label{fig:seed}
 \end{figure}
 
-\paragraph{Seed} (Fig.~\ref{fig:seed}) encodes the initial count $i = j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as: 
+\paragraph{Seed} (Fig.~\ref{fig:seed}) encodes the initial count $i = j_1$ in its binary representation $b_n b_{n-1} \cdots b_1$ as the following sequence of bead types: 
 \begin{equation}\label{eq:turner_output}
 	{\tt 499 \east 500 \east 501 \east 506 \east 507 \east \mbox{$\bigodot_{k = n}^2$} (w_{t, b_k} \east 350 \east 351 \east (356 \east 357 \east)^6) w_{t, b_1}} 
 %	& & \ {\tt 350 \east 351 \east 356 \east 357 \east 316 \east 317 \se}
@@ -728,6 +728,9 @@ One period of the transcript of the $n$-bit counter module is the concatenation 
 \item $n-1$ spacers interleaved between \texttt{CF}s; 
 \item Submodule \texttt{CRT}; the right-turner.
 \end{itemize}
+
+The $n$ half-adders and the spacers between them fold into a zig ($\leftarrow$), the left-turner reverses the folding direction, the $n$ formatters and the spacers between them fold into a zag ($\rightarrow$), and the right-turner reverses the folding direction back for the next zigzag folded by the next period. 
+% and depending on whether the zig starts at the bottom or top, the zig exposes two different sequences of bead types below. 
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Bricks for Counter module}
