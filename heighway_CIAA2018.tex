@@ -751,7 +751,9 @@ As a result, the first counter module just propagates the initial count $i = j_1
 As noted above, the counter module involves the four submodules: \texttt{Half-adder}, \texttt{Left-turner}, \texttt{Formatter}, and \texttt{Right-turner}. 
 
 \paragraph{Half-adder} (Fig.~\ref{fig:half-adder}) is to fold into the four different conformations (bricks) in eight expected environments which are characterized by the four sequences of bead types above: $\mathtt{w_{t, 1}}$, $\mathtt{w_{t, 0}}$, $\mathtt{w_{c, 1}}$, and $\mathtt{w_{c, 0}}$ and the position to start folding: top or bottom. 
-$\mathtt{w_{t, 1}}$ and $\mathtt{w_{t, 0}}$ encode the 1-bit input 1/0 to this half-adder and the starting at the top and bottom represents the absence and presence of carry, respectively. 
+The sequences $\mathtt{w_{t, 1}}$ and $\mathtt{w_{c, 1}}$ encode the 1-bit input 1 to this half-adder and $\mathtt{w_{t, 0}}$ and $\mathtt{w_{c, 0}}$ encode 0. 
+Starting at the bottom and top is interpreted as being fed with carry and no-carry, respectively. 
+Among these eight environments, those two with $\mathtt{w_{c, 0}}$/$\mathtt{w_{c, 1}}$ and carry are never encountered because only the first zig can be fed with carry and the count $i$ they read is given by the seed or the previous turning module, and hence, in the format \eqref{eq:turner_output}. 
 The brick automata in Figs.~\ref{fig:BA_counter_nc_seed}, \ref{fig:BA_counter_c}, and \ref{fig:BA_counter_nc} guarantee that \texttt{HA} never encounter any other environment. 
 
 \paragraph{Left- and Right-turner} always fold into one brick so that we omit their figures. 
