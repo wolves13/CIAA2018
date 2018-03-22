@@ -719,18 +719,46 @@ We would like to thank Hwee Kim for valuable discussions.
 	\label{sect:appendix_counter_module}
 %--------------------------------------------------------------------------------------------------------
 
-One period of the transcript of the $n$-bit counter module is the concatenation of the following submodules: 
-\begin{itemize}
-\item $n$ submodules \texttt{HA}; the half-adder; 
-\item $n-1$ spacers interleaved between \texttt{HA}s; 
-\item Submodule \texttt{CLT}; the left-turner; 
-\item $n$ submodules \texttt{CF}, the formatter; 
-\item $n-1$ spacers interleaved between \texttt{CF}s; 
-\item Submodule \texttt{CRT}; the right-turner.
-\end{itemize}
+As described in the module automaton in Fig.~\ref{fig:module_automaton}, the counter module receives the count $i$ either from the seed or from the previous turning module, increments it by 1 unless being preceded by the seed, and propagates it at some distance for the succeeding DFAO module. 
 
-The $n$ half-adders and the spacers between them fold into a zig ($\leftarrow$), the left-turner reverses the folding direction, the $n$ formatters and the spacers between them fold into a zag ($\rightarrow$), and the right-turner reverses the folding direction back for the next zigzag folded by the next period. 
+The transcript of the $n$-bit counter module is periodic. 
+Its period is the concatenation of the following submodules: 
+\begin{itemize}
+\item $n$ submodules \texttt{Half-adder} (abbreviated as \texttt{HA}); the half-adder; 
+\item Spacers interleaved between \texttt{HA}s; 
+\item Submodule \texttt{Left-turner} (\texttt{CLT}); the left-turner; 
+\item $n$ submodules \texttt{Formatter} (\texttt{CF}), the formatter; 
+\item Spacers interleaved between \texttt{CF}s; 
+\item Submodule \texttt{Right-turner} (\texttt{CRT}); the right-turner.
+\end{itemize}
+The length of one period is hence $O(n)$. 
+
+The $n$ \texttt{Half-adder}s and the spacers between them fold into a zig ($\leftarrow$), the \texttt{Left-turner} reverses the folding direction ($\hookrightarrow$), the $n$ \texttt{Formatter}s and the spacers between them fold into a zag ($\rightarrow$), and the \texttt{Right-turner} reverses the folding direction back ($\hookleftarrow$) for the next zigzag folded by the next period. 
 % and depending on whether the zig starts at the bottom or top, the zig exposes two different sequences of bead types below. 
+The zig is to fold below a sequence of beads that encodes the current count $i$ in the format \eqref{eq:turner_output} if this is the first zig or in the format \eqref{eq:counter_output} otherwise, and to increment $i$ to $i+1$ if being fed with carry. 
+Its output ($i$ or $i+1$) is encoded in an internal format, different from \eqref{eq:counter_output} in which 1 is encoded either as \texttt{HA-1a} = \texttt{10{-}9{-}8{-}7} or \texttt{HA-1b} = \texttt{10-9-8-1} and 0 as \texttt{HA-0a} = \texttt{12-7-6-1} or \texttt{HA-0b} = \texttt{10-9-4-3}. 
+The next zag folded by the $n$ formatters and the spacers between them is to reformat the output of the zig in \eqref{eq:counter_output} so that the next zig can read it. 
+
+The whole DOS is designed so as to feed carry only by the turning module to the first zig of the counter module. 
+That is, any zig but the first is never fed with carry. 
+As a result, the first counter module just propagates the initial count $i = j_1$ encoded on the seed to the succeeding DFAO module, while any other counter module increments the current count $i$ given by the previous turning module by 1 and propagates it to the succeeding DFAO module. 
+
+%--------------------------------------------------------------------------------------------------------
+	\subsection{Submodules}
+	\label{ap_subsect:Counter_submodules}
+%--------------------------------------------------------------------------------------------------------
+
+As noted above, the counter module involves the four submodules: \texttt{Half-adder}, \texttt{Left-turner}, \texttt{Formatter}, and \texttt{Right-turner}. 
+
+\paragraph{Half-adder} (Fig.~\ref{fig:half-adder}) is to fold into the four different conformations (bricks) in eight expected environments which are characterized by the four sequences of bead types above: $\mathtt{w_{t, 1}}$, $\mathtt{w_{t, 0}}$, $\mathtt{w_{c, 1}}$, and $\mathtt{w_{c, 0}}$ and the position to start folding: top or bottom. 
+$\mathtt{w_{t, 1}}$ and $\mathtt{w_{t, 0}}$ encode the 1-bit input 1/0 to this half-adder and the starting at the top and bottom represents the absence and presence of carry, respectively. 
+The brick automata in Figs.~\ref{fig:BA_counter_nc_seed}, \ref{fig:BA_counter_c}, and \ref{fig:BA_counter_nc} guarantee that \texttt{HA} never encounter any other environment. 
+
+\paragraph{Left- and Right-turner} always fold into one brick so that we omit their figures. 
+Moreover, their bricks end at the top. 
+This means, in particular, that \texttt{Right-turner} never feeds carry to the succeeding zig, that is, any zig but the first of a counter module is capable of incrementing the count $i$. 
+
+\paragraph{Formatter} (Fig.~\ref{fig:formatter}) 
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Bricks for Counter module}
@@ -740,7 +768,7 @@ The $n$ half-adders and the spacers between them fold into a zig ($\leftarrow$),
 \begin{figure}[htb]
 \centering
 \includegraphics[width=\linewidth]{Figs/counter_zig.png}
-\caption{The four bricks of \texttt{HA}.
+\caption{The four bricks of \texttt{Half-adder} (\texttt{HA}).
 The first and third are diverted to implement the \texttt{body-lpx2} (T-D) submodule of the turning module. 
 }
 \label{fig:half-adder}
@@ -749,10 +777,10 @@ The first and third are diverted to implement the \texttt{body-lpx2} (T-D) submo
 \begin{figure}[htb]
 \centering
 \includegraphics[width=0.66\linewidth]{Figs/counter_zag.png}
-\caption{The two bricks of \texttt{CF}.
+\caption{The two bricks of \texttt{Formatter} (\texttt{CF}).
 This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of the turning module. 
 }
-\label{fig:half-adder}
+\label{fig:formatter}
 \end{figure}
 
 \clearpage
@@ -764,29 +792,32 @@ This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of 
 
 \begin{figure}[ht]
 \centering
+\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-NC_seed_brick.png}
+\caption{The brick automaton for the first zig of the first counter module, which folds just below the seed.
+The seed does not feed carry.}
+\label{fig:BA_counter_nc_seed}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
 \includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-C_brick.png}
-\caption{}
+\caption{The brick automaton for the first zig of all the counter modules but the first one, which are preceded by a turning module.
+The turning module feeds carry.
+}
 \label{fig:BA_counter_c}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-NC_brick.png}
-\caption{}
+\caption{The brick automaton for every zig except the first, which is never fed with carry by the previous right turner.}
 \label{fig:BA_counter_nc}
 \end{figure}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-NC_seed_brick.png}
-\caption{}
-\label{fig:BA_counter_nc_seed}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
 \includegraphics[width=\linewidth]{Figs/Counter_BA/Counter-zag.png}
-\caption{}
+\caption{The brick automaton for all the zags of the counter module.}
 \label{fig:BA_counter_zag}
 \end{figure}
 
