@@ -743,57 +743,22 @@ The whole DOS is designed so as to feed carry only by the turning module to the 
 That is, any zig but the first is never fed with carry. 
 As a result, the first counter module just propagates the initial count $i = j_1$ encoded on the seed to the succeeding DFAO module, while any other counter module increments the current count $i$ given by the previous turning module by 1 and propagates it to the succeeding DFAO module. 
 
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Submodules}
-	\label{ap_subsect:Counter_submodules}
-%--------------------------------------------------------------------------------------------------------
-
-As noted above, the counter module involves the four submodules: \texttt{Half-adder}, \texttt{Left-turner}, \texttt{Formatter}, and \texttt{Right-turner}. 
-
-\paragraph{Half-adder} (Fig.~\ref{fig:half-adder}) is to fold into the four different conformations (bricks) in eight expected environments which are characterized by the four sequences of bead types above: $\mathtt{w_{t, 1}}$, $\mathtt{w_{t, 0}}$, $\mathtt{w_{c, 1}}$, and $\mathtt{w_{c, 0}}$ and the position to start folding: top or bottom. 
-The sequences $\mathtt{w_{t, 1}}$ and $\mathtt{w_{c, 1}}$ encode the 1-bit input 1 to this half-adder and $\mathtt{w_{t, 0}}$ and $\mathtt{w_{c, 0}}$ encode 0. 
-Starting at the bottom and top is interpreted as being fed with carry and no-carry, respectively. 
-Among these eight environments, those two with $\mathtt{w_{c, 0}}$/$\mathtt{w_{c, 1}}$ and carry are never encountered because only the first zig can be fed with carry and the count $i$ they read is given by the seed or the previous turning module, and hence, in the format \eqref{eq:turner_output}. 
-The brick automata in Figs.~\ref{fig:BA_counter_nc_seed}, \ref{fig:BA_counter_c}, and \ref{fig:BA_counter_nc} guarantee that \texttt{HA} never encounter any other environment, either. 
-
-\paragraph{Left- and Right-turner} always fold into one brick so that we omit their figures. 
-Moreover, their bricks end at the top. 
-This means, in particular, that \texttt{Right-turner} never feeds carry to the succeeding zig, that is, no zig but the first one of each counter module is capable of incrementing the count $i$. 
-
-\paragraph{Formatter} (Fig.~\ref{fig:formatter}) encounters the four environments depending on the input above: \texttt{HA-0a}, \texttt{HA-0b}, \texttt{HA-1a}, and \texttt{HA-1b}. 
-Since \texttt{Left-turner} always ends at the top and spaces always start and end at the top, \texttt{Formatter} never encounters any other environment (see the brick automaton in Fig.~\ref{fig:BA_counter_zag}). 
-\texttt{Formatter} folds as in Fig.~\ref{fig:formatter} (left) and exposes $\mathtt{w_{c, 0}}$ below if \texttt{HA-0a} or \texttt{HA-0b} is given, or it folds as in Fig.~\ref{fig:formatter} (right) and exposes $\mathtt{w_{c, 1}}$ below if \texttt{HA-1a} or \texttt{HA-1b} is given. 
-As a result, the count $i$ is now encoded in the format \eqref{eq:counter_output}, which can be read by the succeeding zig. 
-
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Bricks for Counter module}
-	\label{ap_subsect:Counter_module_bricks}
-%--------------------------------------------------------------------------------------------------------
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=\linewidth]{Figs/counter_zig.png}
-\caption{The four bricks of \texttt{Half-adder} (\texttt{HA}).
-The first and third are diverted to implement the \texttt{body-lpx2} (T-D) submodule of the turning module. 
-}
-\label{fig:half-adder}
-\end{figure}
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.66\linewidth]{Figs/counter_zag.png}
-\caption{The two bricks of \texttt{Formatter} (\texttt{CF}).
-This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of the turning module. 
-}
-\label{fig:formatter}
-\end{figure}
-
-\clearpage
+\clearpage 
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Brick automata for Counter module}
 	\label{ap_subsect:Counter_module_BA}
 %--------------------------------------------------------------------------------------------------------
+
+The behavior of the counter module mentioned above is described at the submodule level in the four brick automata shown in Figs.~\ref{fig:BA_counter_nc_seed}, \ref{fig:BA_counter_c}, \ref{fig:BA_counter_nc}, and \ref{fig:BA_counter_zag}. 
+The first, second, and third BAs are for the zig. 
+The first BA (Fig.~\ref{fig:BA_counter_nc_seed}) is for the first zig of the first counter module, which folds just below the seed. 
+It is not fed with carry so that all the submodules are to start folding at the top (no carry). 
+The second BA (Fig.~\ref{fig:BA_counter_c}) is for the first zig of other counter modules, which folds just below the preceding turning module. 
+As described in the module automaton for this DOS (Fig.~\ref{fig:module_automaton}), it is fed with carry. 
+Note that only this second BA among these three involves transitions labeled with B (bottom, i.e., with carry). 
+The third BA (Fig.~\ref{fig:BA_counter_nc}) is for all the other zigs, which are preceded by a zag. 
+The zag is always preceded by a zig so that we need only one BA for the zag (Fig.~\ref{fig:BA_counter_zag}). 
 
 \begin{figure}[ht]
 \centering
@@ -826,6 +791,53 @@ The turning module feeds carry.
 \label{fig:BA_counter_zag}
 \end{figure}
 
+\clearpage
+
+
+%--------------------------------------------------------------------------------------------------------
+	\subsection{Bricks for Counter module}
+	\label{ap_subsect:Counter_module_bricks}
+%--------------------------------------------------------------------------------------------------------
+
+According to the brick automata in Sect.~\ref{ap_subsect:Counter_module_BA}, 
+we design the four submodules: \texttt{Half-adder}, \texttt{Left-turner}, \texttt{Formatter}, and \texttt{Right-turner} as follows. 
+
+\paragraph{Half-adder} (Fig.~\ref{fig:half-adder}) folds into the four different conformations (bricks) in eight expected environments which are characterized by the four sequences of bead types above: $\mathtt{w_{t, 1}}$, $\mathtt{w_{t, 0}}$, $\mathtt{w_{c, 1}}$, and $\mathtt{w_{c, 0}}$ and the position to start folding: top or bottom. 
+The sequences $\mathtt{w_{t, 1}}$ and $\mathtt{w_{c, 1}}$ encode the 1-bit input 1 to this half-adder and $\mathtt{w_{t, 0}}$ and $\mathtt{w_{c, 0}}$ encode 0. 
+Starting at the bottom and top is interpreted as being fed with carry and no-carry, respectively. 
+Among these eight environments, those two with $\mathtt{w_{c, 0}}$/$\mathtt{w_{c, 1}}$ and carry are never encountered because only the first zig can be fed with carry and the count $i$ they read is given by the seed or the previous turning module, and hence, in the format \eqref{eq:turner_output}. 
+The brick automata in Figs.~\ref{fig:BA_counter_nc_seed}, \ref{fig:BA_counter_c}, and \ref{fig:BA_counter_nc} guarantee that \texttt{HA} never encounter any other environment, either. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/counter_zig.png}
+\caption{The four bricks of \texttt{Half-adder} (\texttt{HA}).
+The first and third are diverted to implement the \texttt{body-lpx2} (T-D) submodule of the turning module. 
+}
+\label{fig:half-adder}
+\end{figure}
+
+\paragraph{Left- and Right-turner} always fold into one brick so that we omit their figures. 
+Moreover, their bricks end at the top. 
+This means, in particular, that \texttt{Right-turner} never feeds carry to the succeeding zig, that is, no zig but the first one of each counter module is capable of incrementing the count $i$. 
+
+\paragraph{Formatter} (Fig.~\ref{fig:formatter}) encounters the four environments depending on the input above: \texttt{HA-0a}, \texttt{HA-0b}, \texttt{HA-1a}, and \texttt{HA-1b}. 
+Since \texttt{Left-turner} always ends at the top and spacers always start and end at the top, \texttt{Formatter} never encounters any other environment (see the brick automaton in Fig.~\ref{fig:BA_counter_zag}). 
+\texttt{Formatter} folds as in Fig.~\ref{fig:formatter} (left) and exposes $\mathtt{w_{c, 0}}$ below if \texttt{HA-0a} or \texttt{HA-0b} is given, or it folds as in Fig.~\ref{fig:formatter} (right) and exposes $\mathtt{w_{c, 1}}$ below if \texttt{HA-1a} or \texttt{HA-1b} is given. 
+As a result, the count $i$ is now encoded in the format \eqref{eq:counter_output}, which can be read by the succeeding zig. 
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.66\linewidth]{Figs/counter_zag.png}
+\caption{The two bricks of \texttt{Formatter} (\texttt{CF}).
+This submodule \texttt{CF} is used as the submodule \texttt{body-rpx2} (T-B) of the turning module. 
+}
+\label{fig:formatter}
+\end{figure}
+
+\clearpage
+
 %--------------------------------------------------------------------------------------------------------
 %	\subsection{Transcript}
 %--------------------------------------------------------------------------------------------------------
@@ -836,37 +848,6 @@ The turning module feeds carry.
 	\section{DFAO module}
 	\label{sect:appendix_DFAO_module}
 %--------------------------------------------------------------------------------------------------------
-
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Bricks for DFAO module}
-	\label{ap_subsect:DFAO_module_bricks}
-%--------------------------------------------------------------------------------------------------------
-
-All the bricks of the submodules of DFAO module omitted in the main text are shown in Figs.~\ref{fig:Dzag1}, \ref{fig:Dzig2}, and \ref{fig:Dzag2}. 
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{Figs/DFAO-zag1.png}
-\caption{The three bricks of \texttt{Dzag1}: Dzag1-f0, Dzag1-0, and Dzag1-1.}
-\label{fig:Dzag1}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{Figs/DFAO-zig2.png}
-\caption{The five bricks of \texttt{Dzig2}: (top) Dzig2-1, Dzig2-0, Dzig2-f0, (bottom) Dzig2-0f0 and Dzig2-1f0. }
-\label{fig:Dzig2}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{Figs/DFAO-zag2.png}  
-\caption{The five bricks of \texttt{Dzag2}: (top) Dzag2-L0, Dzag2-L1, and Dzag2-T1; (bottom) Dzag2-R0 and Dzag2-R1. 
-The first and second halves are diverted to implement the \texttt{body-gx1} (T-E) and \texttt{body-rgy} (T-G) submodules of the turning module, respectively.}
-\label{fig:Dzag2}
-\end{figure}
-
-\clearpage
 
 %--------------------------------------------------------------------------------------------------------
 	\subsection{Brick automata for DFAO module}
@@ -923,60 +904,43 @@ The labels B and T of transitions in these brick automata stand for that the pre
 \clearpage
 
 %--------------------------------------------------------------------------------------------------------
-	\section{Turning module}
-	\label{ap_sect:Turner_module}
+	\subsection{Bricks for DFAO module}
+	\label{ap_subsect:DFAO_module_bricks}
 %--------------------------------------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------------------------------------
-	\subsection{Bricks}
-	\label{ap_subsect:Turner_module_bricks}
-%--------------------------------------------------------------------------------------------------------
-
-Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turning module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
-Below, we enumerate the bricks of the \texttt{body-rpx1} (T-A), \texttt{body-lpx1} (T-C), \texttt{body-lgy} (T-H), \texttt{turn-lgp} (T-J), and \texttt{move} (T-L) submodules in Fig.s~\ref{fig:body-rpx1}, \ref{fig:body-lpx1}, \ref{fig:body-lgy}, \ref{fig:turn-lgp}, and \ref{fig:move}, respectively. 
-The formatter \texttt{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
-The \texttt{Dzag2} submodule of the DFAO module is split into half, and the first and second halves are diverted respectively as the \texttt{body-rgy} (T-G) and \texttt{body-gx1} (T-E) submodules. 
-Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \texttt{body-gx2} (T-E) using a pairwise-distinct transcript \texttt{414}-\texttt{415}-\dots-\texttt{425}; they behave exactly in the same way; this copy is necessary because if \texttt{body-gx1} were used in place for \texttt{body-gx2}, the previous \texttt{body-gx1} would prevent it from folding correctly into bricks. 
+All the bricks of the submodules of DFAO module omitted in the main text are shown in Figs.~\ref{fig:Dzag1}, \ref{fig:Dzig2}, and \ref{fig:Dzag2}. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{Figs/body-rpx1.png}
-\caption{The two bricks of \texttt{body-rpx1} (T-A) submodule}
-\label{fig:body-rpx1}
+\includegraphics[width=\linewidth]{Figs/DFAO-zag1.png}
+\caption{The three bricks of \texttt{Dzag1}: Dzag1-f0, Dzag1-0, and Dzag1-1.}
+\label{fig:Dzag1}
 \end{figure}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{Figs/body-lpx1.png}
-\caption{The two bricks of \texttt{body-lpx1} (T-C) submodule}
-\label{fig:body-lpx1}
+\includegraphics[width=\linewidth]{Figs/DFAO-zig2.png}
+\caption{The five bricks of \texttt{Dzig2}: (top) Dzig2-1, Dzig2-0, Dzig2-f0, (bottom) Dzig2-0f0 and Dzig2-1f0. }
+\label{fig:Dzig2}
 \end{figure}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{Figs/body-lgy}
-\caption{The two bricks of \texttt{body-lgy} (T-H) submodule}
-\label{fig:body-lgy}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{Figs/turn-lgp}
-\caption{The two bricks of \texttt{turn-lgp} (T-J) submodule}
-\label{fig:turn-lgp}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{Figs/move.png}
-\caption{The two bricks of \texttt{move} (T-L) submodule}
-\label{fig:move}
+\includegraphics[width=\linewidth]{Figs/DFAO-zag2.png}  
+\caption{The five bricks of \texttt{Dzag2}: (top) Dzag2-L0, Dzag2-L1, and Dzag2-T1; (bottom) Dzag2-R0 and Dzag2-R1. 
+The first and second halves are diverted to implement the \texttt{body-gx1} (T-E) and \texttt{body-rgy} (T-G) submodules of the turning module, respectively.}
+\label{fig:Dzag2}
 \end{figure}
 
 \clearpage
 
 %--------------------------------------------------------------------------------------------------------
-	\subsection{Brick automata}
+	\section{Turning module}
+	\label{ap_sect:Turner_module}
+%--------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------
+	\subsection{Brick automata for Turning module}
 	\label{ap_subsect:Turner_module_BA}
 %--------------------------------------------------------------------------------------------------------
 
@@ -1052,5 +1016,57 @@ The turning module is designed at the level of submodule based on the ten brick 
 \caption{The brick automaton for \texttt{change-route} (T-K) and \texttt{move} (T-L).}
 \label{fig:BA_move}
 \end{figure}
+
+\clearpage
+
+%--------------------------------------------------------------------------------------------------------
+	\subsection{Bricks for Turning module}
+	\label{ap_subsect:Turner_module_bricks}
+%--------------------------------------------------------------------------------------------------------
+
+Inside the main text, we have already shown the bricks of the \texttt{turn-rgp} (T-I) and \texttt{change-route} (T-K) submodules of the turning module (Figs.~\ref{fig:turn-rgp} and \ref{fig:change_route}). 
+Below, we enumerate the bricks of the \texttt{body-rpx1} (T-A), \texttt{body-lpx1} (T-C), \texttt{body-lgy} (T-H), \texttt{turn-lgp} (T-J), and \texttt{move} (T-L) submodules in Fig.s~\ref{fig:body-rpx1}, \ref{fig:body-lpx1}, \ref{fig:body-lgy}, \ref{fig:turn-lgp}, and \ref{fig:move}, respectively. 
+The formatter \texttt{CF} and half-adder \texttt{HA} of the counter module are diverted respectively as the \texttt{body-rpx2} (T-B) and \texttt{body-lpx2} (T-D) submodules. 
+The \texttt{Dzag2} submodule of the DFAO module is split into half, and the first and second halves are diverted respectively as the \texttt{body-rgy} (T-G) and \texttt{body-gx1} (T-E) submodules. 
+Lastly, the \texttt{body-gx2} (T-F) submodule is obtained by implementing the \texttt{body-gx2} (T-E) using a pairwise-distinct transcript \texttt{414}-\texttt{415}-\dots-\texttt{425}; they behave exactly in the same way; this copy is necessary because if \texttt{body-gx1} were used in place for \texttt{body-gx2}, the previous \texttt{body-gx1} would prevent it from folding correctly into bricks. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/body-rpx1.png}
+\caption{The two bricks of \texttt{body-rpx1} (T-A) submodule}
+\label{fig:body-rpx1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/body-lpx1.png}
+\caption{The two bricks of \texttt{body-lpx1} (T-C) submodule}
+\label{fig:body-lpx1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figs/body-lgy}
+\caption{The two bricks of \texttt{body-lgy} (T-H) submodule}
+\label{fig:body-lgy}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/turn-lgp}
+\caption{The two bricks of \texttt{turn-lgp} (T-J) submodule}
+\label{fig:turn-lgp}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/move.png}
+\caption{The two bricks of \texttt{move} (T-L) submodule}
+\label{fig:move}
+\end{figure}
+
+\clearpage
+
+
 
 \end{document}
