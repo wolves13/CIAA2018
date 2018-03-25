@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  19 MAR 2018 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.1.12)  25 MAR 2018 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -611,11 +611,7 @@ brarylindenmayersystems.code.tex
 ems.code.tex
 \pgflsystemstep=\dimen186
 \c@pgf@lsystem@iteration=\count150
-)) (./heighway_CIAA2018.aux
-
-LaTeX Warning: Label `fig:half-adder' multiply defined.
-
-)
+)) (./heighway_CIAA2018.aux)
 \openout1 = `heighway_CIAA2018.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -754,12 +750,6 @@ Overfull \hbox (9.45815pt too wide) in paragraph at lines 509--512
  [][] 
  []
 
-
-Overfull \hbox (4.72525pt too wide) in paragraph at lines 516--521
-\OT1/cmr/m/n/10 toma-ton in Fig. 6[]. This au-toma-ton yields the tran-script t
-hat re-peats $\OML/cmm/m/it/10 CD[]TCD[]T$\OT1/cmr/m/n/10 ,
- []
-
 [6] <Figs/dragon_vol5.png, id=65, 2771.956pt x 2354.396pt>
 File: Figs/dragon_vol5.png Graphic file (type png)
 
@@ -771,24 +761,24 @@ Package pdftex.def Info: Figs/dragon_vol5.png used on input line 533.
 File: Figs/seed_sample2.png Graphic file (type png)
 
 <use Figs/seed_sample2.png>
-Package pdftex.def Info: Figs/seed_sample2.png used on input line 564.
+Package pdftex.def Info: Figs/seed_sample2.png used on input line 566.
 (pdftex.def)             Requested size: 347.12354pt x 28.48233pt.
 
-Overfull \hbox (13.25041pt too wide) in paragraph at lines 590--592
+Overfull \hbox (13.25041pt too wide) in paragraph at lines 592--594
 \OT1/cmr/m/n/10 where $[]$, $[]$, $[]$, and $[]$. 
  []
 
 <pics/abst_DFAO.png, id=73, 853.38824pt x 270.7716pt>
 File: pics/abst_DFAO.png Graphic file (type png)
  <use pics/abst_DFAO.png>
-Package pdftex.def Info: pics/abst_DFAO.png used on input line 594.
+Package pdftex.def Info: pics/abst_DFAO.png used on input line 596.
 (pdftex.def)             Requested size: 347.12354pt x 110.13702pt.
 
 [8 <./Figs/seed_sample2.png>]
 <Figs/DFAO-zig1.png, id=79, 504.4446pt x 298.716pt>
 File: Figs/DFAO-zig1.png Graphic file (type png)
  <use Figs/DFAO-zig1.png>
-Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 609.
+Package pdftex.def Info: Figs/DFAO-zig1.png used on input line 611.
 (pdftex.def)             Requested size: 208.27623pt x 123.33582pt.
 
 Underfull \vbox (badness 2368) has occurred while \output is active []
@@ -797,19 +787,20 @@ Underfull \vbox (badness 2368) has occurred while \output is active []
 <Figs/PFS.png, id=85, 855.07455pt x 195.97215pt>
 File: Figs/PFS.png Graphic file (type png)
  <use Figs/PFS.png>
-Package pdftex.def Info: Figs/PFS.png used on input line 638.
+Package pdftex.def Info: Figs/PFS.png used on input line 640.
 (pdftex.def)             Requested size: 347.12354pt x 79.55667pt.
 
-<Figs/bitmap.png, id=86, 1385.175pt x 892.08281pt>
-File: Figs/bitmap.png Graphic file (type png)
- <use Figs/bitmap.png>
-Package pdftex.def Info: Figs/bitmap.png used on input line 650.
-(pdftex.def)             Requested size: 347.12354pt x 223.55103pt.
+<Figs/overall_turn_part.png, id=86, 1504.11937pt x 898.85812pt>
+File: Figs/overall_turn_part.png Graphic file (type png)
+
+<use Figs/overall_turn_part.png>
+Package pdftex.def Info: Figs/overall_turn_part.png used on input line 652.
+(pdftex.def)             Requested size: 347.12354pt x 207.43251pt.
 
 <Figs/turn-rgp.png, id=87, 456.62595pt x 145.62405pt>
 File: Figs/turn-rgp.png Graphic file (type png)
  <use Figs/turn-rgp.png>
-Package pdftex.def Info: Figs/turn-rgp.png used on input line 659.
+Package pdftex.def Info: Figs/turn-rgp.png used on input line 661.
 (pdftex.def)             Requested size: 173.56177pt x 55.35104pt.
 
 [10 <./Figs/PFS.png> <./Figs/turn-rgp.png>]
@@ -817,197 +808,299 @@ Package pdftex.def Info: Figs/turn-rgp.png used on input line 659.
 File: Figs/change-route.png Graphic file (type png)
 
 <use Figs/change-route.png>
-Package pdftex.def Info: Figs/change-route.png used on input line 682.
+Package pdftex.def Info: Figs/change-route.png used on input line 684.
 (pdftex.def)             Requested size: 312.40906pt x 80.53874pt.
- (./heighway_CIAA2018.bbl [11 <./Figs/bitmap.png>])
-[12 <./Figs/change-route.png>]
-<Figs/counter_zig.png, id=102, 578.16pt x 146.58765pt>
+ [11 <./Figs/overall_turn_part.png> <./Figs/change-route.png>] (./heighway_CIAA
+2018.bbl) [12] [13
+
+]
+<Figs/Counter_BA/Counter-NC_seed_brick.png, id=106, 1646.91286pt x 692.94885pt>
+File: Figs/Counter_BA/Counter-NC_seed_brick.png Graphic file (type png)
+<use Figs/Counter_BA/Counter-NC_seed_brick.png>
+Package pdftex.def Info: Figs/Counter_BA/Counter-NC_seed_brick.png used on inpu
+t line 765.
+(pdftex.def)             Requested size: 347.12354pt x 146.05223pt.
+
+<Figs/Counter_BA/Counter-C_brick.png, id=107, 1646.91286pt x 1072.7277pt>
+File: Figs/Counter_BA/Counter-C_brick.png Graphic file (type png)
+
+<use Figs/Counter_BA/Counter-C_brick.png>
+Package pdftex.def Info: Figs/Counter_BA/Counter-C_brick.png used on input line
+ 773.
+(pdftex.def)             Requested size: 347.12354pt x 226.09789pt.
+
+<Figs/Counter_BA/Counter-NC_brick.png, id=108, 1646.91286pt x 692.94885pt>
+File: Figs/Counter_BA/Counter-NC_brick.png Graphic file (type png)
+
+<use Figs/Counter_BA/Counter-NC_brick.png>
+Package pdftex.def Info: Figs/Counter_BA/Counter-NC_brick.png used on input lin
+e 782.
+(pdftex.def)             Requested size: 347.12354pt x 146.05223pt.
+
+<Figs/Counter_BA/Counter-zag.png, id=109, 1795.06635pt x 655.248pt>
+File: Figs/Counter_BA/Counter-zag.png Graphic file (type png)
+
+<use Figs/Counter_BA/Counter-zag.png>
+Package pdftex.def Info: Figs/Counter_BA/Counter-zag.png used on input line 789
+.
+(pdftex.def)             Requested size: 347.12354pt x 126.70802pt.
+ [14
+
+ <./Figs/Counter_BA/Counter-NC_seed_brick.png>] [15 <./Figs/Counter_BA/Counter-
+C_brick.png> <./Figs/Counter_BA/Counter-NC_brick.png>] [16 <./Figs/Counter_BA/C
+ounter-zag.png>]
+<Figs/counter_zig.png, id=123, 578.16pt x 146.949pt>
 File: Figs/counter_zig.png Graphic file (type png)
 
 <use Figs/counter_zig.png>
-Package pdftex.def Info: Figs/counter_zig.png used on input line 731.
-(pdftex.def)             Requested size: 347.12354pt x 88.00917pt.
+Package pdftex.def Info: Figs/counter_zig.png used on input line 813.
+(pdftex.def)             Requested size: 347.12354pt x 88.22614pt.
 
-<Figs/counter_zag.png, id=103, 429.88605pt x 145.2627pt>
+<Figs/counter_zag.png, id=124, 429.88605pt x 145.2627pt>
 File: Figs/counter_zag.png Graphic file (type png)
 
 <use Figs/counter_zag.png>
-Package pdftex.def Info: Figs/counter_zag.png used on input line 740.
+Package pdftex.def Info: Figs/counter_zag.png used on input line 832.
 (pdftex.def)             Requested size: 229.1028pt x 77.41664pt.
 
-<Figs/DFAO-zag1.png, id=104, 754.37836pt x 139.9629pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17
+
+ <./Figs/counter_zig.png>] [18 <./Figs/counter_zag.png>]
+<Figs/D-zig1_brick.png, id=133, 1646.91286pt x 1072.7277pt>
+File: Figs/D-zig1_brick.png Graphic file (type png)
+
+<use Figs/D-zig1_brick.png>
+Package pdftex.def Info: Figs/D-zig1_brick.png used on input line 864.
+(pdftex.def)             Requested size: 347.12354pt x 226.09789pt.
+
+<Figs/D-zag1_brick.png, id=134, 1895.883pt x 655.248pt>
+File: Figs/D-zag1_brick.png Graphic file (type png)
+
+<use Figs/D-zag1_brick.png>
+Package pdftex.def Info: Figs/D-zag1_brick.png used on input line 871.
+(pdftex.def)             Requested size: 347.12354pt x 119.9692pt.
+
+<Figs/D-zig2_brick.png, id=135, 1727.253pt x 1028.643pt>
+File: Figs/D-zig2_brick.png Graphic file (type png)
+
+<use Figs/D-zig2_brick.png>
+Package pdftex.def Info: Figs/D-zig2_brick.png used on input line 878.
+(pdftex.def)             Requested size: 347.12354pt x 206.71379pt.
+
+<Figs/D-zag2_brick.png, id=136, 2207.1258pt x 964.44315pt>
+File: Figs/D-zag2_brick.png Graphic file (type png)
+
+<use Figs/D-zag2_brick.png>
+Package pdftex.def Info: Figs/D-zag2_brick.png used on input line 885.
+(pdftex.def)             Requested size: 347.12354pt x 151.67986pt.
+
+<Figs/D-zig3_brick.png, id=137, 2490.06285pt x 713.064pt>
+File: Figs/D-zig3_brick.png Graphic file (type png)
+
+<use Figs/D-zig3_brick.png>
+Package pdftex.def Info: Figs/D-zig3_brick.png used on input line 892.
+(pdftex.def)             Requested size: 347.12354pt x 99.40393pt.
+
+<Figs/D-zig3_brick_hori.png, id=138, 2490.06285pt x 713.064pt>
+File: Figs/D-zig3_brick_hori.png Graphic file (type png)
+
+<use Figs/D-zig3_brick_hori.png>
+Package pdftex.def Info: Figs/D-zig3_brick_hori.png used on input line 899.
+(pdftex.def)             Requested size: 347.12354pt x 99.40393pt.
+ [19
+
+
+ <./Figs/D-zig1_brick.png>] [20 <./Figs/D-zag1_brick.png> <./Figs/D-zig2_brick.
+png>] [21 <./Figs/D-zag2_brick.png> <./Figs/D-zig3_brick.png> <./Figs/D-zig3_br
+ick_hori.png>]
+<Figs/DFAO-zag1.png, id=155, 754.37836pt x 139.9629pt>
 File: Figs/DFAO-zag1.png Graphic file (type png)
 
 <use Figs/DFAO-zag1.png>
-Package pdftex.def Info: Figs/DFAO-zag1.png used on input line 767.
+Package pdftex.def Info: Figs/DFAO-zag1.png used on input line 915.
 (pdftex.def)             Requested size: 347.12354pt x 64.40292pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/DFAO-zig2.png, id=105, 745.5855pt x 291.489pt>
+ <Figs/DFAO-zig2.png, id=156, 745.5855pt x 291.489pt>
 File: Figs/DFAO-zig2.png Graphic file (type png)
- <use Figs/DFAO-zig2.png>
-Package pdftex.def Info: Figs/DFAO-zig2.png used on input line 774.
+
+<use Figs/DFAO-zig2.png>
+Package pdftex.def Info: Figs/DFAO-zig2.png used on input line 922.
 (pdftex.def)             Requested size: 347.12354pt x 135.70999pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/DFAO-zag2.png, id=106, 752.45116pt x 286.9119pt>
+<Figs/DFAO-zag2.png, id=157, 752.45116pt x 286.9119pt>
 File: Figs/DFAO-zag2.png Graphic file (type png)
 
 <use Figs/DFAO-zag2.png>
-Package pdftex.def Info: Figs/DFAO-zag2.png used on input line 781.
+Package pdftex.def Info: Figs/DFAO-zag2.png used on input line 929.
 (pdftex.def)             Requested size: 347.12354pt x 132.35756pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./Figs/counter_zig.png> <./Figs/counter_zag.png>] [14 <./Figs/DFAO-zag1.pn
-g> <./Figs/DFAO-zig2.png>]
-<Figs/body-rpx1.png, id=118, 433.8609pt x 138.7584pt>
+[22
+
+ <./Figs/DFAO-zag1.png> <./Figs/DFAO-zig2.png>] [23 <./Figs/DFAO-zag2.png>]
+<Figs/Turner_BA/T-A_under_DFAO.png, id=167, 1070.43915pt x 369.66106pt>
+File: Figs/Turner_BA/T-A_under_DFAO.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-A_under_DFAO.png>
+Package pdftex.def Info: Figs/Turner_BA/T-A_under_DFAO.png used on input line 9
+51.
+(pdftex.def)             Requested size: 347.12354pt x 119.8733pt.
+
+<Figs/Turner_BA/T-A_under_gx_left.png, id=168, 874.10565pt x 357.61604pt>
+File: Figs/Turner_BA/T-A_under_gx_left.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-A_under_gx_left.png>
+Package pdftex.def Info: Figs/Turner_BA/T-A_under_gx_left.png used on input lin
+e 958.
+(pdftex.def)             Requested size: 347.12354pt x 142.01254pt.
+
+<Figs/Turner_BA/T-A_afterA.png, id=169, 764.73705pt x 333.28516pt>
+File: Figs/Turner_BA/T-A_afterA.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-A_afterA.png>
+Package pdftex.def Info: Figs/Turner_BA/T-A_afterA.png used on input line 965.
+(pdftex.def)             Requested size: 347.12354pt x 151.2839pt.
+
+<Figs/Turner_BA/T-A_afterO.png, id=170, 873.9852pt x 295.3434pt>
+File: Figs/Turner_BA/T-A_afterO.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-A_afterO.png>
+Package pdftex.def Info: Figs/Turner_BA/T-A_afterO.png used on input line 972.
+(pdftex.def)             Requested size: 347.12354pt x 117.30154pt.
+
+<Figs/Turner_BA/T-B.png, id=171, 1202.21146pt x 343.2825pt>
+File: Figs/Turner_BA/T-B.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-B.png>
+Package pdftex.def Info: Figs/Turner_BA/T-B.png used on input line 980.
+(pdftex.def)             Requested size: 347.12354pt x 99.11984pt.
+
+<Figs/Turner_BA/T-C_ver2.png, id=172, 1019.81pt x 549.252pt>
+File: Figs/Turner_BA/T-C_ver2.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-C_ver2.png>
+Package pdftex.def Info: Figs/Turner_BA/T-C_ver2.png used on input line 987.
+(pdftex.def)             Requested size: 347.12354pt x 186.95273pt.
+
+<Figs/Turner_BA/T-D_ver2.png, id=173, 907.9521pt x 400.3758pt>
+File: Figs/Turner_BA/T-D_ver2.png Graphic file (type png)
+
+<use Figs/Turner_BA/T-D_ver2.png>
+Package pdftex.def Info: Figs/Turner_BA/T-D_ver2.png used on input line 994.
+(pdftex.def)             Requested size: 347.12354pt x 153.06686pt.
+
+<Figs/Turner_BA/gx_right_ver3.png, id=174, 1463.4675pt x 560.8152pt>
+File: Figs/Turner_BA/gx_right_ver3.png Graphic file (type png)
+
+<use Figs/Turner_BA/gx_right_ver3.png>
+Package pdftex.def Info: Figs/Turner_BA/gx_right_ver3.png used on input line 10
+01.
+(pdftex.def)             Requested size: 347.12354pt x 133.01529pt.
+
+<Figs/Turner_BA/gx_left.png, id=175, 1282.7925pt x 528.0528pt>
+File: Figs/Turner_BA/gx_left.png Graphic file (type png)
+
+<use Figs/Turner_BA/gx_left.png>
+Package pdftex.def Info: Figs/Turner_BA/gx_left.png used on input line 1008.
+(pdftex.def)             Requested size: 347.12354pt x 142.8904pt.
+
+<Figs/Turner_BA/move.png, id=176, 1242.92355pt x 743.05605pt>
+File: Figs/Turner_BA/move.png Graphic file (type png)
+
+<use Figs/Turner_BA/move.png>
+Package pdftex.def Info: Figs/Turner_BA/move.png used on input line 1015.
+(pdftex.def)             Requested size: 347.12354pt x 207.52138pt.
+ [24
+
+ <./Figs/Turner_BA/T-A_under_DFAO.png> <./Figs/Turner_BA/T-A_under_gx_left.png>
+] [25 <./Figs/Turner_BA/T-A_afterA.png> <./Figs/Turner_BA/T-A_afterO.png> <./Fi
+gs/Turner_BA/T-B.png>] [26 <./Figs/Turner_BA/T-C_ver2.png> <./Figs/Turner_BA/T-
+D_ver2.png>] [27 <./Figs/Turner_BA/gx_right_ver3.png> <./Figs/Turner_BA/gx_left
+.png>] [28 <./Figs/Turner_BA/move.png>]
+<Figs/body-rpx1.png, id=203, 433.8609pt x 138.7584pt>
 File: Figs/body-rpx1.png Graphic file (type png)
  <use Figs/body-rpx1.png>
-Package pdftex.def Info: Figs/body-rpx1.png used on input line 859.
+Package pdftex.def Info: Figs/body-rpx1.png used on input line 1035.
 (pdftex.def)             Requested size: 347.12354pt x 111.02168pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/body-lpx1.png, id=119, 436.2699pt x 139.84245pt>
+<Figs/body-lpx1.png, id=204, 436.2699pt x 139.84245pt>
 File: Figs/body-lpx1.png Graphic file (type png)
 
 <use Figs/body-lpx1.png>
-Package pdftex.def Info: Figs/body-lpx1.png used on input line 866.
+Package pdftex.def Info: Figs/body-lpx1.png used on input line 1042.
 (pdftex.def)             Requested size: 347.12354pt x 111.27023pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figs/body-lgy.png, id=120, 299.1978pt x 137.67435pt>
+ <Figs/body-lgy.png, id=205, 299.1978pt x 137.67435pt>
 File: Figs/body-lgy.png Graphic file (type png)
- <use Figs/body-lgy.png>
-Package pdftex.def Info: Figs/body-lgy.png used on input line 873.
+
+<use Figs/body-lgy.png>
+Package pdftex.def Info: Figs/body-lgy.png used on input line 1049.
 (pdftex.def)             Requested size: 242.98541pt x 111.8118pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/turn-lgp.png, id=121, 438.1971pt x 138.15614pt>
+<Figs/turn-lgp.png, id=206, 438.1971pt x 138.15614pt>
 File: Figs/turn-lgp.png Graphic file (type png)
  <use Figs/turn-lgp.png>
-Package pdftex.def Info: Figs/turn-lgp.png used on input line 880.
+Package pdftex.def Info: Figs/turn-lgp.png used on input line 1056.
 (pdftex.def)             Requested size: 347.12354pt x 109.4436pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/move.png, id=122, 448.43535pt x 139.722pt>
+<Figs/move.png, id=207, 448.43535pt x 139.722pt>
 File: Figs/move.png Graphic file (type png)
  <use Figs/move.png>
-Package pdftex.def Info: Figs/move.png used on input line 887.
+Package pdftex.def Info: Figs/move.png used on input line 1063.
 (pdftex.def)             Requested size: 347.12354pt x 108.1619pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figs/Turner_BA/T-A_under_DFAO.png, id=123, 1070.43915pt x 369.66106pt>
-File: Figs/Turner_BA/T-A_under_DFAO.png Graphic file (type png)
+[29
 
-<use Figs/Turner_BA/T-A_under_DFAO.png>
-Package pdftex.def Info: Figs/Turner_BA/T-A_under_DFAO.png used on input line 9
-00.
-(pdftex.def)             Requested size: 347.12354pt x 119.8733pt.
-
-<Figs/Turner_BA/T-A_under_gx_left.png, id=124, 874.10565pt x 357.61604pt>
-File: Figs/Turner_BA/T-A_under_gx_left.png Graphic file (type png)
-
-<use Figs/Turner_BA/T-A_under_gx_left.png>
-Package pdftex.def Info: Figs/Turner_BA/T-A_under_gx_left.png used on input lin
-e 907.
-(pdftex.def)             Requested size: 347.12354pt x 142.01254pt.
-
-<Figs/Turner_BA/T-B.png, id=125, 1202.21146pt x 343.2825pt>
-File: Figs/Turner_BA/T-B.png Graphic file (type png)
-
-<use Figs/Turner_BA/T-B.png>
-Package pdftex.def Info: Figs/Turner_BA/T-B.png used on input line 914.
-(pdftex.def)             Requested size: 347.12354pt x 99.11984pt.
-
-<Figs/Turner_BA/T-C_ver2.png, id=126, 1019.81pt x 549.252pt>
-File: Figs/Turner_BA/T-C_ver2.png Graphic file (type png)
-
-<use Figs/Turner_BA/T-C_ver2.png>
-Package pdftex.def Info: Figs/Turner_BA/T-C_ver2.png used on input line 921.
-(pdftex.def)             Requested size: 347.12354pt x 186.95273pt.
-
-<Figs/Turner_BA/T-D_ver2.png, id=127, 907.9521pt x 400.3758pt>
-File: Figs/Turner_BA/T-D_ver2.png Graphic file (type png)
-
-<use Figs/Turner_BA/T-D_ver2.png>
-Package pdftex.def Info: Figs/Turner_BA/T-D_ver2.png used on input line 928.
-(pdftex.def)             Requested size: 347.12354pt x 153.06686pt.
-
-<Figs/Turner_BA/gx_right_ver3.png, id=128, 1463.4675pt x 560.8152pt>
-File: Figs/Turner_BA/gx_right_ver3.png Graphic file (type png)
-
-<use Figs/Turner_BA/gx_right_ver3.png>
-Package pdftex.def Info: Figs/Turner_BA/gx_right_ver3.png used on input line 93
-5.
-(pdftex.def)             Requested size: 347.12354pt x 133.01529pt.
-
-<Figs/Turner_BA/gx_left.png, id=129, 1282.7925pt x 528.0528pt>
-File: Figs/Turner_BA/gx_left.png Graphic file (type png)
-
-<use Figs/Turner_BA/gx_left.png>
-Package pdftex.def Info: Figs/Turner_BA/gx_left.png used on input line 942.
-(pdftex.def)             Requested size: 347.12354pt x 142.8904pt.
- [15 <./Figs/DFAO-zag2.png>] [16 <./Figs/body-rpx1.png> <./Figs/body-lpx1.png>]
- [17 <./Figs/body-lgy.png> <./Figs/turn-lgp.png> <./Figs/move.png>] [18 <./Figs
-/Turner_BA/T-A_under_DFAO.png> <./Figs/Turner_BA/T-A_under_gx_left.png> <./Figs
-/Turner_BA/T-B.png>] [19 <./Figs/Turner_BA/T-C_ver2.png> <./Figs/Turner_BA/T-D_
-ver2.png>] [20 <./Figs/Turner_BA/gx_right_ver3.png> <./Figs/Turner_BA/gx_left.p
-ng>] (./heighway_CIAA2018.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ <./Figs/body-rpx1.png> <./Figs/body-lpx1.png>] [30 <./Figs/body-lgy.png> <./Fi
+gs/turn-lgp.png> <./Figs/move.png>] (./heighway_CIAA2018.aux) ) 
 Here is how much of TeX's memory you used:
- 16263 strings out of 493013
- 339838 string characters out of 6136993
- 568272 words of memory out of 5000000
- 19437 multiletter control sequences out of 15000+600000
+ 16337 strings out of 493013
+ 341981 string characters out of 6136993
+ 568335 words of memory out of 5000000
+ 19498 multiletter control sequences out of 15000+600000
  22499 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,71p,471b,2664s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8
-.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on heighway_CIAA2018.pdf (20 pages, 12136573 bytes).
+<c:/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c
+:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on heighway_CIAA2018.pdf (30 pages, 36833405 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 301 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
