@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.8.27)  8 MAY 2018 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.8.27)  8 MAY 2018 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,12 +750,12 @@ Overfull \hbox (9.45815pt too wide) in paragraph at lines 481--484
  [][] 
  []
 
-[6] <Figs/dragon_vol5.png, id=65, 2771.956pt x 2354.396pt>
+[6] <Figs/dragon_vol5.png, id=65, 2775.971pt x 2356.805pt>
 File: Figs/dragon_vol5.png Graphic file (type png)
 
 <use Figs/dragon_vol5.png>
 Package pdftex.def Info: Figs/dragon_vol5.png used on input line 505.
-(pdftex.def)             Requested size: 319.35301pt x 271.23483pt.
+(pdftex.def)             Requested size: 319.35301pt x 271.11678pt.
  [7 <./Figs/dragon_vol5.png>]
 <Figs/seed_sample2.png, id=72, 1075.97984pt x 88.28986pt>
 File: Figs/seed_sample2.png Graphic file (type png)
@@ -797,12 +797,12 @@ Package pdftex.def Info: Figs/turn-rgp.png used on input line 615.
 (pdftex.def)             Requested size: 173.56177pt x 55.35104pt.
 
 [10 <./Figs/PFS.png> <./Figs/turn-rgp.png>]
-<Figs/overall_turn_part.png, id=92, 1507.13063pt x 898.85812pt>
+<Figs/overall_turn_part.png, id=92, 1498.09688pt x 892.83563pt>
 File: Figs/overall_turn_part.png Graphic file (type png)
 
 <use Figs/overall_turn_part.png>
 Package pdftex.def Info: Figs/overall_turn_part.png used on input line 638.
-(pdftex.def)             Requested size: 347.12354pt x 207.02104pt.
+(pdftex.def)             Requested size: 347.12354pt x 206.8737pt.
 
 <Figs/change-route.png, id=93, 775.57755pt x 199.947pt>
 File: Figs/change-route.png Graphic file (type png)
@@ -811,11 +811,7 @@ File: Figs/change-route.png Graphic file (type png)
 Package pdftex.def Info: Figs/change-route.png used on input line 646.
 (pdftex.def)             Requested size: 312.40906pt x 80.53874pt.
  [11 <./Figs/overall_turn_part.png> <./Figs/change-route.png>] (./heighway_CIAA
-2018_final.bbl) [12] (./heighway_CIAA2018_final.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+2018_final.bbl) [12] (./heighway_CIAA2018_final.aux) ) 
 Here is how much of TeX's memory you used:
  16137 strings out of 493088
  337097 string characters out of 6137143
@@ -824,30 +820,31 @@ Here is how much of TeX's memory you used:
  22499 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,71p,477b,2664s stack positions out of 5000i,500n,10000p,500000b,80000s
-<c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/w32
-tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/w32tex/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/w32tex/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/w32tex/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/
-w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/w32tex/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/w32tex/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/w32tex/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr5.pfb><c:/w32tex/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/w3
-2tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/w32tex/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/w32tex/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/w32tex/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8
-.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/w
-32tex/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on heighway_CIAA2018_final.pdf (12 pages, 4458081 bytes).
+<c:/w32tex/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/w32tex/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><c:/w32tex/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx9.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/w32tex/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/w32tex/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/w32tex/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi9.pfb><c:/w32tex/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmib10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c
+:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/w32tex/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/w32tex/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/w32tex/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy5.pfb><c:/w32tex/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb><c:/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:
+/w32tex/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/w32tex/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/w32tex/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/w32tex/share/texmf-dist/font
+s/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on heighway_CIAA2018_final.pdf (12 pages, 4444047 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
