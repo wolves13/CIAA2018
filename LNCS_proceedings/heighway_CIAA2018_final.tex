@@ -63,14 +63,14 @@ They actually proposed an architecture of a DNA sequence whose transcript folds 
 \centering
 \includegraphics[width=0.8\linewidth]{Figs/rna_origami.pdf}
 \caption{RNA cotranscriptional folding. 
-An RNA polymerase attaches to a template DNA sequence (gray spiral), scans it through, and synthesizes its RNA copy. 
+An RNA polymerase attaches to a template DNA sequence (double-spiral), scans it through, and synthesizes its RNA copy. 
 The RNA sequence begins to fold upon itself immediately as it emerges from polymerase. 
 }
 \label{fig:rna_origami}
 \end{figure}
 
 Algorithms and computation are fundamental to molecular self-assembly as illustrated in an enormous success of their use in DNA tile self-assembly (see, e.g., \cite{Doty2012,Patitz2016,WinfreePhD} and references therein). 
-The Sierpinski triangle fractal was algorithmically self-assembled even \textit{in vitro} from coalescence of DNA tiles that compute XOR \cite{RothemundPapadakisWinfree2004}. 
+Finite portions of the Sierpinski triangle fractal was algorithmically self-assembled even \textit{in vitro} from coalescence of DNA tiles that compute XOR \cite{RothemundPapadakisWinfree2004}. 
 Cotranscriptional folding exhibits highly sophisticated computational and algorithmic behaviors as well. 
 Indeed, fluoride riboswitches in \textit{Bacillus cereus} bacteria cotranscriptionally fold into a terminator stem or do not, in order to regulate gene expression \cite{WaStYuLiLu2016}. 
 This is just one example but should be enough to signify both the context-sensitivity of cotranscriptional folding and shapes thus self-assembled. 
@@ -101,8 +101,8 @@ Geary et al.~have proved the capability of context-sensitivity to count in binar
 \end{minipage}
 \begin{minipage}{0.55\linewidth}
 \centering
-\scalebox{0.035}{\begin{tikzpicture}
-  \draw[ultra thick, blue!50!black,rotate=270,l-system={rule set={X->X-YF,Y->FX+Y},
+\scalebox{0.0375}{\begin{tikzpicture}
+  \draw[ultra thick, rotate=270,l-system={rule set={X->X-YF,Y->FX+Y},
   step=100pt,angle=90,axiom=FX,order=10},-triangle 90] l-system;
 \end{tikzpicture}}
 \end{minipage}
@@ -242,59 +242,59 @@ The cyclic OS is considered to be one of the practical classes of OS because a p
 \scalebox{0.4}{\begin{tikzpicture}
 
 \foreach \x in {0, 4, 8, 13} {
-\draw[thick, red] (\x, 0) node[mol] {} node[above] {\Large $a$}
+\draw[ultra thick] (\x, 0) node[mol] {} node[above] {\Large $a$}
 -- ++(300:1) node[mol] {} 
 -- ++(240:1) node[mol] {} node[below] {\Large $b'$}
 -- ++(0:1) node[mol] {} node[below] {\Large $b$}
 -- ++(60:1) node[mol] {} 
 -- ++(120:1) node[mol] {} node[above] {\Large $a'$}
 ;
-\draw[thick, dashed,red] (\x, 0) -- ++(0:1);
+\draw[ultra thick, dotted] (\x, 0) -- ++(0:1);
 }
 
-\draw[cyan, -latex] (1, 0) -- ++(120:1) node[mol] {} node[above] {\Large $a$} -- ++(180:1) node[mol]{} -- ++(240:1) node[mol] {} node[above] {\Large $b'$};
-\draw[cyan, -latex] (1, 0) -- ++(60:1) node[mol] {} node[above] {\Large $a$} -- ++(0:1) node[mol] {} -- ++(300:1) node[mol] {} node[right] {\Large $b'$};
-\draw[ultra thick, cyan, -latex] (1, 0) -- ++(0:1) node[mol] {} node[above] {\huge $a$} -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\huge $b'$};
+\draw[dashed, -latex] (1, 0) -- ++(120:1) node[mol] {} node[above] {\Large $a$} -- ++(180:1) node[mol]{} -- ++(240:1) node[mol] {} node[above] {\Large $b'$};
+\draw[dashed, -latex] (1, 0) -- ++(60:1) node[mol] {} node[above] {\Large $a$} -- ++(0:1) node[mol] {} -- ++(300:1) node[mol] {} node[right] {\Large $b'$};
+\draw[ultra thick, dashed, -latex] (1, 0) -- ++(0:1) node[mol] {} node[above] {\huge $a$} -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\huge $b'$};
 
-\draw[dashed, cyan] (0,0)++(300:2) -- ++(0:1);
+\draw[dotted] (0,0)++(300:2) -- ++(0:1);
 
 \draw (3,0)++(300:1) node {\Large $\Rightarrow$};
 \draw (7,0)++(300:1) node {\Large $\Rightarrow$};
 \draw (12,0)++(300:1) node {\Large $\Rightarrow$};
 
 
-\draw[thick, -latex] (5, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$};
+\draw[ultra thick, -latex] (5, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$};
 
-\draw[cyan, -latex] (6, 0) -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\Large $b'$} -- ++(0:1) node[mol] {} node[below] {\Large $b$};
-\draw[cyan, -latex] (5,0)++(300:2)++(240:0.3) -- ++(240:0.7) node[mol] {} node[below] {\Large $b$};
-\draw[cyan, -latex] (5,0)++(300:2.3) -- ++(300:0.7) node[mol] {} node[below] {\Large $b$};
-\draw[dashed, cyan] (4,0)++(300:2) -- ++(0:1);
+\draw[ultra thick, dashed, -latex] (6, 0) -- ++(300:1) node[mol] {} -- ++(240:1) node[mol] {} node[below] {\Large $b'$} -- ++(0:1) node[mol] {} node[below] {\Large $b$};
+\draw[ultra thick, dashed, -latex] (5,0)++(300:2)++(240:0.3) -- ++(240:0.7) node[mol] {} node[below] {\Large $b$};
+\draw[ultra thick, dashed, -latex] (5,0)++(300:2.3) -- ++(300:0.7) node[mol] {} node[below] {\Large $b$};
+\draw[dotted] (4,0)++(300:2) -- ++(0:1);
 
 
-\draw[thick, -latex] (9, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
+\draw[ultra thick, -latex] (9, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
 -- ++(300:1) node[mol] {}
 ;
-\draw[cyan, -latex] (10,0)++(300:1) -- ++(240:1) node[mol] {} node[below] {\Large $b'$}
+\draw[ultra thick, dashed, -latex] (10,0)++(300:1) -- ++(240:1) node[mol] {} node[below] {\Large $b'$}
 -- ++(240:1) node[mol] {} node[below] {\Large $b$}
 -- ++(180:1) node[mol] {}
 ;
-\draw[cyan, -latex] (9,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$} -- ++(60:1) node[mol] {};
-\draw[cyan, -latex] (10,0)++(300:1) -- ++(60:1) node[mol] {} node[right] {\Large $b'$}
+\draw[ultra thick, dashed, -latex] (9,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$} -- ++(60:1) node[mol] {};
+\draw[dashed, -latex] (10,0)++(300:1) -- ++(60:1) node[mol] {} node[right] {\Large $b'$}
 -- ++(120:1) node[mol] {} node[above] {\Large $b$}
 -- ++(180:1) node[mol] {}
 ;
-\draw[cyan,dashed] (8,0)++(300:2) -- ++(0:1);
+\draw[dotted] (8,0)++(300:2) -- ++(0:1);
 
-\draw[thick, -latex] (14, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
+\draw[ultra thick, -latex] (14, 0) -- ++(0:1) node[mol] {} node[above] {\Large $a$}
 -- ++(300:1) node[mol] {}
 -- ++(240:1) node[mol] {} node[below] {\Large $b'$}
 ;
-\draw[dashed] (13,0)++(300:2) -- ++(0:1);
-\draw[cyan, -latex] (14,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$}
+\draw[ultra thick, dotted] (13,0)++(300:2) -- ++(0:1);
+\draw[ultra thick, dashed, -latex] (14,0)++(300:2) -- ++(0:1) node[mol] {} node[below] {\Large $b$}
 -- ++(60:1) node[mol] {}
 -- ++(120:1) node[mol] {} node[above] {\Large $a'$}
 ;
-\draw[cyan,dashed] (15,0) -- ++(0:1);
+\draw[ultra thick, dotted] (15,0) -- ++(0:1);
 
 \end{tikzpicture}}
 \vspace*{-2mm}
@@ -305,9 +305,9 @@ The cyclic OS is considered to be one of the practical classes of OS because a p
 
 Let us provide an example of cyclic DOS that folds into a useful \textit{glider} motif. 
 Consider a delay-3 OS whose transcript $w$ is a repetition of $a \bullet b' b \bullet a'$ and whose rule set is $\mathcal{H} = \{(a, a'), (b, b')\}$, making $\bullet$-beads inert. 
-Its seed, colored in red in Fig.~\ref{fig:glider}, can be elongated by the first three beads $w[1..3] = a \bullet b'$ in various ways, only three of which are shown in Fig.~\ref{fig:glider} (left). 
-Only $w[3] = b'$ can form a new h-interaction, with the $b$ in the seed (according to $\mathcal{H}$, the first $a$ is also capable of binding, with $a'$, but the sole $a'$ around is just ``too close''). 
-For the $b{-}b'$ binding, $w[1..3]$ must be folded as bolded in Fig.~\ref{fig:glider} (left). 
+Its seed, bold in Fig.~\ref{fig:glider} (left), can be elongated by the first three beads $w[1..3] = a \bullet b'$ in various ways, only three of which are shown as a dashed arrow. 
+Only $w[3] = b'$ can form a new h-interaction (dotted line), with the $b$ in the seed (according to $\mathcal{H}$, the first $a$ is also capable of binding, with $a'$, but the sole $a'$ around is just ``too close''). 
+For the $b{-}b'$ binding, $w[1..3]$ must be folded as the bold dashed arrow. % in Fig.~\ref{fig:glider} (left). 
 According to this most stable ``bolded'' elongation, the bead $w[1] = a$ is stabilized to the east of the previous bead. 
 Then $w[4] = b$ is transcribed. 
 We can easily check that no matter how $w[2..4]$ is folded, $b'$-beads around are either too far or too close for $w[4]$ to bind to. 
@@ -331,7 +331,7 @@ We say that an OS $\Xi$ \textit{weakly folds} (or ``self-assembles'') $\diamonds
 %--------------------------------------------------------------------------------------------------------
 
 We propose a generic design of DOS that allows us to fold an arbitrary finite portion $P[j_1 .. j_2]$ of the slanted Heighway dragon. 
-Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types \cite{HanKim2017}.} \texttt{1}, \texttt{2}, \dots, \texttt{567} with a fixed rule set $\mathcal{H}$ are employed. 
+Independently of $j_1, j_2$, both delay and arity are set to 3 and 567 bead types\footnote{Some of the bead types might be saved but not easily due to the NP-hardness of minimizing the number of bead types without changing the behavior \cite{HanKim2017}.} \texttt{1}, \texttt{2}, \dots, \texttt{567} with a fixed rule set $\mathcal{H}$ are employed. 
 The design also challenges to make the resulting DOS cyclic. 
 Otherwise, one could simply implement left and right-turn modules and concatenate their copies according to the (non-periodic) sequence $P$. 
 However, it is highly unlikely that an OS for the infinite Heighway dragon, if any, could adopt this approach in order to be describable by a finite mean. 
@@ -502,7 +502,7 @@ Therefore, it suffices for $D_v$ and $D_h$ to compute $P[i] \in \{{\rm L}, {\rm 
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width=0.8\linewidth]{Figs/dragon_vol5.png}
+\includegraphics[width=0.92\linewidth]{Figs/dragon_vol5.png}
 \caption{
 Folding of one segment plus turn of the Heighway dragon, flow of information through it, and the two ways of collision avoidance between two turns.
 }
