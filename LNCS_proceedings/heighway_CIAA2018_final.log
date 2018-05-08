@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.7)  3 MAY 2018 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.7)  7 MAY 2018 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,12 +796,12 @@ Package pdftex.def Info: Figs/turn-rgp.png used on input line 615.
 (pdftex.def)             Requested size: 173.56177pt x 55.35104pt.
 
 [10 <./Figs/PFS.png> <./Figs/turn-rgp.png>]
-<Figs/overall_turn_part.png, id=92, 1504.11937pt x 898.85812pt>
+<Figs/overall_turn_part.png, id=92, 1507.13063pt x 898.85812pt>
 File: Figs/overall_turn_part.png Graphic file (type png)
 
 <use Figs/overall_turn_part.png>
 Package pdftex.def Info: Figs/overall_turn_part.png used on input line 638.
-(pdftex.def)             Requested size: 347.12354pt x 207.43251pt.
+(pdftex.def)             Requested size: 347.12354pt x 207.02104pt.
 
 <Figs/change-route.png, id=93, 775.57755pt x 199.947pt>
 File: Figs/change-route.png Graphic file (type png)
@@ -814,7 +814,7 @@ Package pdftex.def Info: Figs/change-route.png used on input line 646.
 Here is how much of TeX's memory you used:
  16073 strings out of 493109
  335222 string characters out of 6138588
- 564411 words of memory out of 5000000
+ 563411 words of memory out of 5000000
  19187 multiletter control sequences out of 15000+600000
  22499 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -843,7 +843,7 @@ ts/cm/cmsy9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb><c:/texlive/2014/texmf-dist/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on heighway_CIAA2018_final.pdf (12 pages, 4445811 bytes).
+Output written on heighway_CIAA2018_final.pdf (12 pages, 4458161 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
